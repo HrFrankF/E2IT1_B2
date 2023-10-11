@@ -1,11 +1,36 @@
-    body {
-      background-color: black;
-    }
+nav {
+  background-color: red;
+  height: 50px;
+  margin-top: -22px;
+}
 
-    h1 {
-      color: blue;
-    }
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  height: 35;
+  padding: 10px;
+}
 
-    p {
-      color: red;
-    }
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:hover {
+  background-color: lightcoral;
+  border-style: solid;
+  border-width: 1px;
+}
+
+nav.logo {
+  width: 50px;
+}
+
+header h1 {
+  background-color: brown;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
