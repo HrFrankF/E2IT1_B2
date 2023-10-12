@@ -9,7 +9,7 @@ nav ul li {
   display: inline-block;
   width: 100px;
   height: 45;
-  padding: 15px;
+  padding: 12px;
   text-align: center;
 }
 
@@ -26,6 +26,11 @@ nav ul li:hover {
   background-color: lightcoral;
   border-style: solid;
   border-width: 1px;
+}
+
+nav ul li img {
+  width: 20;
+  height: 20px;
 }
 
 .nav-logo {
