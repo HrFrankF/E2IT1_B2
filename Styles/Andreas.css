@@ -1,28 +1,44 @@
 header{
     background-color: #ffd900;
     color: rgb(73, 73, 73);
-    padding-top: 25px;
-    padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+header h1{
+    padding-top: 20px;
 }
 #navlogo{
-    margin-top: 10px;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    margin: 5px;
 }
 #links a{
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
     color: white;
     text-align: center;
 }
 #links a:hover{
-    font-size: 24px;
+    font-size: 28px;
     text-decoration: none;
     color: rgb(179, 179, 179);
     text-align: center;
 }
 body{
     background-color: rgb(29, 29, 29);
+}
+footer{
+    background-color: rgb(9, 9, 49);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
 }
