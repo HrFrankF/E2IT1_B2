@@ -52,3 +52,11 @@ header h1 {
   padding: 20px;
   text-align: center;
 }
+
+footer {
+  background-color: brown;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
