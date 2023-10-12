@@ -1,0 +1,28 @@
+header{
+    background-color: #ffd900;
+    color: rgb(73, 73, 73);
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+#navlogo{
+    margin-top: 10px;
+}
+#links a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+#links a:hover{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
