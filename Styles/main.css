@@ -1,8 +1,28 @@
+:root {
+  --primary-color: #242A40;
+  --secondary-color: #24365E;
+  --ternary-color: #283555;
+  --ternary-color-elevated: #172A4A;
+  --font-color: #fff;
+}
+
+body {
+  color: var(--font-color);
+}
+
+header h1 {
+  background-color: var(--secondary-color);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
 nav {
-  background-color: red;
+  background-color: var(--ternary-color);
   height: 50px;
   margin-top: -22px;
-
+  margin-bottom: 2px
 }
 
 nav ul li {
@@ -14,7 +34,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(34, 24, 24);
+  color: var(--font-color);
   padding: 12px;
 }
 
@@ -23,7 +43,7 @@ nav ul {
 }
 
 nav ul li:hover {
-  background-color: lightcoral;
+  background-color: var(--ternary-color-elevated);
   border-style: solid;
   border-width: 1px;
 }
@@ -45,22 +65,15 @@ nav ul li img {
   height: 50px;
 }
 
-header h1 {
-  background-color: brown;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 20px;
-  text-align: center;
+main {
+  background-color: var(--primary-color);
+  padding: 10px;
 }
 
 footer {
-  background-color: brown;
+  background-color: var(--secondary-color);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 20px;
   text-align: center;
-}
-
-main {
-  background-color: gray;
 }
