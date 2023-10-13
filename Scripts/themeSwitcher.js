@@ -1,10 +1,23 @@
-function refreshColors(palette) {
+function refresh(palette) {
     let root = document.querySelector(":root");
 
     for (var key in palette) {
+        if(key == "images") {
+            refreshImages(palette[key]);
+
+            continue;
+        }
+
         var cssName = "--" + key.replace("_", "-");
 
         root.style.setProperty(cssName, palette[key]);
+    }
+}
+
+function refreshImages(images) {
+    for(var img in images) {
+        var element = document.querySelector(img);
+        element.src = "Images/" + images[img];
     }
 }
 
@@ -18,16 +31,18 @@ function setTheme() {
     localStorage.setItem("isDarkMode", switchInput.checked)
 
     initThemeToggleIcon(switchInput.checked)
-    refreshColors(getPalette(switchInput.checked));
+    refresh(getPalette(switchInput.checked));
 }
 
-function setThemeSwitch() {
+function onload() {
     let isDarkMode = localStorage.getItem("isDarkMode") == "true";
     var switchInput = document.querySelector("#theme_switch");
     
     initThemeToggleIcon(isDarkMode);
 
     switchInput.checked = isDarkMode;
+
+    refresh(getPalette(switchInput.checked));
 };
 
 function initThemeToggleIcon(isDarkMode) {
@@ -44,7 +59,7 @@ function initThemeToggleIcon(isDarkMode) {
 function initTheme() {
     let isDarkMode = localStorage.getItem("isDarkMode") == "true";
 
-    refreshColors(getPalette(isDarkMode));
+    refresh(getPalette(isDarkMode));
 }
 
 initTheme();
