@@ -8,15 +8,14 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
-  width: 100px;
-  height: 45;
-  padding: 12px;
   text-align: center;
+  padding: 12px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: rgb(34, 24, 24);
+  padding: 12px;
 }
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul li:hover {
 }
 
 nav ul li img {
-  width: 20;
+  width: 20px;
   height: 20px;
 }
 
