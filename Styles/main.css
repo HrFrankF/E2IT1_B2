@@ -1,10 +1,4 @@
-:root {
-  --primary-color: #242A40;
-  --secondary-color: #24365E;
-  --ternary-color: #283555;
-  --ternary-color-elevated: #172A4A;
-  --font-color: #fff;
-}
+
 
 body {
   color: var(--font-color);
