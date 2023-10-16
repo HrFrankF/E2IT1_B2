@@ -14,7 +14,7 @@ nav {
   background-color: var(--ternary-color);
   height: 50px;
   margin-top: -22px;
-  margin-bottom: 2px
+  margin-bottom: 0px
 }
 
 nav ul li {
