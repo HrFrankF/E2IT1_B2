@@ -1,8 +1,8 @@
 let dark = {
     font_color: "#e6e6e6",                   //text color
-    primary_color: "#292929",                //background color body
-    secondary_color: "#b33434",              //header, footer background color
-    ternary_color: "#4f4e4e",                //navigation background color
+    primary_color: "#111111",                //background color body
+    secondary_color: "#e31c25",              //header, footer background color
+    ternary_color: "#bb000e",                //navigation background color
     ternary_color_elevated: "#bd4a4a",       
     images: {
         "#nav-logo-img": "logo_light.png"
