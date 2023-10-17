@@ -1,5 +1,5 @@
 let dark = {
-    font_color: "#1c1c1c",                   //text color
+    font_color: "#a1a1a1",                   //text color
     primary_color: "#111111",                //background color body
     secondary_color: "#e31c25",              //header, footer background color
     ternary_color: "#bb000e",                //navigation background color
