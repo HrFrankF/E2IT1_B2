@@ -8,7 +8,7 @@ function refresh(palette) {
             continue;
         }
 
-        var cssName = "--" + key.replace("_", "-");
+        var cssName = "--" + key.replaceAll("_", "-");
 
         root.style.setProperty(cssName, palette[key]);
     }

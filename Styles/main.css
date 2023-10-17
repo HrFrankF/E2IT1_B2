@@ -12,6 +12,7 @@ header h1 {
   border-top-right-radius: var(--main-border-radius);
   padding: 20px;
   text-align: center;
+  color: var(--header-font-color);
 }
 
 nav {
@@ -30,7 +31,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: var(--header-color);
+  color: var(--header-font-color);
   padding: 12px;
 }
 
@@ -71,5 +72,6 @@ footer {
   border-bottom-left-radius: var(--main-border-radius);
   border-bottom-right-radius: var(--main-border-radius);
   padding: 20px;
+  color: var(--header-font-color);
   text-align: center;
 }
