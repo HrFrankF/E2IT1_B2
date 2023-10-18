@@ -3,8 +3,8 @@ let dark = {
     primary_color: "#111111",                //background color body
     secondary_color: "#e6333c",              //header, footer background color
     ternary_color: "#bb000e",                //navigation background color
-    ternary_color_elevated: "#bd4a4a",
-    header_font_color: "white",       
+    ternary_color_elevated: "#bd4a4a",       //Naviagtion Links hover color
+    header_font_color: "white",              //Headline text color
     images: {
         "#nav-logo-img": "logo_light.png"
     }
@@ -12,7 +12,7 @@ let dark = {
 let light = {
     font_color: "#000",
     primary_color: "#e8e8e8",
-    secondary_color: "#9e9e9e",
+    secondary_color: "#08005C",
     ternary_color: "#d1d1d1",           
     ternary_color_elevated: "#D9D9D9",
     header_font_color: "white", 
