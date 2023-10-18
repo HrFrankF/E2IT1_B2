@@ -15,8 +15,6 @@ header h1{
 }
 #navlogo{
     position: relative;
-    top: 15px;
-    left: 65px;
     margin: 5px;
 }
 #links a{
@@ -26,7 +24,7 @@ header h1{
     text-align: center;
 }
 #links a:hover{
-    font-size: 28px;
+
     text-decoration: none;
     color: rgb(179, 179, 179);
     text-align: center;
@@ -43,7 +41,8 @@ footer{
     padding: 20px;
 }
 h4,.kaderstrich {
-
 color: red;
-
+}
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
