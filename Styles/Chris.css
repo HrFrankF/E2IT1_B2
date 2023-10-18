@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    column-gap: 25px;
+    row-gap: 25pxpx;
+}
+
+.grid-item {
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: var(--font-color);
+    background-color: var(--ternary-color-elevated);
+    height: 175px;
+}
+
+.grid-item img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+    left: -260px;
+    top: -100px;
+    border-radius: 50%;
+}
+
+.grid-item h3 {
+    position: relative;
+    top: -22px;
+    color: var(--header-font-color);
+}
