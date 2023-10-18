@@ -14,7 +14,7 @@ let light = {
     primary_color: "#d1d1d1",
     secondary_color: "#08005C",
     ternary_color: "#242c58",           
-    ternary_color_elevated: "#D9D9D9",
+    ternary_color_elevated: "#1a3b6d",
     header_font_color: "white", 
     images: {
         "#nav-logo-img": "logo_dark.png"
