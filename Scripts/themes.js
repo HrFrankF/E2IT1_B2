@@ -17,6 +17,6 @@ let light = {
     ternary_color_elevated: "#1a3b6d",
     header_font_color: "white", 
     images: {
-        "#nav-logo-img": "logo_dark.png"
+        "#nav-logo-img": "logo_light.png"
     }
 };
