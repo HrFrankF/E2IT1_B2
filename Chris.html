@@ -12,6 +12,7 @@
 
         <script src="Scripts/themes.js"></script>
         <script src="Scripts/themeSwitcher.js"></script>
+        <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
     </head>
 
     <body onload="onload()">
@@ -66,7 +67,20 @@
         </header>
 
         <main>
-            
+            <canvas id="canvas" width="500" height="500"></canvas>
+
+            <script>
+                const r = new rive.Rive({
+                    src: "Animations/cursor-ball.riv",
+                    // Or the path to a public Rive asset
+                    // src: '/public/example.riv',
+                    canvas: document.getElementById("canvas"),
+                    autoplay: true,
+                    onLoad: () => {
+                      r.resizeDrawingSurfaceToCanvas();
+                    },
+                });
+            </script>
         </main>
 
         <footer>
