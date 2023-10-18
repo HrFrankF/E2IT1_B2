@@ -11,9 +11,9 @@ let dark = {
 };
 let light = {
     font_color: "#000",
-    primary_color: "#e8e8e8",
+    primary_color: "#d1d1d1",
     secondary_color: "#08005C",
-    ternary_color: "#d1d1d1",           
+    ternary_color: "#242c58",           
     ternary_color_elevated: "#D9D9D9",
     header_font_color: "white", 
     images: {
