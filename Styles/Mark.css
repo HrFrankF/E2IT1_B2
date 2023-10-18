@@ -32,10 +32,10 @@ header h1{
     text-align: center;
 }
 body{
-    background-color: rgb(29, 29, 29);
+    background-color:white
 }
 footer{
-    background-color: rgb(9, 9, 49);
+    background-color: white;
     color: white;
     font-weight: bold;
     font-size: 20px;
