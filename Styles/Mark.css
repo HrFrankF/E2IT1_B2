@@ -15,8 +15,6 @@ header h1{
 }
 #navlogo{
     position: relative;
-    top: 15px;
-    left: 65px;
     margin: 5px;
 }
 #links a{
@@ -43,11 +41,8 @@ footer{
     padding: 20px;
 }
 h4,.kaderstrich {
-
 color: red;
-
 }
 *{
-
    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
