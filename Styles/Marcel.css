@@ -1,0 +1,28 @@
+h1, h2, button {
+
+    text-align: center;
+
+}
+
+#PSG {
+
+    background-color: rgb(28, 2, 121);
+    height: 40px;
+    margin-top: -22px;
+
+}
+#PSG-Bild {
+
+   border-radius: 50%;
+
+}
+.header {
+
+    background-color: rgb(3, 61, 109);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+
+}
