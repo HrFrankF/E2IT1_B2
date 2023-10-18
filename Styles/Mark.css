@@ -4,7 +4,7 @@ header{
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-top: 5px;
     padding-left: 0px;
     padding-right: 0px;
@@ -41,4 +41,9 @@ footer{
     font-size: 20px;
     text-align: center;
     padding: 20px;
+}
+h4,.kaderstrich {
+
+color: red;
+
 }
