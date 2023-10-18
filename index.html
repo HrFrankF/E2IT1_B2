@@ -4,15 +4,44 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Styles/main.css">
-        <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
         <title>Champions League Gruppe F</title>
+
+        <link rel="stylesheet" href="Styles/main.css">
+        <link rel="stylesheet" href="Styles/themeSwitch.css">
+
+        <script src="Scripts/themes.js"></script>
+        <script src="Scripts/themeSwitcher.js"></script>
     </head>
 
-    <body>
+    <body onload="onload()">
         <header>
-            <a class="nav-logo" href="index.html"><img src="Images/logo.png" /></a>
-            <h1>Champions League Gruppe F</h1>
+            <div>
+                <a class="nav-logo" href="index.html"><img id="nav-logo-img" /></a>
+                <h1>Champions League Gruppe F</h1>
+
+                <label id="theme-switch-container">
+                    <input type="checkbox" id="theme_switch" onclick="setTheme()">
+
+                    <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                        <g class="sun-beams" stroke="currentColor">
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                        </g>
+                        <mask id="moon-mask">
+                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                            <circle cx="24" cy="10" r="6" fill="black" />
+                        </mask>
+                    </svg>
+                </label>
+            </div>
 
             <nav>
                 <ul>
@@ -36,52 +65,50 @@
             </nav>
         </header>
 
+        <main>
+            <p>Diese Webseite enthält Informationen über die Champions League
+                Gruppe F.</p>
 
-        <p>Diese Webseite enthält Informationen über die Champions League Gruppe F.</p>
-        <table>
-            <h3>Tabelle</h3>
-            <tr>
-                <th>NewCastle</th>
-                <th>PSG</th>
-                <th>Dortmund</th>
-                <th>Milan</th>
-            </tr>
-            <tr>
+            <table>
+                <h3>Tabelle</h3>
+                <tr>
+                    <th>NewCastle</th>
+                    <th>PSG</th>
+                    <th>Dortmund</th>
+                    <th>Milan</th>
+                </tr>
+                <tr>
+                    <th>Punkte:</th>
+                <tr></tr>
                 <th>4</th>
                 <th>3</th>
                 <th>2</th>
                 <th>1</th>
-            </tr>
-            <tr>
+                </tr>
+                <tr>
+                    <th>Siege:</th>
+                <tr></tr>
                 <th>1</th>
                 <th>1</th>
                 <th>0</th>
                 <th>0</th>
-            </tr>
-        </table>
-        <textarea></textarea>
-        <br>
-        <select>
+                </tr>
+            </table>
+            <textarea></textarea>
+            <img src="Images/pexels-jeshootscom-1201996.jpg" width="300" height="300">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d653.0511140553267!2d9.739062400000002!3d49.10175619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1697027328687!5m2!1sde!2sde"
+                width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tD5YOGS4PcI?si=bd-Ot8lCIRZUHy4j"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </main>
 
-            <option>A</option>
-
-            <option>B</option>
-
-            <option>C</option>
-
-        </select>
-        <br>
-        <br>
-
-        <img src="Images/pexels-jeshootscom-1201996.jpg">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d653.0511140553267!2d9.739062400000002!3d49.10175619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1697027328687!5m2!1sde!2sde"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tD5YOGS4PcI?si=bd-Ot8lCIRZUHy4j"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+        <footer>
+            &copy; 2023 Made by Chris, Andreas, Marce, Mark
+        </footer>
     </body>
 
 </html>

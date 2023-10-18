@@ -1,10 +1,28 @@
-h1,
-h2 {
+h1, h2, button {
 
     text-align: center;
 
 }
 
-p {
-    color: aqua;
+#Überschrift {
+
+    background-color: grey;
+    height: 40px;
+    margin-top: -22px;
+
+}
+#Überschriftbild {
+
+   border-radius: 50%;
+
+}
+.head {
+
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+
 }
