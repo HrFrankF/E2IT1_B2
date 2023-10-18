@@ -18,11 +18,11 @@ h1, h2, button {
 }
 .head {
 
-background-color: black;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
-padding: 20px;
-text-align: center;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 20px;
+    text-align: center;
 
 
 }
