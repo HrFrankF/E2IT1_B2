@@ -17,7 +17,7 @@ header h1 {
 
 nav {
   background-color: var(--ternary-color);
-  height: 50px;
+  height: 48px;
   margin-top: -22px;
   margin-bottom: 0px
 }
@@ -41,8 +41,6 @@ nav ul {
 
 nav ul li:hover {
   background-color: var(--ternary-color-elevated);
-  border-style: solid;
-  border-width: 1px;
 }
 
 nav ul li img {

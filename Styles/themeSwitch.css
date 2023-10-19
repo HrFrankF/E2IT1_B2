@@ -42,3 +42,7 @@
 #theme-switch-container input:checked {
     display: block;
 }
+
+#sun {
+    color: var(--header-font-color);
+}

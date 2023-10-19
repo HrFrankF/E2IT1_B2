@@ -4,13 +4,232 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <title>Champions League Gruppe F</title>
+
         <link rel="stylesheet" href="Styles/main.css">
-        <link rel="icon" type="image/x-icon" href="/Images/favicon.ico">
-        <title>Champions League - Chris</title>
+        <link rel="stylesheet" href="Styles/themeSwitch.css">
+        <link rel="stylesheet" href="Styles/Chris.css">
+
+        <script src="Scripts/themes.js"></script>
+        <script src="Scripts/themeSwitcher.js"></script>
+        <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
     </head>
 
-    <body>
-        
+    <body onload="onload()">
+        <header>
+            <div>
+                <a class="nav-logo" href="index.html"><img id="nav-logo-img" /></a>
+                <h1>Champions League - Milan</h1>
+
+                <label id="theme-switch-container">
+                    <input type="checkbox" id="theme_switch" onclick="setTheme()">
+
+                    <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                        <g class="sun-beams" stroke="currentColor">
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                        </g>
+                        <mask id="moon-mask">
+                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                            <circle cx="24" cy="10" r="6" fill="black" />
+                        </mask>
+                    </svg>
+                </label>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <img src="Images/psg.png" />
+                        <a href="Marcel.html">PSG</a>
+                    </li>
+                    <li>
+                        <img src="Images/newcastle.png" />
+                        <a href="Mark.html">NewCastle</a>
+                    </li>
+                    <li>
+                        <img src="Images/dortmund.png" />
+                        <a href="Andreas.html">Dortmund</a>
+                    </li>
+                    <li>
+                        <img src="Images/milan.png" />
+                        <a href="Chris.html">Milan</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <h2>Goalkeepers</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Mike Maignan</h3>
+                    <img src="Images/milan/mike_maighan.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Marco Sportiello</h3>
+                    <img src="Images/milan/marco_sportiello.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Lapo Nava</h3>
+                    <img src="Images/milan/lapo_nava.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Andrea Bartoccioni</h3>
+                    <img src="Images/milan/andrea_bartoccioni.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Antonio Mirante</h3>
+                    <img src="Images/milan/antonio_mirante.jpg" />
+                </div>
+            </div>
+
+            <h2>Defenders</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>David Calabria</h3>
+                    <img src="Images/milan/davide_calabria.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Theo Hernàndez</h3>
+                    <img src="Images/milan/theo_hernandez.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Pierre Kalulu</h3>
+                    <img src="Images/milan/pierre_kalulu.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Fikayo Tomori</h3>
+                    <img src="Images/milan/fikayo_tomori.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Simon Kjær</h3>
+                    <img src="Images/milan/simon_kjaer.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Mattia Caldara</h3>
+                    <img src="Images/milan/mattia_caldara.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Allessando Florenzi</h3>
+                    <img src="Images/milan/allesandro_florenzi.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Clinton Nsiaala-Makengo</h3>
+                    <img src="Images/milan/clinton_nsiala-makengo.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Dorian Paloschi</h3>
+                    <img src="Images/milan/dorian_paloschi.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Andrei Coubis</h3>
+                    <img src="Images/milan/empty.svg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>David Bartesaghi</h3>
+                    <img src="Images/milan/davide_bartesaghi.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Adam Bakoune</h3>
+                    <img src="Images/milan/adam_bakoune.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Vittorio Magni</h3>
+                    <img src="Images/milan/vittorio_magni.jpg" />
+                </div>
+            </div>
+
+            <h2>Midfielder</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>Yacine Adli</h3>
+                    <img src="Images/milan/yacine_adli.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Ruben Loftus-Cheeck</h3>
+                    <img src="Images/milan/ruben_loftus_cheek.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Tijjani Reijnders</h3>
+                    <img src="Images/milan/tijjani_reijnders.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Tomaso Pobega</h3>
+                    <img src="Images/milan/tommaso_pobega.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Rade Krunić</h3>
+                    <img src="Images/milan/rade_krunic.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Mattia Malaspina</h3>
+                    <img src="Images/milan/mattia_malaspina.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Yunus Musah</h3>
+                    <img src="Images/milan/yunus_musah.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Victor Electu</h3>
+                    <img src="Images/milan/victor_electu.jpg" />
+                </div>
+
+                <div class="grid-item">
+                    <h3>Kevin Zeroli</h3>
+                    <img src="Images/milan/kevin_zeroli.jpg" />
+                </div>
+            </div>
+
+            <canvas id="canvas" width="500" height="500"></canvas>
+
+            <script>
+                const r = new rive.Rive({
+                    src: "Animations/cursor-ball.riv",
+                    canvas: document.getElementById("canvas"),
+                    autoplay: true,
+                    onLoad: () => {
+                        r.resizeDrawingSurfaceToCanvas();
+                    },
+                });
+            </script>
+        </main>
+
+        <footer>
+            &copy; 2023 Made by Chris, Andreas, Marce, Mark
+        </footer>
     </body>
 
 </html>

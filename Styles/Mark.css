@@ -1,28 +1,48 @@
-h1, h2, button {
-
+header{
+    background-color:grey;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+header h1{
+    padding-top: 20px;
+}
+#navlogo{
+    position: relative;
+    margin: 5px;
+}
+#links a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
     text-align: center;
-
 }
+#links a:hover{
 
-#Überschrift {
-
-    background-color: grey;
-    height: 40px;
-    margin-top: -22px;
-
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    text-align: center;
 }
-#Überschriftbild {
-
-   border-radius: 50%;
-
+body{
+    background-color:white
 }
-.head {
-
-background-color: black;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
-padding: 20px;
-text-align: center;
-
-
+footer{
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+h4,.kaderstrich {
+color: red;
+}
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
