@@ -14,17 +14,6 @@
         <script src="Scripts/themes.js"></script>
         <script src="Scripts/themeSwitcher.js"></script>
         <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
-
-        <script>
-            const r = new rive.Rive({
-                src: "Animations/cursor-ball.riv",
-                canvas: document.getElementById("canvas"),
-                autoplay: true,
-                onLoad: () => {
-                    r.resizeDrawingSurfaceToCanvas();
-                },
-            });
-        </script>
     </head>
 
     <body onload="onload()">
@@ -225,6 +214,17 @@
             </div>
 
             <canvas id="canvas" width="500" height="500"></canvas>
+
+            <script>
+                const r = new rive.Rive({
+                    src: "Animations/cursor-ball.riv",
+                    canvas: document.getElementById("canvas"),
+                    autoplay: true,
+                    onLoad: () => {
+                        r.resizeDrawingSurfaceToCanvas();
+                    },
+                });
+            </script>
         </main>
 
         <footer>
