@@ -40,7 +40,7 @@ body{
 }
 #main{
     background-color: #ecc410f3;
-    background-image: url('bg\ image.jpeg');  
+    background-image: url();  
     background-position: center;
     color: white;
     text-align: center;
