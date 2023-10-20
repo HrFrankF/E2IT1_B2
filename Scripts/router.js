@@ -42,7 +42,7 @@ function showContentByRoute(route) {
         return;
     }
 
-    let section = document.querySelector("#" + route + "-content")
+    let section = document.querySelector("#" + route)
     section.style.display = "block";
 }
 
