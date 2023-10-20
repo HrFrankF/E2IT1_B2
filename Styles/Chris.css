@@ -24,7 +24,7 @@
     border-radius: 50%;
 }
 
-.grid-item h3 {
+.grid-item h4 {
     position: relative;
     top: -22px;
     color: var(--header-font-color);
@@ -45,4 +45,9 @@
 
 #submenu a:hover {
     text-decoration: underline;
+}
+
+.content {
+    display: none;
+    color: var(--font-color);
 }
