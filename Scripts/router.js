@@ -22,7 +22,7 @@ function disableContent() {
             return;
         }
 
-        section.display = "none";
+        section.style.display = "none";
     });
 }
 
