@@ -1,12 +1,12 @@
 let submenuLinks = document.querySelectorAll("#submenu a");
 
 submenuLinks.forEach(link => {
-    link.addEventListener("click", function () {
+    link.onclick = (e) => {
         disableLinks();
-
+        
         link.style["text-decoration"] = "underline";
-        route();
-    });
+        route(link.hash);
+    };
 });
 
 function disableLinks() {
@@ -30,8 +30,8 @@ function enableLinkByRoute(route) {
     if (!route) {
         return;
     }
-
-    let link = document.querySelector("#submenu a[href='#" + route + "']");
+    console.log(route);
+    let link = document.querySelector("#submenu a[href='" + route + "']");
     link.style["text-decoration"] = "underline";
 }
 
@@ -42,26 +42,13 @@ function showContentByRoute(route) {
         return;
     }
 
-    let section = document.querySelector("#" + route)
+    let section = document.querySelector(route)
     section.style.display = "block";
 }
 
-function getRoute() {
-    let currentUrl = window.location.href;
-    let split = currentUrl.split("#");
-
-    if (split.length != 2) {
-        console.log("Keine route angegeben")
-        return;
-    }
-
-    return split[1];
-}
-
-function route() {
-    let route = getRoute();
-
+function route(route) {
     enableLinkByRoute(route);
+  
     showContentByRoute(route);
 }
 
@@ -69,7 +56,8 @@ function route() {
 function routeToActiveLink() {
     let link = document.querySelector("#submenu a[active]").hash;
     window.location.hash = link;
-    route();
+
+    route(link);
 }
 
 routeToActiveLink();
