@@ -57,3 +57,15 @@ main {
     border-left: 10px solid var(--secondary-color);
     border-right: 10px solid var(--secondary-color);
 }
+
+details>summary {
+  list-style: none;
+  font-size: x-large;
+}
+
+summary::after {
+  content: ' ►';
+}
+details[open] summary:after {
+  content: " ▼";
+}
