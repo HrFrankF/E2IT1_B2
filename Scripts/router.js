@@ -65,4 +65,11 @@ function route() {
     showContentByRoute(route);
 }
 
+
+function routeToActiveLink() {
+    let link = document.querySelector("#submenu a[active]").hash;
+    window.location.hash = link;
+}
+
+routeToActiveLink();
 route();
