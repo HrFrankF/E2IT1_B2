@@ -30,3 +30,19 @@
     color: var(--header-font-color);
     text-align: center;
 }
+
+#submenu {
+    padding: 15px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+#submenu a {
+    margin: 5px;
+    color: var(--header-font-color);
+    text-decoration: none;
+}
+
+#submenu a:hover {
+    text-decoration: underline;
+}
