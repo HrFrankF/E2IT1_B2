@@ -51,3 +51,7 @@
     display: none;
     color: var(--font-color);
 }
+
+main {
+    min-height: 500px;
+}
