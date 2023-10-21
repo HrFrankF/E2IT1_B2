@@ -50,6 +50,7 @@
 .content {
     display: none;
     color: var(--font-color);
+    font-size: x-large;
 }
 
 main {
