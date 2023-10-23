@@ -3,7 +3,9 @@ h1, h2, h3, button {
     text-align: center;
 
 }
-
+#data {
+    text-align: left;
+}
 #PSG {
 
     background-color: rgb(28, 2, 121);
