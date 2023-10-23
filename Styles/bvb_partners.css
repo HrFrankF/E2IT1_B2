@@ -1,0 +1,105 @@
+header{
+    background-color: #fcd113e1;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header h1{
+    padding-top: 20px;
+}
+#navlogo{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    margin: 5px;
+}
+#links{
+    background-color: #fcb213e1;
+    color: rgba(255, 230, 0, 0.904);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#links a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+#links a:hover{
+    font-size: 26px;
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+#main{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+#title hr{
+    background-color: rgba(241, 179, 7, 0.938);
+    height: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 235px;
+    margin-right: 235px;
+}
+#partners{
+    background-color: #3f3f3f;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-left: 210px;
+    margin-right: 210px;
+    border-radius: 3px;
+}
+/*Partner Hauptsponsoren*/
+#partners-links-1{
+    display: flex;
+    align-items: center;
+}
+#partners-links-1 a{
+    margin-left: 80px;
+    filter: contrast(30%);
+    transition: filter 0.3s;
+}
+#partners-links-1 a:hover{
+    filter: contrast(100%);
+}
+/*Premium Partner*/
+#partners-links-2{
+    display: flex;
+    align-items: center;
+}
+#partners-links-2 a{
+    margin-left: 93px;
+    filter: contrast(30%);
+    transition: filter 0.3s;
+}
+#partners-links-2 a:hover{
+    filter: contrast(100%);
+}
+.partners-hr{
+    background-color: rgb(163, 123, 13);
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+footer{
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
