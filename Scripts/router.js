@@ -30,6 +30,7 @@ function enableLinkByRoute(route) {
     if (!route) {
         return;
     }
+
     console.log(route);
     let link = document.querySelector("#submenu a[href='" + route + "']");
     link.style["text-decoration"] = "underline";
@@ -42,7 +43,7 @@ function showContentByRoute(route) {
         return;
     }
 
-    let section = document.querySelector(route)
+    let section = document.querySelector(route);
     section.style.display = "block";
 }
 

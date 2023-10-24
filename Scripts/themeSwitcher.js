@@ -28,9 +28,9 @@ function getPalette(isDarkMode) {
 function setTheme() {
     var switchInput = document.querySelector("#theme_switch");
 
-    localStorage.setItem("isDarkMode", switchInput.checked)
+    localStorage.setItem("isDarkMode", switchInput.checked);
 
-    initThemeToggleIcon(switchInput.checked)
+    initThemeToggleIcon(switchInput.checked);
     refresh(getPalette(switchInput.checked));
 }
 
