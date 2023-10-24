@@ -63,6 +63,7 @@ main {
 details>summary {
   list-style: none;
   font-size: x-large;
+  cursor: pointer;
 }
 
 summary::after {
