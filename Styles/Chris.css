@@ -67,8 +67,8 @@ details>summary {
 }
 
 summary::after {
-  content: ' ►';
+  content: ' ';
 }
 details[open] summary:after {
-  content: " ▼";
+  content: " ";
 }
