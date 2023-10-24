@@ -13,6 +13,7 @@
     background-color: var(--ternary-color-elevated);
     height: 175px;
     padding: 10px;
+    border-radius: 7px;
 }
 
 .grid-item img {
