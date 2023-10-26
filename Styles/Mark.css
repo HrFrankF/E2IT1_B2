@@ -68,8 +68,7 @@ footer {
 .Spielinfo{
 
 font-size: 20px;
-text-align: left;
-left: 50px;
+padding-left: 50px;
 
 }
 #aboutinfos{
