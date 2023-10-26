@@ -43,9 +43,6 @@ footer{
     text-align: center;
     padding: 20px;
 }
-h4,.kaderstrich {
-    color: turquoise;
-}
 
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -57,7 +54,7 @@ footer {
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
     padding: 20px;
-    color: var(--header-font-color);
+    color: black;
     text-align: center;
  }
 
