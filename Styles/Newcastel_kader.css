@@ -59,3 +59,10 @@ footer {
     color: var(--header-font-color);
     text-align: center;
   }
+
+  .Kaderflaggen{
+
+    width: 20px;
+    height: 20px;
+    
+  }
