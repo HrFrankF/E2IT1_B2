@@ -52,7 +52,8 @@ h4,.kaderstrich {
 }
 
 footer {
-    background-color: var(--secondary-color);
+    background-color: aqua;
+    border-radius: 20%;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
     padding: 20px;
