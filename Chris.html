@@ -12,19 +12,6 @@
         <link rel="stylesheet" href="Styles/Chris.css">
 
         <script src="Scripts/themes.js"></script>
-        <script src="Scripts/themeSwitcher.js"></script>
-        <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
-
-        <script>
-            const r = new rive.Rive({
-                src: "Animations/cursor-ball.riv",
-                canvas: document.getElementById("canvas"),
-                autoplay: true,
-                onLoad: () => {
-                    r.resizeDrawingSurfaceToCanvas();
-                },
-            });
-        </script>
     </head>
 
     <body onload="onload()">
@@ -70,7 +57,7 @@
                         <img src="Images/dortmund.png" />
                         <a href="Andreas.html">Dortmund</a>
                     </li>
-                    <li>
+                    <li active>
                         <img src="Images/milan.png" />
                         <a href="Chris.html">Milan</a>
                     </li>
@@ -78,110 +65,417 @@
             </nav>
         </header>
 
+        <section id="submenu">
+            <a href="#kader" active>Kader</a>
+            <a href="#mannschaft">Mannschaft</a>
+            <a href="https://www.acmilan.com/en" target="_blank">Zur Webseite</a>
+        </section>
+
         <main>
+            <section class="content" id="kader">
+                <details open>
+                    <summary>Trainer</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h4>Stefano Pioli</h4>
+                            <img src="Images/milan/stefano_pioli.jpg" />
+                        </div>
+                    </div>
+                </details>
 
-            <h2>Goalkeepers</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h3>Mike Maignan</h3>
-                    <img src="Images/milan/mike_maighan.jpg" />
-                </div>
+                <details>
+                    <summary>Torwart</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h4>Mike Maignan</h4>
+                            <img src="Images/milan/mike_maighan.jpg" />
 
-                <div class="grid-item">
-                    <h3>Marco Sportiello</h3>
-                    <img src="Images/milan/marco_sportiello.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>28</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Lapo Nava</h3>
-                    <img src="Images/milan/lapo_nava.jpg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Marco Sportiello</h4>
+                            <img src="Images/milan/marco_sportiello.jpg" />
 
-                <div class="grid-item">
-                    <h3>Andrea Bartoccioni</h3>
-                    <img src="Images/milan/andrea_bartoccioni.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>31</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Antonio Mirante</h3>
-                    <img src="Images/milan/antonio_mirante.jpg" />
-                </div>
-            </div>
+                        <div class="grid-item">
+                            <h4>Lapo Nava</h4>
+                            <img src="Images/milan/lapo_nava.jpg" />
 
-            <h2>Defenders</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <h3>David Calabria</h3>
-                    <img src="Images/milan/davide_calabria.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Theo Hernàndez</h3>
-                    <img src="Images/milan/theo_hernandez.jpg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Andrea Bartoccioni</h4>
+                            <img src="Images/milan/andrea_bartoccioni.jpg" />
 
-                <div class="grid-item">
-                    <h3>Pierre Kalulu</h3>
-                    <img src="Images/milan/pierre_kalulu.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Fikayo Tomori</h3>
-                    <img src="Images/milan/fikayo_tomori.jpg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Antonio Mirante</h4>
+                            <img src="Images/milan/antonio_mirante.jpg" />
 
-                <div class="grid-item">
-                    <h3>Simon Kjær</h3>
-                    <img src="Images/milan/simon_kjaer.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>40</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </details>
 
-                <div class="grid-item">
-                    <h3>Mattia Caldara</h3>
-                    <img src="Images/milan/mattia_caldara.jpg" />
-                </div>
+                <details>
+                    <summary>Verteidigung</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h4>David Calabria</h4>
+                            <img src="Images/milan/davide_calabria.jpg" />
 
-                <div class="grid-item">
-                    <h3>Allessando Florenzi</h3>
-                    <img src="Images/milan/allesandro_florenzi.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>26</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Clinton Nsiaala-Makengo</h3>
-                    <img src="Images/milan/clinton_nsiala-makengo.jpg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Theo Hernàndez</h4>
+                            <img src="Images/milan/theo_hernandez.jpg" />
 
-                <div class="grid-item">
-                    <h3>Dorian Paloschi</h3>
-                    <img src="Images/milan/dorian_paloschi.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>26</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Andrei Coubis</h3>
-                    <img src="Images/milan/empty.svg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Pierre Kalulu</h4>
+                            <img src="Images/milan/pierre_kalulu.jpg" />
 
-                <div class="grid-item">
-                    <h3>David Bartesaghi</h3>
-                    <img src="Images/milan/davide_bartesaghi.jpg" />
-                </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>23</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-                <div class="grid-item">
-                    <h3>Adam Bakoune</h3>
-                    <img src="Images/milan/adam_bakoune.jpg" />
-                </div>
+                        <div class="grid-item">
+                            <h4>Fikayo Tomori</h4>
+                            <img src="Images/milan/fikayo_tomori.jpg" />
 
-                <div class="grid-item">
-                    <h3>Vittorio Magni</h3>
-                    <img src="Images/milan/vittorio_magni.jpg" />
-                </div>
-            </div>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ENG</td>
+                                    <td>25</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
 
-            <canvas id="canvas" width="500" height="500"></canvas>
+                        <div class="grid-item">
+                            <h4>Simon Kjær</h4>
+                            <img src="Images/milan/simon_kjaer.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>DEN</td>
+                                    <td>34</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Mattia Caldara</h4>
+                            <img src="Images/milan/mattia_caldara.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>29</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Malick Thiaw</h4>
+                            <img src="Images/milan/malick_thiaw.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>GER</td>
+                                    <td>22</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
+                        </div>
+
+
+                        <div class="grid-item">
+                            <h4>Allessando Florenzi</h4>
+                            <img src="Images/milan/allesandro_florenzi.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Clinton Nsiaala-Makengo</h4>
+                            <img src="Images/milan/clinton_nsiala-makengo.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Dorian Paloschi</h4>
+                            <img src="Images/milan/dorian_paloschi.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Andrei Coubis</h4>
+                            <img src="Images/milan/empty.svg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>David Bartesaghi</h4>
+                            <img src="Images/milan/davide_bartesaghi.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Adam Bakoune</h4>
+                            <img src="Images/milan/adam_bakoune.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Vittorio Magni</h4>
+                            <img src="Images/milan/vittorio_magni.jpg" />
+                        </div>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Mittelfeld</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h4>Yacine Adli</h4>
+                            <img src="Images/milan/yacine_adli.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Ruben Loftus-Cheeck</h4>
+                            <img src="Images/milan/ruben_loftus_cheek.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Tijjani Reijnders</h4>
+                            <img src="Images/milan/tijjani_reijnders.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Tomaso Pobega</h4>
+                            <img src="Images/milan/tommaso_pobega.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Rade Krunić</h4>
+                            <img src="Images/milan/rade_krunic.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Mattia Malaspina</h4>
+                            <img src="Images/milan/mattia_malaspina.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Yunus Musah</h4>
+                            <img src="Images/milan/yunus_musah.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Victor Electu</h4>
+                            <img src="Images/milan/victor_electu.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Kevin Zeroli</h4>
+                            <img src="Images/milan/kevin_zeroli.jpg" />
+                        </div>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>Sturm</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h4>Oliver Geroud</h4>
+                            <img src="Images/milan/oliver_girooud.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Rafael Leão</h4>
+                            <img src="Images/milan/rafael_leao.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Christian Pulišić</h4>
+                            <img src="Images/milan/christian_pulisic.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Luka Jović</h4>
+                            <img src="Images/milan/luke_jovic.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Noah Okafor</h4>
+                            <img src="Images/milan/noah_okafor.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Samuel Chukwueze</h4>
+                            <img src="Images/milan/samuel_chukwueze.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Chaka Traore</h4>
+                            <img src="Images/milan/chaka_traore.jpg" />
+                        </div>
+
+                        <div class="grid-item">
+                            <h4>Diego Sia</h4>
+                            <img src="Images/milan/diego_sila.jpg" />
+                        </div>
+                    </div>
+                </details>
+            </section>
+
+            <section class="content" id="mannschaft">
+                Mannschaft
+            </section>
         </main>
 
         <footer>
-            &copy; 2023 Made by Chris, Andreas, Marce, Mark
+            &copy; 2023 Made by Chris, Andreas, Marcel, Mark
         </footer>
+
+        <script src="Scripts/themeSwitcher.js"></script>
+        <script src="Scripts/router.js"></script>
     </body>
 
 </html>

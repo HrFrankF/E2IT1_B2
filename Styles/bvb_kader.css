@@ -1,0 +1,92 @@
+header{
+    background-color: #fcd113e1;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header h1{
+    padding-top: 20px;
+}
+#navlogo{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    margin: 5px;
+}
+#links{
+    background-color: #fcb213e1;
+    color: rgba(255, 230, 0, 0.904);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#links a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+#links a:hover{
+    font-size: 26px;
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+#main{
+    background-color: #ecc410f3;
+    background-image: url('Images/Sponsor Dortmund/bgimage.jpeg');  
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    padding-top: 1px;
+}
+.kader-hr{
+    background-color: #fdad00;
+    height: 4px;
+    border: none;
+    border-radius: 2px;
+    margin: 0px
+}
+.kader{
+    background: transparent;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+    column-gap: 50px;
+}
+.player{
+    background-color: #313131dc;
+    border-radius: 6px;
+    margin: 50px 8px 25px 8px;
+    height: 230px;
+    text-align: left;
+
+}
+.player img {
+    width: 145px;
+    height: 145px;
+    position: relative;
+    left: 230px;
+    bottom: 205px;
+    border-radius: 40%;
+}
+.player h5 {
+    position: relative;
+    bottom: 8px;
+    right: -60px;
+}
+footer{
+    background-color: #fcb213e1;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
