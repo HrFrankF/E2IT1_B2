@@ -43,6 +43,16 @@ footer{
 h4,.kaderstrich {
 color: red;
 }
+
 *{
    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
+
+footer {
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: var(--main-border-radius);
+    border-bottom-right-radius: var(--main-border-radius);
+    padding: 20px;
+    color: var(--header-font-color);
+    text-align: center;
+  }
