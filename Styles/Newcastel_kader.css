@@ -70,7 +70,7 @@ footer {
     width: 90px;
     height: 110px;
     text-align: right;
-    padding-right: 100px ;
+    padding-right: 120px ;
 
   }
   #Trainerbox, #Torschützenbox{
@@ -88,6 +88,11 @@ footer {
   #trainerundtörschützentrennung{
 
     color: aqua;
+
+  }
+  #kadertabelle{
+
+    padding-top: 150px;
 
   }
   
