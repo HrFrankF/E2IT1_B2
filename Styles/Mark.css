@@ -69,12 +69,9 @@ text-align: center;
     height: 40px;
 }
 
-.spielstandnummer{
-    text-align: center;
-}
-
 .Spielinfo{
 
 font-size: 20px;
+text-align: left;
 
 }
