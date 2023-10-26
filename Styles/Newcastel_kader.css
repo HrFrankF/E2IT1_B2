@@ -76,6 +76,7 @@ footer {
   #Trainerbox, #Torschützenbox{
 
     text-align: right;
+    position: absolute;
 
   }
   #Newcastelbestertorschützeflagge, #Newcasteltrainerflagge{
