@@ -11,13 +11,13 @@ header{
     padding-bottom: 5px;
 }
 #navlogo{
-    padding-left: 700px;
     position: absolute;
     top: 15px;
-    padding-bottom: 20px;
+    left: 50px;
    }
 header h1{
     padding-top: 10px;
+    text-align: center;
 }
 
 #links a{
