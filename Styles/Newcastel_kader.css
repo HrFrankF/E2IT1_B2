@@ -32,7 +32,8 @@ header h1{
     text-align: center;
 }
 body{
-    background-color:black
+    background-color:black;
+    color:(rec2020 rgb(240, 232, 232) rgb(227, 240, 227) rgb(236, 236, 243));
 }
 footer{
     background-color: white;
