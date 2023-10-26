@@ -10,8 +10,10 @@ header{
     padding-right: 0px;
     padding-bottom: 5px;
 }
-img{
+.navlogo{
  padding-left: 500px;
+ position: absolute;
+ top: 15px;
 }
 header h1{
     padding-top: 10px;
@@ -34,6 +36,7 @@ header h1{
 body{
     background-color:black;
     color: white;
+    text-align: center;
 }
 footer{
     background-color: white;
