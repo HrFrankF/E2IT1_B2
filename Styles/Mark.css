@@ -64,8 +64,10 @@ footer {
 text-align: center;
 
 }
-
 #clublogos{
     width: 20px;
     height: 20px;
+}
+.spielstandnummer{
+    text-align: center;
 }
