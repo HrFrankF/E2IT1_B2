@@ -1,0 +1,63 @@
+header{
+    background-color:grey;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+#navlogo{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+   }
+header h1{
+    padding-top: 10px;
+    text-align: center;
+}
+#links a{
+    font-size: 24px;
+    color: white;
+    text-align: right;
+}
+#links a:hover{
+
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+body{
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+footer{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+footer {
+    background-color: aqua;
+    border-radius: 20%;
+    border-bottom-left-radius: var(--main-border-radius);
+    border-bottom-right-radius: var(--main-border-radius);
+    padding: 20px;
+    color: black;
+    text-align: center;
+ }
+
+.aboutinfos{
+
+text-align: center;
+
+}
