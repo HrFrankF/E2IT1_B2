@@ -65,9 +65,16 @@ text-align: center;
 
 }
 #clublogos{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
+
 .spielstandnummer{
     text-align: center;
+}
+
+.Spielinfo{
+
+font-size: 20px;
+
 }
