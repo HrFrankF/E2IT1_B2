@@ -59,11 +59,7 @@ footer {
     color: var(--header-font-color);
     text-align: center;
   }
-.datum, .ergebnis{
 
-text-align: center;
-
-}
 #clublogos{
     width: 40px;
     height: 40px;
