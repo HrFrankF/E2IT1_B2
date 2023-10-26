@@ -11,14 +11,15 @@ header{
     padding-bottom: 5px;
 }
 #navlogo{
-  position: absolute;
-  top: 15px;
-  left: 50px;
-}
+    position: absolute;
+    top: 15px;
+    left: 50px;
+   }
 header h1{
     padding-top: 10px;
     text-align: center;
 }
+
 #links a{
     font-size: 24px;
     color: white;
@@ -33,7 +34,6 @@ header h1{
 body{
     background-color:black;
     color: white;
-    text-align: center;
 }
 footer{
     background-color: white;
@@ -44,7 +44,7 @@ footer{
     padding: 20px;
 }
 h4,.kaderstrich {
-    color: turquoise;
+color: turquoise;
 }
 
 *{

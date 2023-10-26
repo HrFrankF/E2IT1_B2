@@ -11,10 +11,10 @@ header{
     padding-bottom: 5px;
 }
 #navlogo{
-  position: absolute;
-  top: 15px;
-  left: 50px;
-}
+    position: absolute;
+    top: 15px;
+    left: 50px;
+   }
 header h1{
     padding-top: 10px;
     text-align: center;
@@ -58,4 +58,10 @@ footer {
     padding: 20px;
     color: var(--header-font-color);
     text-align: center;
-  }
+ }
+
+.aboutinfos{
+
+text-align: center;
+
+}
