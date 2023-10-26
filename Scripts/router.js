@@ -31,7 +31,6 @@ function enableLinkByRoute(route) {
         return;
     }
 
-    console.log(route);
     let link = document.querySelector("#submenu a[href='" + route + "']");
     link.style["text-decoration"] = "underline";
 }
