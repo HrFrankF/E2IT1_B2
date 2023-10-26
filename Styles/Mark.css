@@ -10,17 +10,13 @@ header{
     padding-right: 0px;
     padding-bottom: 5px;
 }
-.navlogo{
+#navlogo{
  padding-left: 500px;
  position: absolute;
  top: 15px;
 }
 header h1{
     padding-top: 10px;
-}
-#navlogo{
-    position: relative;
-    margin: 5px;
 }
 #links a{
     font-size: 24px;
