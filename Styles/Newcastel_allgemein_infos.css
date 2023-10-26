@@ -10,6 +10,9 @@ header{
     padding-right: 0px;
     padding-bottom: 5px;
 }
+img{
+    padding-left: 50px;
+   }
 header h1{
     padding-top: 10px;
 }
@@ -55,3 +58,9 @@ footer {
     color: var(--header-font-color);
     text-align: center;
   }
+
+.aboutinfos{
+
+text-align: center;
+
+}

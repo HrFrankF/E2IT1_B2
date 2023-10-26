@@ -10,6 +10,9 @@ header{
     padding-right: 0px;
     padding-bottom: 5px;
 }
+img{
+ padding-left: 50px;
+}
 header h1{
     padding-top: 10px;
 }
@@ -29,7 +32,7 @@ header h1{
     text-align: center;
 }
 body{
-    background-color:white
+    background-color:black
 }
 footer{
     background-color: white;
