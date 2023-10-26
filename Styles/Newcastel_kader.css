@@ -33,7 +33,7 @@ header h1{
 }
 body{
     background-color:black;
-    color:(rec2020 rgb(240, 232, 232) rgb(227, 240, 227) rgb(236, 236, 243));
+    color: white;
 }
 footer{
     background-color: white;
@@ -44,7 +44,7 @@ footer{
     padding: 20px;
 }
 h4,.kaderstrich {
-color: red;
+color: turquoise;
 }
 
 *{
