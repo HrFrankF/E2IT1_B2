@@ -70,12 +70,14 @@ footer {
     width: 90px;
     height: 110px;
     text-align: right;
-    padding-right: 120px ;
+    
 
   }
   #Trainerbox, #Torschützenbox{
 
     text-align: right;
+    width: 100px;
+    height: 100px;
 
   }
   #Newcastelbestertorschützeflagge, #Newcasteltrainerflagge{
@@ -92,7 +94,8 @@ footer {
   }
   #kadertabelle{
 
-    padding-top: 150px;
+  height: 700px;
+  width: 300px;
 
   }
   
