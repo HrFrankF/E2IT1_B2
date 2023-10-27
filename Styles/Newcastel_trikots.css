@@ -61,3 +61,16 @@ footer {
 text-align: center;
 
 }
+.Newcasteltrikots{
+
+height: auto;
+width: auto;
+border-radius: 50%;
+
+}
+.Newcasteltrikots:hover{
+
+height: +10px;
+width: +10px;
+
+}
