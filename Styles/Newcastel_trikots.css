@@ -62,7 +62,7 @@ text-align: center;
 
 }
 .Newcasteltrikots{
-display: block;
+
 height: auto;
 width: auto;
 border-radius: 50%;
@@ -72,7 +72,7 @@ border-radius: 50%;
 .Newcasteltrikots:hover{
 
     filter: contrast(100%);
-    
+
 }
 
 
