@@ -11,10 +11,10 @@ header{
     padding-bottom: 5px;
 }
 #navlogo{
-  position: absolute;
-  top: 15px;
-  left: 50px;
-}
+    position: absolute;
+    top: 15px;
+    left: 50px;
+   }
 header h1{
     padding-top: 10px;
     text-align: center;
@@ -33,16 +33,13 @@ header h1{
 body{
     background-color:black;
     color: white;
-    
+    text-align: center;
 }
 footer{
     font-weight: bold;
     font-size: 20px;
     text-align: center;
     padding: 20px;
-}
-h4,.kaderstrich {
-    color: turquoise;
 }
 
 *{
@@ -57,25 +54,9 @@ footer {
     padding: 20px;
     color: black;
     text-align: center;
-  }
+ }
 
-#clublogos{
-    width: 40px;
-    height: 40px;
-}
-
-.Spielinfo{
-
-font-size: 20px;
-padding-left: 90px;
-
-}
-#aboutinfos{
-
-text-align: center;
-
-}
-#Vereinsdaten{
+.aboutinfos{
 
 text-align: center;
 

@@ -1,9 +1,9 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 5px;
-    column-gap: 25px;
-    row-gap: 25pxpx;
+    padding: 2px;
+    column-gap: 15px;
+    row-gap: 15px;
 }
 
 .grid-item {
@@ -12,7 +12,9 @@
     color: var(--font-color);
     background-color: var(--ternary-color-elevated);
     height: 175px;
-    padding: 10px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 7px;
 }
 
 .grid-item img {
@@ -27,8 +29,15 @@
 .grid-item h4 {
     position: relative;
     top: -22px;
+    left: 160px;
     color: var(--header-font-color);
-    text-align: center;
+    text-align: left;
+}
+
+.grid-item table {
+    position: relative;
+    color: var(--header-font-color);
+    top: -22px;
 }
 
 #submenu {
@@ -62,11 +71,12 @@ main {
 details>summary {
   list-style: none;
   font-size: x-large;
+  cursor: pointer;
 }
 
 summary::after {
-  content: ' ►';
+  content: ' ';
 }
 details[open] summary:after {
-  content: " ▼";
+  content: " ";
 }
