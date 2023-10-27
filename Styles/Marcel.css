@@ -1,28 +1,54 @@
-h1, h2, h3, button {
-
+header{
+    background-color:  #003255;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     text-align: center;
-
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-
-#PSG {
-
-    background-color: rgb(28, 2, 121);
-    height: 40px;
-    margin-top: -22px;
-
+header h1{
+    padding-top: 20px;
+    text-align: center;
 }
-#PSG-Bild {
-
-   border-radius: 50%;
-
+#navlogo{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    margin: 5px;
+    padding: 5px;
 }
-.header {
-
-    background-color: rgb(3, 61, 109);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+#links{
+    background-color: #00417000;
+    color: #080808;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#links a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+#links a:hover{
+    color: #080808;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+#main{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+footer{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
     padding: 20px;
-    text-align: center;
-
-
 }
