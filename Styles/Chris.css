@@ -11,7 +11,7 @@
     font-size: 30px;
     color: var(--font-color);
     background-color: var(--ternary-color-elevated);
-    height: 175px;
+    height: 200px;
     width: 500px;
     padding: 5px;
     border-radius: 7px;
@@ -37,7 +37,19 @@
 .grid-item table {
     position: relative;
     color: var(--header-font-color);
-    top: -22px;
+    top: -175px;
+    left: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+.grid-item table th, td {
+    padding: 5px;
+}
+
+.grid-item table {
+    background-color: var(--ternary-color);
 }
 
 #submenu {
