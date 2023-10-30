@@ -9,9 +9,9 @@
 .grid-item {
     margin: 5px;
     font-size: 30px;
-    color: var(--font-color);
+    color: var(--header-font-color);
     background-color: var(--ternary-color-elevated);
-    height: 175px;
+    height: 200px;
     width: 500px;
     padding: 5px;
     border-radius: 7px;
@@ -22,13 +22,13 @@
     height: 125px;
     position: relative;
     left: 10px;
-    top: -100px;
+    top: -145px;
     border-radius: 50%;
 }
 
 .grid-item h4 {
     position: relative;
-    top: -22px;
+    top: -75px;
     left: 160px;
     color: var(--header-font-color);
     text-align: left;
@@ -37,7 +37,35 @@
 .grid-item table {
     position: relative;
     color: var(--header-font-color);
+    top: -230px;
+    left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+
+.grid-item table th, td {
+    padding: 5px;
+}
+
+.grid-item table {
+    background-color: var(--ternary-color);
+}
+
+.grid-item p {
+    position: relative;
     top: -22px;
+    left: 440px;
+    margin-right: 15px;
+    text-align: center;
+    background-image: url("../Images/milan/trikot.png");
+    background-repeat: no-repeat;
+    width: 60px;
+    color: var(--header-font-color);
+}
+
+.hidden {
+    visibility: hidden;
 }
 
 #submenu {
