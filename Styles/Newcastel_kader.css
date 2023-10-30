@@ -77,13 +77,13 @@ footer {
 
     text-align: right;
     position: absolute;
-    padding-left: 1600px;
+    padding-left: 1400px;
 
   }
   #Torschützenbox{
     text-align: right;
     position: absolute; 
-    padding-left: 1350px;
+    padding-left: 1100px;
   }
 
   .grid{
@@ -162,8 +162,8 @@ footer {
 }
 .imgklasse {
     float: right;
-    width: 40px;
-    height:10px;
+    width: 90px;
+    height: 110px;
 }
 
 
