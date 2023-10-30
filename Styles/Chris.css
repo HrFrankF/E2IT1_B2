@@ -44,7 +44,8 @@
     font-size: large;
 }
 
-.grid-item table th, td {
+.grid-item table th,
+td {
     padding: 5px;
     text-align: center;
 }
@@ -98,14 +99,30 @@ main {
 }
 
 details>summary {
-  list-style: none;
-  font-size: x-large;
-  cursor: pointer;
+    list-style: none;
+    font-size: x-large;
+    cursor: pointer;
 }
 
 summary::after {
-  content: ' ';
+    content: ' ';
 }
+
 details[open] summary:after {
-  content: " ";
+    content: " ";
+}
+
+#mannschaft img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 1.5%;
+}
+
+#club iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

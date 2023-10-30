@@ -55,9 +55,15 @@ function route(route) {
 
 function routeToActiveLink() {
     let link = document.querySelector("#submenu a[active]").hash;
-    window.location.hash = link;
+    
+    if(!window.location.hash) {
+        window.location.hash = link;
 
-    route(link);
+        route(link);
+    }
+    else {
+        route(window.location.hash);
+    }
 }
 
 routeToActiveLink();
