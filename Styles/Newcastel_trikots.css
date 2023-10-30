@@ -71,7 +71,8 @@ border-radius: 50%;
 
 .Newcasteltrikots:hover a{
 
-    filter: contrast(100%);
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
 
 }
 
