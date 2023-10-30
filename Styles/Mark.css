@@ -50,7 +50,7 @@ h4,.kaderstrich {
 }
 
 footer {
-    background-color: aqua;
+    background-color: deepskyblue;
     border-radius: 20%;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
