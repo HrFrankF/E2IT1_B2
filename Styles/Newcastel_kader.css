@@ -83,7 +83,7 @@ footer {
   #Torschützenbox{
     text-align: right;
     position: absolute; 
-    padding-left: 1100px;
+    padding-left: 1000px;
   }
 
   .grid{
@@ -107,9 +107,9 @@ footer {
 }
 
 .grid .box-grid #Torschützenbox  #Trainerbox{
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10 aqua(0,0,0,.2);
     border-radius: 5px;
-    background: #002a47;
+    background: aqua;
     text-align: center;
     padding:30px 20px;
 }
