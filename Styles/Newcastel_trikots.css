@@ -69,7 +69,7 @@ border-radius: 50%;
 
 }
 
-.Newcasteltrikots:hover a{
+.Newcasteltrikots:hover{
 
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
