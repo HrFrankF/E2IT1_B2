@@ -69,9 +69,10 @@ border-radius: 50%;
 
 }
 
-.Newcasteltrikots:hover a{
+.Newcasteltrikots:hover{
 
-    filter: contrast(100%);
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
 
 }
 
