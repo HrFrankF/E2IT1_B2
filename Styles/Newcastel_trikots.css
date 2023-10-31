@@ -98,6 +98,7 @@ border-radius: 50%;
     opacity: 0;
     transition: .5s ease;
     background-color:black;
+    border-radius: 50%;
   }
   
   .container1:hover .overlay1 {
