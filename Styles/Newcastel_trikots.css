@@ -68,6 +68,13 @@ width: 23%;
 border-radius: 50%;
 
 }
+#erstertwtrikot{
+
+height: auto;
+width: 23%;
+border-radius: 50%;
+
+}
 
  #container1 {
     position: relative;
@@ -99,7 +106,7 @@ border-radius: 50%;
   }
   
  #erstertrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -139,7 +146,7 @@ border-radius: 50%;
     opacity: 1;
   }
   #zweitestrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -178,7 +185,7 @@ border-radius: 50%;
     opacity: 1;
   }
   #drittestrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -217,7 +224,7 @@ border-radius: 50%;
     opacity: 1;
   }
   #erstertwtrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -256,7 +263,7 @@ border-radius: 50%;
     opacity: 1;
   }
   #zweitestwtrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -295,7 +302,7 @@ border-radius: 50%;
     opacity: 1;
   }
   #drittestwtrikottext {
-    color: white;
+    color: black;
     font-size: 20px;
     position: absolute;
     top: 50%;
