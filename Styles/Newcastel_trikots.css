@@ -74,6 +74,7 @@ border-radius: 50%;
 }
 
  #container1 {
+  float: right;
     position: relative;
     width: 23%;
   }
@@ -155,7 +156,6 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    float: right;
     position: relative;
     width: 23%;
   }
