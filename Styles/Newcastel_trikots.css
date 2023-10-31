@@ -78,7 +78,7 @@ border-radius: 50%;
 
 .container1 {
     position: relative;
-    width: 50%;
+    width: auto;
   }
   
   #erstestrikot {
@@ -97,7 +97,7 @@ border-radius: 50%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color:black;
   }
   
   .container1:hover .overlay1 {
