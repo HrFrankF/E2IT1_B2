@@ -78,7 +78,7 @@ border-radius: 50%;
 
 .container1 {
     position: relative;
-    width: 24%;
+    width: 23%;
   }
   
   #erstestrikot {
@@ -105,7 +105,7 @@ border-radius: 50%;
     opacity: 1;
   }
   
-  #erstertrikottext {
+ .imgtext {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -117,4 +117,143 @@ border-radius: 50%;
     text-align: center;
   }
 
-
+  .container2 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #zweitestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 50%;
+  }
+  
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+  .container3 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #drittestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 50%;
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container1 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #erstestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 50%;
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container1 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #erstestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 50%;
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container1 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #erstestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+    border-radius: 50%;
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
