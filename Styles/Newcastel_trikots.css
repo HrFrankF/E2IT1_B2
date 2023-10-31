@@ -64,7 +64,7 @@ text-align: center;
 .Newcasteltrikots{
 
 height: auto;
-width: auto;
+width: 23%;
 border-radius: 50%;
 
 }
@@ -78,7 +78,7 @@ border-radius: 50%;
 
  #container1 {
     position: relative;
-    width: 22,5%;
+    width: 23%;
   }
   
   #erstestrikot {
@@ -119,7 +119,7 @@ border-radius: 50%;
 
   #container2 {
     position: relative;
-    width: 22%;
+    width: 23%;
   }
   
   #zweitestrikot {
@@ -158,7 +158,7 @@ border-radius: 50%;
   }
   #container3 {
     position: relative;
-    width: 22%;
+    width: 23%;
   }
   
   #drittestrikot {
@@ -197,7 +197,7 @@ border-radius: 50%;
   }
   #container4 {
     position: relative;
-    width: 22%;
+    width: 23%;
   }
   
   #erstestwtrikot {
@@ -236,7 +236,7 @@ border-radius: 50%;
   }
   #container5 {
     position: relative;
-    width: 22%;
+    width: 23%;
   }
   
   #zweitestwtrikot {
@@ -275,7 +275,7 @@ border-radius: 50%;
   }
   #container6 {
     position: relative;
-    width: 22%;
+    width: 23%;
   }
   
   #drittestwtrikot {
