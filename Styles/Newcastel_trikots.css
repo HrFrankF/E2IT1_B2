@@ -76,7 +76,7 @@ border-radius: 50%;
 
 }
 
-.container1 {
+ #container1 {
     position: relative;
     width: 22,5%;
   }
@@ -87,7 +87,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay1 {
+  #overlay1 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -101,7 +101,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container1:hover .overlay1 {
+  #container1:hover .overlay1 {
     opacity: 1;
   }
   
@@ -117,7 +117,7 @@ border-radius: 50%;
     text-align: center;
   }
 
-  .container2 {
+  #container2 {
     position: relative;
     width: 22%;
   }
@@ -128,7 +128,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay2 {
+  #overlay2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -142,7 +142,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container2:hover .overlay2 {
+  #container2:hover #overlay2 {
     opacity: 1;
   }
   #zweitestrikottext {
@@ -156,7 +156,7 @@ border-radius: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .container3 {
+  #container3 {
     position: relative;
     width: 22%;
   }
@@ -167,7 +167,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay3 {
+  #overlay3 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -181,7 +181,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container3:hover .overlay3 {
+  #container3:hover #overlay3 {
     opacity: 1;
   }
   #drittestrikottext {
@@ -195,7 +195,7 @@ border-radius: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .container4 {
+  #container4 {
     position: relative;
     width: 22%;
   }
@@ -206,7 +206,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay4 {
+  #overlay4 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -220,7 +220,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container4:hover .overlay4 {
+  #container4:hover #overlay4 {
     opacity: 1;
   }
   #erstertwtrikottext {
@@ -234,7 +234,7 @@ border-radius: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .container5 {
+  #container5 {
     position: relative;
     width: 22%;
   }
@@ -245,7 +245,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay5 {
+  #overlay5 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -259,7 +259,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container5:hover .overlay5 {
+  #container5:hover #overlay5 {
     opacity: 1;
   }
   #zweitestwtrikottext {
@@ -273,9 +273,9 @@ border-radius: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .container6 {
+  #container6 {
     position: relative;
-    width: 22a%;
+    width: 22%;
   }
   
   #drittestwtrikot {
@@ -284,7 +284,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay6 {
+  #overlay6 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -298,7 +298,7 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container6:hover .overlay6 {
+  #container6:hover .overlay6 {
     opacity: 1;
   }
   #drittestwtrikottext {
