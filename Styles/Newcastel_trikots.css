@@ -115,6 +115,7 @@ border-radius: 50%;
   }
 
   #container2 {
+    float: right;
     position: relative;
     width: 23%;
   }
