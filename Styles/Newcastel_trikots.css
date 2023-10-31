@@ -118,7 +118,8 @@ border-radius: 50%;
   }
 
   #container2 {
-    position: relative;
+    position: absolute;
+    padding-left: 500px;
     width: 23%;
   }
   
@@ -157,7 +158,8 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    position: relative;
+    position: absolute;
+    padding-left: 900px;
     width: 23%;
   }
   
