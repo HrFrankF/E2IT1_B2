@@ -105,7 +105,7 @@ border-radius: 50%;
     opacity: 1;
   }
   
- .imgtext {
+ #erstertrikottext {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -145,6 +145,17 @@ border-radius: 50%;
   .container2:hover .overlay2 {
     opacity: 1;
   }
+  #zweitestrikottext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   .container3 {
     position: relative;
     width: 24%;
@@ -172,6 +183,17 @@ border-radius: 50%;
   
   .container3:hover .overlay3 {
     opacity: 1;
+  }
+  #drittestrikottext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
   .container4 {
     position: relative;
@@ -201,6 +223,17 @@ border-radius: 50%;
   .container4:hover .overlay4 {
     opacity: 1;
   }
+  #erstertwtrikottext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   .container5 {
     position: relative;
     width: 24%;
@@ -229,6 +262,17 @@ border-radius: 50%;
   .container5:hover .overlay5 {
     opacity: 1;
   }
+  #zweitestwtrikottext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
   .container6 {
     position: relative;
     width: 24%;
@@ -256,4 +300,15 @@ border-radius: 50%;
   
   .container6:hover .overlay6 {
     opacity: 1;
+  }
+  #drittestwtrikottext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
   }
