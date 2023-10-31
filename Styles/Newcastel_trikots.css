@@ -156,7 +156,7 @@ border-radius: 50%;
     height: auto;
   }
   
-  .overlay1 {
+  .overlay3 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -170,21 +170,21 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container1:hover .overlay1 {
+  .container3:hover .overlay3 {
     opacity: 1;
   }
-  .container1 {
+  .container4 {
     position: relative;
     width: 24%;
   }
   
-  #erstestrikot {
+  #erstestwtrikot {
     display: block;
     width: auto;
     height: auto;
   }
   
-  .overlay1 {
+  .overlay4 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -198,21 +198,21 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container1:hover .overlay1 {
+  .container4:hover .overlay4 {
     opacity: 1;
   }
-  .container1 {
+  .container5 {
     position: relative;
     width: 24%;
   }
   
-  #erstestrikot {
+  #zweitestwtrikot {
     display: block;
     width: auto;
     height: auto;
   }
   
-  .overlay1 {
+  .overlay5 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -226,21 +226,21 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container1:hover .overlay1 {
+  .container5:hover .overlay5 {
     opacity: 1;
   }
-  .container1 {
+  .container6 {
     position: relative;
     width: 24%;
   }
   
-  #erstestrikot {
+  #drittestwtrikot {
     display: block;
     width: auto;
     height: auto;
   }
   
-  .overlay1 {
+  .overlay6 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -254,6 +254,6 @@ border-radius: 50%;
     border-radius: 50%;
   }
   
-  .container1:hover .overlay1 {
+  .container6:hover .overlay6 {
     opacity: 1;
   }
