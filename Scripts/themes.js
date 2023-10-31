@@ -1,4 +1,4 @@
-let dark = {
+let light = {
     font_color: "#a1a1a1",                   //text color
     primary_color: "#111111",                //background color body
     secondary_color: "#E12A3F",              //header, footer background color
@@ -9,7 +9,7 @@ let dark = {
         "#nav-logo-img": "logo_light.png"
     }
 };
-let light = {
+let dark = {
     font_color: "#000",
     primary_color: "#d1d1d1",
     secondary_color: "#08005C",

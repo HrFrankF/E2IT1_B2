@@ -22,13 +22,13 @@
     height: 125px;
     position: relative;
     left: 10px;
-    top: -145px;
+    top: -170px;
     border-radius: 50%;
 }
 
 .grid-item h4 {
     position: relative;
-    top: -75px;
+    top: -100px;
     left: 160px;
     color: var(--header-font-color);
     text-align: left;
@@ -37,7 +37,7 @@
 .grid-item table {
     position: relative;
     color: var(--header-font-color);
-    top: -230px;
+    top: -250px;
     left: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -54,20 +54,32 @@ td {
     background-color: var(--ternary-color);
 }
 
-.grid-item p {
+.grid-item div.trikot p {
     position: relative;
-    top: -22px;
+    text-align: center;
+    width: 60px;
+    top: 10px;
+    color: var(--header-font-color);
+    font-size: large;
+}
+
+.grid-item div.trikot {
+    position: relative;
+    top: -15px;
     left: 440px;
     margin-right: 15px;
-    text-align: center;
     background-image: url("../Images/milan/trikot.png");
     background-repeat: no-repeat;
     width: 60px;
-    color: var(--header-font-color);
+    height: 60px;
 }
 
 .hidden {
     visibility: hidden;
+}
+
+.trainer {
+    display: list-item;
 }
 
 #submenu {
