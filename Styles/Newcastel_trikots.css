@@ -76,5 +76,20 @@ border-radius: 50%;
 
 }
 
+div {
 
-  
+    display: none;
+    border: 1px solid #000;
+    height: 30px;
+    width: 290px;
+    margin-left: 10px;
+
+}
+
+a:hover+#erstertrikottext{
+
+display: block;
+
+}
+
+
