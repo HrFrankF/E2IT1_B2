@@ -88,27 +88,7 @@ footer {
 
   }
 
-  .grid{
-    background:linear-gradient(45deg, );
-    padding:15px 9%;
-    padding-bottom: 100px;
-}
-
-.grid .heading{
-    text-align: center;
-    padding-bottom: 15px;
-    color:#fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
-    font-size: 50px;
-}
-
-.grid .box-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:18px;
-}
-
-.grid .box-grid #Torschützenbox  #Trainerbox{
+ #Torschützenbox  #Trainerbox{
     box-shadow: 0 5px 10 aqua(0,0,0,.2);
     border-radius: 5px;
     background: aqua;
@@ -116,19 +96,19 @@ footer {
     padding:30px 20px;
 }
 
-.grid .box-grid #Torschützenbox  #Trainerbox h3{
+ #Torschützenbox  #Trainerbox h3{
     color:#f5f4f4;
     font-size: 22px;
     padding:10px 0;
 }
 
-.grid .box-grid #Torschützenbox  #Trainerbox p{
+ #Torschützenbox  #Trainerbox p{
     color:#dbd9d9;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.grid .box-grid #Torschützenbox  #Trainerbox .btn{
+ #Torschützenbox  #Trainerbox .btn{
     margin-top: 10px;
     display: inline-block;
     background:#333;
@@ -138,13 +118,13 @@ footer {
     padding: 8px 25px;
 }
 
-.grid .box-grid #Torschützenbox  #Trainerbox .btn:hover{
+ #Torschützenbox  #Trainerbox .btn:hover{
     letter-spacing: 1px;
 }
 
-.grid .box-grid #Torschützenbox  #Trainerbox:hover{
+ #Torschützenbox  #Trainerbox:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
-    transform: scale(1.03);
+    transform: scale(1.04);
 }
 
 @media (max-width:768px){
@@ -156,6 +136,13 @@ footer {
     float: right;
     width: 90px;
     height: 120px;
+}
+.imgklasse2{
+
+    float: right;
+    width: 110px;
+    height: 120px;
+
 }
 
 #Torschützenflagge{
