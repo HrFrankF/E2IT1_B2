@@ -312,3 +312,14 @@ border-radius: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  #container2 #container4 #container6{
+
+    padding-left: 200px;
+
+  }
+  #container1 #container3 #container5{
+
+    padding-right: 200px;
+
+  }
