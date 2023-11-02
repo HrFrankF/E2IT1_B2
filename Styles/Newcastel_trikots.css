@@ -74,7 +74,6 @@ border-radius: 50%;
 }
 
  #container1 {
-    padding-right: 200px;
     float: right;
     position: relative;
     width: 23%;
@@ -98,7 +97,6 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
-    padding-right: 200px;
   }
   
   #container1:hover #overlay1 {
@@ -118,7 +116,6 @@ border-radius: 50%;
   }
 
   #container2 {
-    padding-left: 200px;
     position: relative;
     width: 23%;
   }
@@ -141,7 +138,6 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
-    padding-left: 200px;
   }
   
   #container2:hover #overlay2 {
@@ -159,7 +155,6 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    padding-right: 200px;
     float: right;
     position: relative;
     width: 23%;
@@ -183,7 +178,6 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
-    padding-right: 200px;
   }
   
   #container3:hover #overlay3 {
@@ -201,7 +195,6 @@ border-radius: 50%;
     text-align: center;
   }
   #container4 {
-    padding-left: 200px;
     position: relative;
     width: 23%;
   }
@@ -224,7 +217,6 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
-    padding-left: 200px;
   }
   
   #container4:hover #overlay4 {
@@ -242,11 +234,9 @@ border-radius: 50%;
     text-align: center;
   }
   #container5 {
-    padding-right: 200px;
     float: right;
     position: relative;
     width: 23%;
-    padding-right: 200px;
   }
   
   #zweitestwtrikot {
@@ -284,7 +274,6 @@ border-radius: 50%;
     text-align: center;
   }
   #container6 {
-    padding-left: 200px;
     position: relative;
     width: 24%;
   }
@@ -307,7 +296,6 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
-    padding-left: 200px;
   }
   
   #container6:hover #overlay6 {
