@@ -98,6 +98,7 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
+    padding-right: 200px;
   }
   
   #container1:hover #overlay1 {
@@ -140,6 +141,7 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
+    padding-left: 200px;
   }
   
   #container2:hover #overlay2 {
@@ -181,6 +183,7 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
+    padding-right: 200px;
   }
   
   #container3:hover #overlay3 {
@@ -221,6 +224,7 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
+    padding-left: 200px;
   }
   
   #container4:hover #overlay4 {
@@ -242,6 +246,7 @@ border-radius: 50%;
     float: right;
     position: relative;
     width: 23%;
+    padding-right: 200px;
   }
   
   #zweitestwtrikot {
@@ -302,6 +307,7 @@ border-radius: 50%;
     transition: .5s ease;
     background-color:white;
     border-radius: 50%;
+    padding-left: 200px;
   }
   
   #container6:hover #overlay6 {
@@ -319,13 +325,3 @@ border-radius: 50%;
     text-align: center;
   }
 
-  #container2 #container4 #container6{
-
-    padding-left: 200px;
-
-  }
-  #container1 #container3 #container5{
-
-    padding-right: 200px;
-
-  }
