@@ -317,6 +317,8 @@ border-radius: 50%;
 
     position: absolute;
     float: none;
+    text-align: center;
+    
     
 
   }
@@ -324,7 +326,7 @@ border-radius: 50%;
 #selabild{
 
 height: 100px;
-width: 200px;
+width: 220px;
 
 }
 
@@ -332,7 +334,7 @@ width: 200px;
 
   background: url(Images/Newcastel_sponsoren/sela-logo-green.png);
   height: 100px;
-  width: 200px;
+  width: 220px;
   
   }
   
