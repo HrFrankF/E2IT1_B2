@@ -316,8 +316,68 @@ border-radius: 50%;
   .Sponsoren {
 
     position: absolute;
-    text-align: center;
+    float: none;
     
 
   }
 
+#selabild{
+
+height: 100px;
+width: 200px;
+
+}
+
+#selabild:hover{
+
+  background: url(Images/Newcastel_sponsoren/sela-logo-green.png);
+  height: 100px;
+  width: 200px;
+  
+  }
+  
+
+#castorebild{
+
+height: 100px;
+width: 110px;
+
+
+}
+
+#noonbild{
+
+height: 100px;
+width: 200px;
+
+}
+
+#sportsbetbild{
+
+height: 80px;
+width: 220px;
+
+}
+
+#betmgmbild{
+
+height: 120px;
+width: 200px;
+
+
+}
+
+#carlingbild{
+
+height: 150px;
+width: 220px;
+
+}
+
+#Saudibild{
+
+height: 80px;
+width: 190px;
+
+
+}
