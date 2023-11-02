@@ -336,7 +336,7 @@ width: 220px;
 
 #selabild:hover{
 
-  background: url(Images/Newcastel_sponsoren/sela-logo-green.png);
+  content: url(Images/Newcastel_sponsoren/sela-logo-green.png);
   height: 100px;
   width: 220px;
   
