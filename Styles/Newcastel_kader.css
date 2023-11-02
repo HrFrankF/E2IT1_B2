@@ -50,7 +50,7 @@ color: deepskyblue;
 }
 
 footer {
-    background-color: aqua;
+    background-color: deepskyblue;
     border-radius: 20%;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
@@ -68,7 +68,7 @@ footer {
   #Newcasteltrainerimg, #Newcastelbestertörschützeimg {
 
     width: 90px;
-    height: 110px;
+    height: 120px;
     text-align: right;
     
 
@@ -77,25 +77,80 @@ footer {
 
     text-align: right;
     position: absolute;
-    padding-left: 1600px;
+    padding-left: 1300px;
 
   }
   #Torschützenbox{
-    text-align: right;
-    position: absolute;
-    padding-left: 1350px;
-  }
-  #Newcastelbestertorschützeflagge, #Newcasteltrainerflagge{
 
     text-align: right;
+    position: absolute; 
+    padding-left: 900px;
+
+  }
+
+ #Torschützenbox  #Trainerbox{
+    box-shadow: 0 5px 10 aqua(0,0,0,.2);
+    border-radius: 5px;
+    background: aqua;
+    text-align: center;
+    padding:30px 20px;
+}
+
+ #Torschützenbox  #Trainerbox h3{
+    color:#f5f4f4;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+ #Torschützenbox  #Trainerbox p{
+    color:#dbd9d9;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+ #Torschützenbox  #Trainerbox .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+ #Torschützenbox  #Trainerbox .btn:hover{
+    letter-spacing: 1px;
+}
+
+ #Torschützenbox  #Trainerbox:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.04);
+}
+
+@media (max-width:768px){
+    .grid{
+        padding:20px;
+    }
+}
+.imgklasse {
+    float: right;
     width: 90px;
-    height: 70px;
+    height: 120px;
+}
+.imgklasse2{
 
-  }
-  #trainerundtörschützentrennung{
+    float: right;
+    width: 110px;
+    height: 120px;
 
-    color: aqua;
+}
 
-  }
+#Torschützenflagge{
+
+width: 30px;
+height: 20px;
+
+}
+
 
   

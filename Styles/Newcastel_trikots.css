@@ -47,7 +47,7 @@ footer{
 }
 
 footer {
-    background-color: aqua;
+    background-color: deepskyblue;
     border-radius: 20%;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
@@ -62,9 +62,254 @@ text-align: center;
 
 }
 .Newcasteltrikots{
+border-radius: 50%;
+}
 
-height: auto;
-width: auto;
+#erstertwtrikot #erstestrikot #zweitestrikot #drittestrikot #zweitestwtrikot #drittestwtrikot{
+
+height: 500px;
+width: 420px;
 border-radius: 50%;
 
 }
+
+ #container1 {
+    float: right;
+    position: relative;
+    width: 22%;
+  }
+  
+  #erstestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container1:hover #overlay1 {
+    opacity: 1;
+  }
+  
+ #erstertrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #container2 {
+    position: relative;
+    width: 23%;
+  }
+  
+  #zweitestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container2:hover #overlay2 {
+    opacity: 1;
+  }
+  #zweitestrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container3 {
+    float: right;
+    position: relative;
+    width: 22%;
+  }
+  
+  #drittestrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container3:hover #overlay3 {
+    opacity: 1;
+  }
+  #drittestrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container4 {
+    position: relative;
+    width: 23%;
+  }
+  
+  #erstestwtrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container4:hover #overlay4 {
+    opacity: 1;
+  }
+  #erstertwtrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container5 {
+    float: right;
+    position: relative;
+    width: 23%;
+  }
+  
+  #zweitestwtrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay5 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container5:hover #overlay5 {
+    opacity: 1;
+  }
+  #zweitestwtrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  #container6 {
+    position: relative;
+    width: 24%;
+  }
+  
+  #drittestwtrikot {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  #overlay6 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+    border-radius: 50%;
+  }
+  
+  #container6:hover #overlay6 {
+    opacity: 1;
+  }
+  #drittestwtrikottext {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+

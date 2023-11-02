@@ -2,7 +2,7 @@ header{
     background-color:grey;
     color: rgb(73, 73, 73);
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
@@ -50,7 +50,7 @@ h4,.kaderstrich {
 }
 
 footer {
-    background-color: aqua;
+    background-color: deepskyblue;
     border-radius: 20%;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);

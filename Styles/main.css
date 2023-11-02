@@ -45,6 +45,8 @@ nav ul li:hover {
 
 nav ul li[active] {
   background-color: var(--ternary-color-elevated);
+  margin-left: -4px;
+  margin-right: -4px;
 }
 
 nav ul li img {

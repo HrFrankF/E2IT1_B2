@@ -3,8 +3,9 @@ let submenuLinks = document.querySelectorAll("#submenu a");
 submenuLinks.forEach(link => {
     link.onclick = (e) => {
         disableLinks();
-        
+
         link.style["text-decoration"] = "underline";
+        link.style["text-transform"] = "uppercase";
         route(link.hash);
     };
 });
@@ -12,6 +13,7 @@ submenuLinks.forEach(link => {
 function disableLinks() {
     submenuLinks.forEach(link => {
         link.style["text-decoration"] = "none";
+        link.style["text-transform"] = "none";
     });
 }
 
@@ -33,6 +35,7 @@ function enableLinkByRoute(route) {
 
     let link = document.querySelector("#submenu a[href='" + route + "']");
     link.style["text-decoration"] = "underline";
+    link.style["text-transform"] = "uppercase";
 }
 
 function showContentByRoute(route) {
@@ -48,16 +51,22 @@ function showContentByRoute(route) {
 
 function route(route) {
     enableLinkByRoute(route);
-  
+
     showContentByRoute(route);
 }
 
 
 function routeToActiveLink() {
     let link = document.querySelector("#submenu a[active]").hash;
-    window.location.hash = link;
 
-    route(link);
+    if (!window.location.hash) {
+        window.location.hash = link;
+
+        route(link);
+    }
+    else {
+        route(window.location.hash);
+    }
 }
 
 routeToActiveLink();
