@@ -315,7 +315,7 @@ border-radius: 50%;
 
   .Sponsoren {
 
-    position: absolute;
+    position: relative;
     align-items: center;
     border-radius: 2px;
     display: flex;
