@@ -317,7 +317,6 @@ border-radius: 50%;
 
     position: relative;
     align-items: center;
-    border-radius: 2px;
     display: flex;
 
   }
@@ -379,14 +378,6 @@ width: 220px;
 
 height: 80px;
 width: 190px;
-
-
-}
-
-.trikotlinks{
-
-
-width: 23%;
 
 
 }
