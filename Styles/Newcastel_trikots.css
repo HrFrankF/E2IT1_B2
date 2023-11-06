@@ -323,16 +323,16 @@ border-radius: 50%;
 
 #selabild{
 
-  height: 65px;
-  width: 190px;
+  height: auto;
+  width: auto;
 
 }
 
 #selabild:hover{
 
   content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
-  height: 65px;
-  width: 190px;
+  height: auto;
+  width: auto;
   
   }
   
