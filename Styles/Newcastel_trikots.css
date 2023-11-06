@@ -325,7 +325,7 @@ border-radius: 50%;
 
 #selabild{
   
-  padding-top: 70px;
+  padding-top: 80px;
   height: 90px;
   width: 210px;
 
@@ -336,14 +336,14 @@ border-radius: 50%;
   content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
   height: 65PX;
   width: 190PX;
-  padding-top: 70px;
+  padding-top: 80px;
   
   }
   
 
 #castorebild{
 
-padding-top: 70px;
+padding-top: 80px;
 height: 100px;
 width: 120px;
 
@@ -354,13 +354,13 @@ width: 120px;
   content: url(https://www.nufc.co.uk/media/67627/castoreteamslogo_blue.png);
   height: 107px;
   width: 115px;
-  padding-top: 70px;
+  padding-top: 80px;
   
 }
 
 #noonbild{
 
-  padding-top: 70px;
+  padding-top: 80px;
   height: 100px;
   width: 200px;
 
@@ -370,13 +370,13 @@ width: 120px;
   content: url(https://www.nufc.co.uk/media/67626/noon-master-cropped.png);
   height: 92px;
   width: 184px;
-  padding-top: 70px;
+  padding-top: 80px;
 
   }
 
 #sportsbetbild{
 
-padding-top: 70px;
+padding-top: 80px;
 height: 80px;
 width: 220px;
 
@@ -384,7 +384,7 @@ width: 220px;
 
 #sportsbetbild:hover{
 
-  padding-top: 70px;
+  padding-top: 80px;
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
   height: 35px;
   width: 190px;
@@ -396,7 +396,7 @@ width: 220px;
 
 height: 120px;
 width: 200px;
-padding-top: 70px;
+padding-top: 80px;
 
 }
 
@@ -405,14 +405,14 @@ padding-top: 70px;
   content: url(https://www.nufc.co.uk/media/80854/betmgm-primarylogo-stacked-white.png);
   height: 75px;
   width: 165px;
-  padding-top: 50px;
+  padding-top: 80px;
   
   }
 #carlingbild{
 
 height: 150px;
 width: 220px;
-padding-top: 70px;
+padding-top: 80px;
 
 }
 
@@ -421,7 +421,7 @@ padding-top: 70px;
   content: url(https://www.nufc.co.uk/media/67628/carling_white.png);
   height: 130Px;
   width: 180Px;
-  padding-top: 70px;
+  padding-top: 80px;
   
   }
 
@@ -429,7 +429,7 @@ padding-top: 70px;
 
 height: 80px;
 width: 190px;
-padding-top: 70px;
+padding-top: 80px;
 
 }
 
@@ -438,6 +438,6 @@ padding-top: 70px;
   content: url(https://www.nufc.co.uk/media/81706/saudia_horizontal_logo_rgb.png);
   height: 65px;
   width: 180px;
-  padding-top: 70px;
+  padding-top: 80px;
   
   }
