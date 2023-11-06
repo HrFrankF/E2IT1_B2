@@ -337,7 +337,7 @@ border-radius: 50%;
   height: 65PX;
   width: 190PX;
   padding-top: 80px;
-  padding-bottom: 10px;
+  padding-bottom: 80px;
   
   }
   
@@ -356,6 +356,7 @@ width: 120px;
   height: 107px;
   width: 115px;
   padding-top: 80px;
+  padding-bottom: 80px;
   
 }
 
@@ -372,6 +373,7 @@ width: 120px;
   height: 92px;
   width: 184px;
   padding-top: 80px;
+  padding-bottom: 80px;
 
   }
 
@@ -389,7 +391,7 @@ width: 220px;
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
   height: 35px;
   width: 190px;
- 
+  padding-bottom: 80px;
 
   }
 
@@ -407,6 +409,7 @@ padding-top: 80px;
   height: 75px;
   width: 165px;
   padding-top: 80px;
+  padding-bottom: 80px;
   
   }
 #carlingbild{
@@ -423,6 +426,7 @@ padding-top: 80px;
   height: 130Px;
   width: 180Px;
   padding-top: 80px;
+  padding-bottom: 80px;
   
   }
 
