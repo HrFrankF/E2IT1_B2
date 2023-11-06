@@ -337,7 +337,7 @@ border-radius: 50%;
   height: 65PX;
   width: 190PX;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   
   }
   
@@ -356,7 +356,7 @@ width: 120px;
   height: 107px;
   width: 115px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   
 }
 
@@ -373,7 +373,7 @@ width: 120px;
   height: 92px;
   width: 184px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 
   }
 
@@ -391,7 +391,7 @@ width: 220px;
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
   height: 35px;
   width: 190px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
 
   }
 
@@ -409,7 +409,7 @@ padding-top: 80px;
   height: 75px;
   width: 165px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   
   }
 #carlingbild{
@@ -426,7 +426,7 @@ padding-top: 80px;
   height: 130Px;
   width: 180Px;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   
   }
 
@@ -443,6 +443,6 @@ padding-top: 80px;
   content: url(https://www.nufc.co.uk/media/81706/saudia_horizontal_logo_rgb.png);
   height: 65px;
   width: 180px;
-  padding-top: 80px;
+  padding-top: 50px;
   
   }
