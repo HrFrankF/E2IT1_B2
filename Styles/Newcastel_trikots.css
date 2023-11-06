@@ -317,14 +317,14 @@ border-radius: 50%;
 
     position: relative;
     align-items: center;
-    
+    position: absolute;
 
   }
 
 #selabild{
 
-  height: 90PX;
-  width: 210PX;
+  height: 90px;
+  width: 210px;
 
 }
 
