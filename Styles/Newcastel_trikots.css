@@ -318,6 +318,8 @@ border-radius: 50%;
     position: relative;
     align-items: center;
     position: absolute;
+    padding-left: 300px;
+    padding-right: 300px;
 
   }
 
