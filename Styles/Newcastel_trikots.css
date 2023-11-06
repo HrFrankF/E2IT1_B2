@@ -333,7 +333,7 @@ border-radius: 50%;
   content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
   height: 65PX;
   width: 190PX;
-  display: contents;
+ 
   
   }
   
@@ -350,7 +350,7 @@ width: 120px;
   content: url(https://www.nufc.co.uk/media/67627/castoreteamslogo_blue.png);
   height: 107px;
   width: 115px;
-  display: contents;
+ 
   
 }
 
@@ -365,7 +365,7 @@ width: 200px;
   content: url(https://www.nufc.co.uk/media/67626/noon-master-cropped.png);
   height: 92px;
   width: 184px;
-  display: contents;
+
 
   }
 
@@ -380,7 +380,7 @@ width: 220px;
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
   height: 35px;
   width: 190px;
-  display: contents;
+ 
 
   }
 
@@ -396,7 +396,7 @@ width: 200px;
   content: url(https://www.nufc.co.uk/media/80854/betmgm-primarylogo-stacked-white.png);
   height: 75px;
   width: 165px;
-  display: contents;
+ 
   
   }
 #carlingbild{
@@ -410,7 +410,7 @@ width: 220px;
   content: url(https://www.nufc.co.uk/media/67628/carling_white.png);
   height: 130Px;
   width: 180Px;
-  display: contents;
+  
   }
 
 #Saudibild{
@@ -425,6 +425,6 @@ width: 190px;
   content: url(https://www.nufc.co.uk/media/81706/saudia_horizontal_logo_rgb.png);
   height: 65px;
   width: 180px;
-  display: contents;
+ 
   
   }
