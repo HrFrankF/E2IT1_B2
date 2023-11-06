@@ -323,15 +323,15 @@ border-radius: 50%;
 
 #selabild{
 
-height: 100px;
-width: 220px;
+  height: 65px;
+  width: 190px;
 
 }
 
 #selabild:hover{
 
   content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
-  height: 60px;
+  height: 65px;
   width: 190px;
   
   }
@@ -347,7 +347,7 @@ width: 120px;
 
 #castorebild:hover{
   content: url(https://www.nufc.co.uk/media/67627/castoreteamslogo_blue.png);
-  height: 105px;
+  height: 107px;
   width: 115px;
   
   
@@ -376,8 +376,8 @@ width: 220px;
 
 #sportsbetbild:hover{
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
-  height: 30px;
-  width: 200px;
+  height: 40px;
+  width: 190px;
   
   }
 
