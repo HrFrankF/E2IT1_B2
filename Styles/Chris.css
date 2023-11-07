@@ -110,27 +110,7 @@ main {
     border-right: 10px solid var(--secondary-color);
 }
 
-details>summary {
-    list-style: none;
-    font-size: x-large;
-    cursor: pointer;
-}
 
-summary::after {
-    content: ' ';
-}
-
-summary::before {
-    content: "▶ "
-}
-
-details[open] summary::before {
-    content: "▼ "
-}
-
-details[open] summary:after {
-    content: " ";
-}
 
 #mannschaft img {
     display: block;
