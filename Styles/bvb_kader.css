@@ -46,8 +46,7 @@ body {
 }
 
 #main {
-    background-color: #ecc410f3;
-    background-image: url('Images/Sponsor Dortmund/bgimage.jpeg');
+    background-image: url('../Images/Sponsor_Dortmund/bgimage.jpeg');
     background-position: center;
     color: white;
     text-align: center;
@@ -62,28 +61,27 @@ body {
     border-radius: 2px;
     margin: 0px
 }
-
 .kader {
     background: transparent;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 40px;
-    column-gap: 50px;
+    padding: 30px;
+    column-gap: 45px;
 }
-
+/*Die einzelnen Spieler*/
 .player {
     background-color: #313131dc;
     border-radius: 6px;
     margin: 50px 8px 25px 8px;
     height: 260px;
     text-align: left;
-    width: 450px;
+    width: 420px;
 }
 
 .playername{
     font-weight: bold;
     font-size: 20px;
-    text-decoration: dotted;
+    text-decoration: underline;
 }
 
 .player img {
