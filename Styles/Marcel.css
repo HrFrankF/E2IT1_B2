@@ -64,11 +64,7 @@ footer{
     color: #fff;
     text-align: center;
 }
-td{
-    color: #fff;
-    text-align: center;
-}
-.data{
-    margin-left: auto;
+table.center {
+    margin-left: auto; 
     margin-right: auto;
   }
