@@ -67,7 +67,7 @@ footer {
     text-align: center;
     padding-bottom: 15px;
     color:#fff;
-    text-shadow: 0 5px 10px rgba(17, 17, 17, 0.2);
+    text-shadow: 0 5px 10px rgba(17, 16, 16, 0.2);
     font-size: 50px;
 }
 
@@ -80,8 +80,9 @@ footer {
 .grid .box-grid .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
-    background: #49acf3;
+    background: #002a47;
     text-align: center;
+    padding:300px 200px;
 }
 
 .grid .box-grid .box img{
