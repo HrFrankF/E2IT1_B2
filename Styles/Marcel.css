@@ -68,3 +68,17 @@ table.center {
     margin-left: auto; 
     margin-right: auto;
   }
+
+  #logos{
+    width: 40px;
+    height: 40px;
+}
+
+.Spiele{
+font-size: 20px;
+padding-left: 90px;
+}
+#vergangenespiele{
+    margin-left: auto;
+    margin-right: auto;
+}
