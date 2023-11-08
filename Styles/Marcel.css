@@ -52,6 +52,6 @@ footer{
     text-align: center;
     padding: 20px;
 }
-.p, h1, h2, h3 {
+*{
     color: #fff;
 }
