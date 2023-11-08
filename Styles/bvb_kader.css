@@ -46,7 +46,7 @@ body {
 }
 
 #main {
-    background-image: url(Images/Sponsor_Dortmund/bgimage.jpeg);
+    background-image: url('Images/Sponsor_Dortmund/bgimage.jpeg');
     background-position: center;
     color: white;
     text-align: center;
@@ -67,7 +67,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 30px;
-    column-gap: 40px;
+    column-gap: 45px;
 }
 
 .player {
