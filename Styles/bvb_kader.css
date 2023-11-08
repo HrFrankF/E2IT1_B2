@@ -46,7 +46,6 @@ body {
 }
 
 #main {
-    background-color: #ecc410f3;
     background-image: url('Images/Sponsor Dortmund/bgimage.jpeg');
     background-position: center;
     color: white;
@@ -68,7 +67,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 30px;
-    column-gap: 50px;
+    column-gap: 40px;
 }
 
 .player {
