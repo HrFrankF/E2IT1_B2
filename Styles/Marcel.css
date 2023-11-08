@@ -68,8 +68,7 @@ td{
     color: #fff;
     text-align: center;
 }
-tr{
-    color: #fff;
-    text-align: center;
-}
-
+.data{
+    margin-left: auto;
+    margin-right: auto;
+  }
