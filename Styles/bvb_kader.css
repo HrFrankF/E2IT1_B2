@@ -66,7 +66,7 @@ body {
 .kader {
     background: transparent;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     padding: 40px;
     column-gap: 50px;
 }
@@ -75,9 +75,15 @@ body {
     background-color: #313131dc;
     border-radius: 6px;
     margin: 50px 8px 25px 8px;
-    height: 230px;
+    height: 250px;
     text-align: left;
-    width: 500px;
+    width: 350px;
+}
+
+.playername{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .player img {
