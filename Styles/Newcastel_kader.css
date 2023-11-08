@@ -61,8 +61,8 @@ footer {
 
   .grid{
     background:linear-gradient(45deg, );
-    padding-left:  300px;
-    padding-right: 300px;
+    padding-left:  500px;
+    padding-right: 500px;
     padding-top: 10px;
 }
 
@@ -93,7 +93,7 @@ footer {
 }
 .grid .box-grid .box h2{
     text-align: left;
-    color: #9a9ea0;
+    color: #e8ebec;
     font-size: 40px;
     font-weight: bold;
 }
