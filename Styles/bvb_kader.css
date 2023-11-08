@@ -76,7 +76,7 @@ body {
     margin: 50px 5px 35px 5px;
     height: 260px;
     text-align: left;
-    width: 408px;
+    width: 400px;
 }
 
 .playername{
@@ -98,7 +98,7 @@ body {
 .player h5 {
     position: relative;
     bottom: 8px;
-    right: -68px;
+    right: -35px;
 }
 
 footer {
