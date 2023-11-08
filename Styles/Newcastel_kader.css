@@ -88,7 +88,7 @@ footer {
 }
 
 .grid .box-grid .box img{
-    height: 200px;
+    height: 100px;
 }
 .grid .box-grid .box h2{
     text-align: left;
@@ -128,7 +128,7 @@ footer {
     transform: scale(1.03);
 }
 
-@media (max-width:768px){
+@media (max-width:200px){
     .grid{
         padding:20px;
     }
