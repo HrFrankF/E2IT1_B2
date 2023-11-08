@@ -64,6 +64,8 @@ footer {
     padding-left:  500px;
     padding-right: 500px;
     padding-top: 10px;
+    position: absolute;
+    text-align: right;
 }
 
 .grid .heading{
