@@ -64,6 +64,8 @@ footer {
     padding-left:  500px;
     padding-right: 500px;
     padding-top: 10px;
+    position: absolute;
+    text-align: right;
 }
 
 .grid .heading{
@@ -83,7 +85,7 @@ footer {
 .grid .box-grid .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
-    background: #002a47;
+    background: #2375af;
     text-align: center;
     padding:20px 10px;
 }
