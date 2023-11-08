@@ -67,7 +67,7 @@ body {
     background: transparent;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 40px;
+    padding: 30px;
     column-gap: 50px;
 }
 
@@ -77,13 +77,13 @@ body {
     margin: 50px 8px 25px 8px;
     height: 260px;
     text-align: left;
-    width: 450px;
+    width: 420px;
 }
 
 .playername{
     font-weight: bold;
     font-size: 20px;
-    text-decoration: dotted;
+    text-decoration: underline;
 }
 
 .player img {
