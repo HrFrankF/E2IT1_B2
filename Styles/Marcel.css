@@ -39,10 +39,16 @@ header h1{
 body{
     background-color: rgb(29, 29, 29);
 }
+#about{
+    margin-top: ;
+}
 #main{
     color: white;
     text-align: center;
     font-size: 19px;
+}
+#about{
+    margin-top: 10px;
 }
 footer{
     background-color: #fff;
