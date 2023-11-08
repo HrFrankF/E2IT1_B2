@@ -61,15 +61,13 @@ footer {
 
   .grid{
     background:linear-gradient(45deg, );
-    padding:15px 9%;
-    padding-bottom: 100px;
 }
 
 .grid .heading{
     text-align: center;
     padding-bottom: 15px;
     color:#fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    text-shadow: 0 5px 10px rgba(17, 17, 17, 0.2);
     font-size: 50px;
 }
 
@@ -82,13 +80,12 @@ footer {
 .grid .box-grid .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
-    background: #002a47;
+    background: #49acf3;
     text-align: center;
-    padding:30px 20px;
 }
 
 .grid .box-grid .box img{
-    height: 100px;
+    height: 120px;
 }
 .grid .box-grid .box h2{
     text-align: left;
