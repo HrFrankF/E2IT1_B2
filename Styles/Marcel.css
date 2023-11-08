@@ -50,6 +50,7 @@ body{
 #about{
     margin-top: 20px;
     text-align: center;
+    padding-top: 20px;
 }
 footer{
     background-color: #fff;
@@ -61,7 +62,14 @@ footer{
 }
 *{
     color: #fff;
+    text-align: center;
 }
 td{
     color: #fff;
+    text-align: center;
 }
+tr{
+    color: #fff;
+    text-align: center;
+}
+
