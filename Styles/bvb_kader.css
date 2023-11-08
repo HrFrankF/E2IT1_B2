@@ -68,7 +68,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 30px;
-    column-gap: 50px;
+    column-gap: 40px;
 }
 
 .player {
