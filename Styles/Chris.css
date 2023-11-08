@@ -120,6 +120,14 @@ summary::after {
     content: ' ';
 }
 
+summary::before {
+    content: "▶ "
+}
+
+details[open] summary::before {
+    content: "▼ "
+}
+
 details[open] summary:after {
     content: " ";
 }
