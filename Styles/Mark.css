@@ -78,5 +78,20 @@ text-align: center;
 #Vereinsdaten{
 
 text-align: center;
+color: black;
+
+}
+
+#Footertrennung{
+
+color: burlywood;
+font-size: 20px;
+
+}
+
+#Footer{
+
+background-color: white;
+border-radius: 10%;
 
 }
