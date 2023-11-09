@@ -45,6 +45,13 @@ main{
     font-size: 19px;
     margin-bottom: 50px;
 }
+#title{
+    margin-top: 50px;
+    font-weight: bold;
+    background-color: #252525b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #title hr{
     background-color: rgba(241, 179, 7, 0.938);
     height: 10px;
