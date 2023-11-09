@@ -131,11 +131,11 @@ footer{
     transform: scale(1.03);
 }
 .imgklasse {
+    float: right;
     width: 65px;
     height: 40px;
-    position: relative;
-    top: 1px;
-    right: -1px;
+    position: fixed;
+    top: 1px; 
 }
 .Spielerbild {
     height: 200px; 
