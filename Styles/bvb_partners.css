@@ -105,14 +105,14 @@ main{
     filter: contrast(100%);
 }
 .partners-hr{
-    background-color: rgb(163, 123, 13);
+    background-color: rgb(190, 145, 18);
     height: 4px;
     border: none;
     border-radius: 2px;
     margin-top: 25px;
     margin-bottom: 15px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 footer{
     background-color: #fcb213e1;
