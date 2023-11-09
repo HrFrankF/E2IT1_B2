@@ -64,10 +64,7 @@ main {
 }
 .kader {
     background: transparent;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     padding: 26px;
-    column-gap: 38px;
 }
 /*Die Struklturierung der Spieler*/
 .player {
@@ -75,8 +72,9 @@ main {
     border-radius: 6px;
     margin: 50px 5px 35px 5px;
     height: 260px;
-    text-align: left;
+    text-align: center;
     width: 400px;
+    display: inline-table;
 }
 
 .player:hover{
@@ -95,8 +93,8 @@ main {
     width: 65px;
     height: 40px;
     position: relative;
-    bottom: 126px;
-    left: 35px;
+    bottom: 110px;
+    left: -55px;
 
 }
 
@@ -105,8 +103,8 @@ main {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 150px;
-    bottom: 165px;
+    left: 70px;
+    bottom: 201px;
     border-radius: 40%;
     border: solid orange 2px;
 }
@@ -114,8 +112,9 @@ main {
 /*Text mit den Spielerinformationen*/
 .player h5 {
     position: relative;
-    bottom: 8px;
+    bottom: 9px;
     right: -35px;
+    text-align: left;
 }
 
 footer {
