@@ -105,6 +105,7 @@ background-color: white;
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10%;
   }
   
   .overlayimg {
@@ -112,7 +113,7 @@ background-color: white;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: darkblue;
+    background-image: darkblue;
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -125,7 +126,7 @@ background-color: white;
   
   .imgtext {
     white-space: nowrap; 
-    color: black;
+    color: white;
     font-size: 20px;
     position: absolute;
     overflow: hidden;
