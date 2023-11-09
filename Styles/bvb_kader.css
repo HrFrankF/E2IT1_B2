@@ -78,6 +78,7 @@ main {
     height: 260px;
     text-align: left;
     width: 400px;
+    transform: scale(1.03);
 }
 
 /*Spielername als Überschrift*/
