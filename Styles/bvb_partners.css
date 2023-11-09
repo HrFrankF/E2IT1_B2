@@ -51,7 +51,7 @@ main{
     margin-right: 235px;
 }
 #partners{
-    background-color: #3f3f3f;
+    background-color: #303030;
     padding-top: 20px;
     padding-bottom: 40px;
     margin-left: 210px;
@@ -59,12 +59,10 @@ main{
     border-radius: 3px;
 }
 #partners h4{
-    background-color: #8b8b8b;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: #8b8b8bde;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin-bottom: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-size: 20px;
 }
 
