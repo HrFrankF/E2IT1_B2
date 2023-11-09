@@ -101,25 +101,6 @@ main{
     margin-left: 120px;
     margin-right: 120px;
 }
-
-/*Sponsorengröße Individuell*/
-#EinsUndEins{
-    width: 120px;
-    height: 120px;
-}
-#Evonik{
-    width: 350px;
-    height: 90px;
-}
-#Puma{
-    width: 260px;
-    height: 110px;
-}
-#SignalIdunaPark{
-    width: 400px;
-    height: 120px;
-}
-
 footer{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
