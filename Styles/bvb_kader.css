@@ -91,6 +91,7 @@ main {
     text-align: center;
     width: 350px;
     display: inline-table;
+    margin: 10px;
 }
 
 .player:hover{
