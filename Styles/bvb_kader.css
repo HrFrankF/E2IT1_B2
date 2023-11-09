@@ -15,7 +15,7 @@ header {
 }
 
 #navlogo {
-    position: fixed;
+    position: absolute;
     top: 10px;
     left: 50px;
     margin: 5px;
