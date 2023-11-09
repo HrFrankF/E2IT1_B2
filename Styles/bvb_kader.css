@@ -92,8 +92,8 @@ main {
     width: 65px;
     height: 40px;
     position: relative;
-    bottom: 8px;
-    left: 10px;
+    bottom: 126px;
+    left: 35px;
 
 }
 
@@ -102,8 +102,8 @@ main {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 225px;
-    bottom: 205px;
+    left: 150px;
+    bottom: 165px;
     border-radius: 40%;
     border: solid orange 2px;
 }
