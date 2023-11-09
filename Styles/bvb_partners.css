@@ -45,8 +45,9 @@ main{
     font-size: 19px;
     margin-bottom: 50px;
 }
-#title{
+#title h2{
     margin-top: 50px;
+    margin-bottom: 15px;
     font-weight: bold;
     background-color: #252525b7;
     padding-top: 10px;
