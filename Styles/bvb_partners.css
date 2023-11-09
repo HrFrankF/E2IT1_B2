@@ -38,20 +38,31 @@ body{
     background-color: rgb(29, 29, 29);
 }
 main{
+    background-image: url('../Images/Sponsor_Dortmund/BVB_Partners_Background.jpg');
+    background-position: center;
     color: white;
     text-align: center;
     font-size: 19px;
+    margin-bottom: 50px;
+}
+#title h2{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    background-color: #252525b7;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #title hr{
-    background-color: rgba(241, 179, 7, 0.938);
+    background-color: rgba(255, 255, 255, 0.938);
     height: 10px;
     border: none;
     border-radius: 6px;
-    margin-left: 235px;
-    margin-right: 235px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 #partners{
-    background-color: #303030;
+    background-color: #303030b7;
     padding-top: 20px;
     padding-bottom: 40px;
     margin-left: 210px;
@@ -59,7 +70,7 @@ main{
     border-radius: 3px;
 }
 #partners h4{
-    background-color: #8b8b8bde;
+    background-color: #8b8b8b9d;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 40px;
@@ -73,8 +84,8 @@ main{
 }
 #partners-links-1 a{
     margin-left: 80px;
-    filter: contrast(30%);
-    transition: filter 0.3s;
+    filter: contrast(25%);
+    transition: filter 0.45s;
 }
 #partners-links-1 a:hover{
     filter: contrast(100%);
@@ -87,21 +98,21 @@ main{
 #partners-links-2 a{
     margin-left: 25px;
     filter: contrast(30%);
-    transition: filter 0.3s;
+    transition: filter 0.35s;
     margin-right: 25px;
 }
 #partners-links-2 a:hover{
     filter: contrast(100%);
 }
 .partners-hr{
-    background-color: rgb(163, 123, 13);
+    background-color: rgb(190, 145, 18);
     height: 4px;
     border: none;
     border-radius: 2px;
     margin-top: 25px;
     margin-bottom: 15px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 footer{
     background-color: #fcb213e1;
