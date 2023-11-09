@@ -121,8 +121,8 @@ main {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 40px;
-    bottom: 175px;
+    left: 45px;
+    bottom: 168px;
     border-radius: 40%;
     border: solid rgb(134, 134, 134)2px;
 }
@@ -135,6 +135,15 @@ main {
     text-align: left;
 }
 
+/*Bereiche der Überschrift der Positionen*/
+.position{
+    background-color: rgba(26, 26, 26, 0.829);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+/*Download Button*/
 .player-button{
     text-decoration: none;
     margin-top: 10px;
