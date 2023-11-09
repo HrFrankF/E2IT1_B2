@@ -135,12 +135,13 @@ main {
     text-align: left;
 }
 
-/*Überschrift Positionen*/
-.player h3{
+/*Bereiche der Überschrift der Positionen*/
+.kader h3{
     background-color: #616161e0;
 
 }
 
+/*Download Button*/
 .player-button{
     text-decoration: none;
     margin-top: 10px;
