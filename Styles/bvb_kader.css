@@ -135,6 +135,12 @@ main {
     text-align: left;
 }
 
+/*Überschrift Positionen*/
+.player h3{
+    background-color: #616161e0;
+
+}
+
 .player-button{
     text-decoration: none;
     margin-top: 10px;
