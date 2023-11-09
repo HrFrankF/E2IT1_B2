@@ -103,3 +103,9 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+@media (max-width:768px){
+  /*  .grid{
+        padding:20px;
+    } */
+}
