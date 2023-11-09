@@ -45,7 +45,7 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
-#main {
+main {
     background-image: url('../Images/Sponsor_Dortmund/bgimage.jpeg');
     background-position: center;
     background-position-y: -50px;
