@@ -38,6 +38,8 @@ body{
     background-color: rgb(29, 29, 29);
 }
 main{
+    background-image: url('../Images/Sponsor_Dortmund/BVB_Partners_Background.jpg');
+    background-position: center;
     color: white;
     text-align: center;
     font-size: 19px;
