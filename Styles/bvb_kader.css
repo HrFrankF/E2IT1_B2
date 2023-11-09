@@ -10,14 +10,14 @@ header {
     margin-right: 0px;
 }
 
-header h1 {
+#navigation h1 {
     padding-top: 20px;
 }
 
 #navlogo {
     position: absolute;
-    top: 15px;
-    left: 65px;
+    top: 10px;
+    left: 50px;
     margin: 5px;
 }
 
@@ -36,7 +36,6 @@ header h1 {
 }
 
 #links a:hover {
-    font-size: 26px;
     color: rgb(189, 189, 189);
     text-decoration: none;
 }
@@ -45,10 +44,11 @@ body {
     background-color: rgb(29, 29, 29);
 }
 
-#main {
+main {
     background-image: url('../Images/Sponsor_Dortmund/bgimage.jpeg');
     background-position: center;
     background-position-y: -50px;
+    viewport-fit: 20vh;
     color: white;
     text-align: center;
     font-size: 19px;
@@ -64,41 +64,57 @@ body {
 }
 .kader {
     background: transparent;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
     padding: 26px;
-    column-gap: 38px;
 }
-/*Die einzelnen Spieler*/
+/*Die Struklturierung der Spieler*/
 .player {
     background-color: #313131dc;
     border-radius: 6px;
-    margin: 50px 8px 25px 8px;
+    margin: 50px 5px 35px 5px;
     height: 260px;
-    text-align: left;
-    width: 408px;
+    text-align: center;
+    width: 400px;
+    display: inline-table;
 }
 
+.player:hover{
+    transform: scale(1.06);
+}
+
+/*Spielername als Überschrift*/
 .playername{
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
 }
 
-.player img {
+/*Läderflagge aus der Herkunft des Spielers*/
+.nation{
+    width: 65px;
+    height: 40px;
+    position: relative;
+    bottom: 85px;
+    left: -55px;
+
+}
+
+/*Bild des Spielers*/
+.profile_pic {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 225px;
-    bottom: 205px;
+    left: 70px;
+    bottom: 201px;
     border-radius: 40%;
     border: solid orange 2px;
 }
 
+/*Text mit den Spielerinformationen*/
 .player h5 {
     position: relative;
-    bottom: 8px;
-    right: -68px;
+    bottom: 9px;
+    right: -35px;
+    text-align: left;
 }
 
 footer {

@@ -46,8 +46,8 @@ color: deepskyblue;
 }
 
 *{
-   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
 
 footer {
     background-color: deepskyblue;
@@ -61,7 +61,7 @@ footer {
 
   .grid{
     background:linear-gradient(45deg, );
-    padding-left:  900px;
+    padding-left:  1480px;
     padding-right: 300px;
     padding-top: 10px;
     position: absolute;

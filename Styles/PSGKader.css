@@ -47,7 +47,6 @@ body{
 footer{
     background-color: #fff;
     color: rgb(0, 0, 0);
-    font-weight: bold;
     font-size: 20px;
     text-align: center;
     padding: 20px;
@@ -130,12 +129,6 @@ footer{
 .grid .box-grid .box:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
-}
-
-@media (max-width:768px){
-    .grid{
-        padding:20px;
-    }
 }
 .imgklasse {
     float: right;
