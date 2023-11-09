@@ -137,7 +137,7 @@ main {
 
 /*Bereiche der Überschrift der Positionen*/
 .position{
-    background-color: #474747e0;
+    background-color: rgba(26, 26, 26, 0.829);
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0px;
