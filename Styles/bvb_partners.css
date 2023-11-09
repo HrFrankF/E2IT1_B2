@@ -13,9 +13,9 @@ header{
     padding-top: 20px;
 }
 #navlogo{
-    position: relative;
-    bottom: 1px;
-    left: 1px;
+    position: fixed;
+    top: 10px;
+    left: 50px;
     margin: 5px;
 }
 #links{
@@ -31,7 +31,6 @@ header{
     text-decoration: none;
 }
 #links a:hover{
-    font-size: 26px;
     color: rgb(189, 189, 189);
     text-decoration: none;
 }
