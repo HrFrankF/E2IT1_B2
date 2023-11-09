@@ -54,12 +54,12 @@ main{
     padding-bottom: 10px;
 }
 #title hr{
-    background-color: rgba(241, 179, 7, 0.938);
+    background-color: rgba(255, 255, 255, 0.938);
     height: 10px;
     border: none;
     border-radius: 6px;
-    margin-left: 235px;
-    margin-right: 235px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 #partners{
     background-color: #303030b7;
