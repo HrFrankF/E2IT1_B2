@@ -90,9 +90,10 @@ footer{
     padding:30px 20px;
 }
 
-.grid .box-grid .box img{
- /*  height: 200px; */
-}
+/*.grid .box-grid .box img{
+    height: 200px; 
+}*/
+
 .grid .box-grid .box h2{
     text-align: left;
     color: #9a9ea0;
