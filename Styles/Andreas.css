@@ -38,7 +38,7 @@ header h1{
 body{
     background-color: rgb(29, 29, 29);
 }
-#main{
+main{
     color: white;
     text-align: center;
     font-size: 19px;
