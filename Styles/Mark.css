@@ -107,7 +107,7 @@ padding-bottom: 500px;
 }
 #container {
     float: right;
-    position: absolute;
+    position: relative;
     width: 50%;
   }
   
