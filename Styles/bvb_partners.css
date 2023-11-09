@@ -92,6 +92,7 @@ main{
 }
 /*Premium Partner*/
 #partners-links-2{
+    margin-top: 20px;
     display: inline-table;
     align-items: center;
 }
