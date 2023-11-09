@@ -91,7 +91,7 @@ footer{
 }
 
 .grid .box-grid .box img{
-   height: 200px; 
+ /*  height: 200px; */
 }
 .grid .box-grid .box h2{
     text-align: left;
@@ -138,5 +138,5 @@ footer{
     right: -1px;
 }
 .Spielerbild {
-
+    height: 200px; 
 }
