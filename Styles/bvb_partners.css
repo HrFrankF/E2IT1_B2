@@ -73,8 +73,8 @@ main{
 }
 #partners-links-1 a{
     margin-left: 80px;
-    filter: contrast(30%);
-    transition: filter 0.3s;
+    filter: contrast(25%);
+    transition: filter 0.45s;
 }
 #partners-links-1 a:hover{
     filter: contrast(100%);
@@ -87,7 +87,7 @@ main{
 #partners-links-2 a{
     margin-left: 25px;
     filter: contrast(30%);
-    transition: filter 0.3s;
+    transition: filter 0.35s;
     margin-right: 25px;
 }
 #partners-links-2 a:hover{
