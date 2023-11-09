@@ -76,7 +76,7 @@ main {
     border: none;
     border-radius: 2px;
     margin-left: 40px;
-    bottom: 143px;
+    bottom: 60px;
     position: relative;
     margin-right: 40px;
 }
@@ -92,6 +92,7 @@ main {
     width: 350px;
     display: inline-table;
     margin: 10px;
+    border-inline: none;
 }
 
 .player:hover{
@@ -135,18 +136,22 @@ main {
 }
 
 .player-button{
+    text-decoration: none;
     margin-top: 10px;
     display: inline-block;
-    background:#333;
-    color:#fff;
+    background: #333;
+    color: #fff;
     font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 15px 25px;
+    position: relative;
+    bottom: 43px;
 }
 
 .player-button:hover{
-    transform: scale(1.03);
-    letter-spacing: 1px;
+    transform: scale(1.015);
+    letter-spacing: 0.5px;
 }
 
 footer {
