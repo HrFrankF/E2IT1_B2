@@ -67,16 +67,18 @@ main {
 /*Tabelle der Spielerprofile*/
 .kader {
     background: transparent;
-    padding: 26px;
 }
 
 /*Linie in den Spielerprofilen*/
 .player-hr{
-    background-color: #fdad00;
+    background-color: #db990a;
     height: 3px;
     border: none;
     border-radius: 2px;
-    margin: 0px
+    margin-left: 40px;
+    bottom: 143px;
+    position: relative;
+    margin-right: 40px;
 }
 
 /*Die Struklturierung der Spielerprofile*/
@@ -89,10 +91,11 @@ main {
     text-align: center;
     width: 350px;
     display: inline-table;
+    margin: 10px;
 }
 
 .player:hover{
-    transform: scale(1.06);
+    transform: scale(1.02);
 }
 
 /*Spielername als Überschrift*/
@@ -120,7 +123,7 @@ main {
     left: 40px;
     bottom: 175px;
     border-radius: 40%;
-    border: solid orange 2px;
+    border: solid rgb(134, 134, 134)2px;
 }
 
 /*Text mit den Spielerinformationen*/
@@ -129,6 +132,18 @@ main {
     bottom: 9px;
     right: -35px;
     text-align: left;
+}
+
+.player-button{
+    color: black;
+    text-decoration: none;
+    height: 50px;
+    width: 100px;
+    margin-bottom: 80px;
+}
+
+.player-button:hover{
+    transform: scale(1.03);
 }
 
 footer {
