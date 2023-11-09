@@ -43,6 +43,7 @@ main{
     color: white;
     text-align: center;
     font-size: 19px;
+    margin-bottom: 50px;
 }
 #title hr{
     background-color: rgba(241, 179, 7, 0.938);
@@ -53,7 +54,7 @@ main{
     margin-right: 235px;
 }
 #partners{
-    background-color: #303030;
+    background-color: #303030b7;
     padding-top: 20px;
     padding-bottom: 40px;
     margin-left: 210px;
@@ -61,7 +62,7 @@ main{
     border-radius: 3px;
 }
 #partners h4{
-    background-color: #8b8b8bde;
+    background-color: #8b8b8bb6;
     padding-top: 7px;
     padding-bottom: 7px;
     margin-bottom: 40px;
