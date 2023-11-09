@@ -134,8 +134,7 @@ footer{
     float: right;
     width: 65px;
     height: 40px;
-    position: fixed;
-    top: 1px; 
+    position: relative;
 }
 .Spielerbild {
     height: 200px; 
