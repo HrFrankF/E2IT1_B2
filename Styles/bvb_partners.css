@@ -59,9 +59,14 @@ main{
     margin-right: 210px;
     border-radius: 3px;
 }
+#partners h4{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
 /*Partner Hauptsponsoren*/
 #partners-links-1{
-    display: flex;
+    display: inline-table;
     align-items: center;
 }
 #partners-links-1 a{
@@ -74,13 +79,14 @@ main{
 }
 /*Premium Partner*/
 #partners-links-2{
-    display: flex;
+    display: inline-table;
     align-items: center;
 }
 #partners-links-2 a{
-    margin-left: 93px;
+    margin-left: 25px;
     filter: contrast(30%);
     transition: filter 0.3s;
+    margin-right: 25px;
 }
 #partners-links-2 a:hover{
     filter: contrast(100%);
