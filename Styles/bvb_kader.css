@@ -80,6 +80,10 @@ main {
     width: 400px;
 }
 
+.player:hover{
+    transform: scale(1.06);
+}
+
 /*Spielername als Überschrift*/
 .playername{
     font-weight: bold;
