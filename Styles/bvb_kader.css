@@ -78,6 +78,9 @@ main {
     height: 260px;
     text-align: left;
     width: 400px;
+}
+
+.player:hover{
     transform: scale(1.03);
 }
 
