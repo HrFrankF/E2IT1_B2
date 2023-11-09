@@ -136,9 +136,9 @@ main {
 }
 
 /*Bereiche der Überschrift der Positionen*/
-.kader h3{
+.position{
     background-color: #616161e0;
-
+    width: 100%;
 }
 
 /*Download Button*/
