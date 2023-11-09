@@ -55,6 +55,7 @@ main {
     padding-top: 1px;
 }
 
+/*Linie in der Tabelle der Spielerprofile*/
 .kader-hr {
     background-color: #fdad00;
     height: 4px;
@@ -62,18 +63,31 @@ main {
     border-radius: 2px;
     margin: 0px
 }
+
+/*Tabelle der Spielerprofile*/
 .kader {
     background: transparent;
     padding: 26px;
 }
-/*Die Struklturierung der Spieler*/
+
+/*Linie in den Spielerprofilen*/
+.player-hr{
+    background-color: #fdad00;
+    height: 3px;
+    border: none;
+    border-radius: 2px;
+    margin: 0px
+}
+
+/*Die Struklturierung der Spielerprofile*/
 .player {
+    border: solid rgb(114, 114, 114) 5px;
     background-color: #313131dc;
-    border-radius: 6px;
+    border-radius: 15px;
     margin: 50px 5px 35px 5px;
-    height: 260px;
+    height: 199px;
     text-align: center;
-    width: 400px;
+    width: 350px;
     display: inline-table;
 }
 
@@ -93,8 +107,8 @@ main {
     width: 65px;
     height: 40px;
     position: relative;
-    bottom: 85px;
-    left: -55px;
+    bottom: 365px;
+    left: 202px;
 
 }
 
@@ -103,8 +117,8 @@ main {
     width: 145px;
     height: 145px;
     position: relative;
-    left: 70px;
-    bottom: 201px;
+    left: 40px;
+    bottom: 175px;
     border-radius: 40%;
     border: solid orange 2px;
 }
