@@ -317,10 +317,7 @@ border-radius: 50%;
 
     position: relative;
     align-items: center;
-    position: absolute;
-    padding-left: 800px;
-    padding-right: 800px;
-
+    text-align: center;
   }
 
 #selabild{
