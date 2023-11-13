@@ -86,7 +86,7 @@ border-radius: 50%;
   }
   
   #overlay1 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -128,7 +128,7 @@ border-radius: 50%;
   }
   
   #overlay2 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -168,7 +168,7 @@ border-radius: 50%;
   }
   
   #overlay3 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -208,7 +208,7 @@ border-radius: 50%;
   }
   
   #overlay4 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -248,7 +248,7 @@ border-radius: 50%;
   }
   
   #overlay5 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -288,7 +288,7 @@ border-radius: 50%;
   }
   
   #overlay6 {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
