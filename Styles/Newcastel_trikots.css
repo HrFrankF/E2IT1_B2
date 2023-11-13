@@ -74,8 +74,7 @@ border-radius: 50%;
 }
 
  #container1 {
-  justify-content: right;
-    display: grid;
+   position: relative;
     width: 22%;
   }
   
@@ -86,7 +85,7 @@ border-radius: 50%;
   }
   
   #overlay1 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -116,8 +115,7 @@ border-radius: 50%;
   }
 
   #container2 {
-    justify-content: left;
-    display: grid;
+    position: relative;
     width: 23%;
   }
   
@@ -128,7 +126,7 @@ border-radius: 50%;
   }
   
   #overlay2 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -156,8 +154,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    justify-content: right;
-    display: grid;
+    position: relative;
     width: 22%;
   }
   
@@ -168,7 +165,7 @@ border-radius: 50%;
   }
   
   #overlay3 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -196,8 +193,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container4 {
-    justify-content: left;
-    display: grid;
+    position: relative;;
     width: 23%;
   }
   
@@ -208,7 +204,7 @@ border-radius: 50%;
   }
   
   #overlay4 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -236,8 +232,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container5 {
-    justify-content: right;
-    display: grid;
+    position: relative;
     width: 23%;
   }
   
@@ -248,7 +243,7 @@ border-radius: 50%;
   }
   
   #overlay5 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -276,8 +271,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container6 {
-    justify-content: left;
-    display: grid;
+    position: relative;
     width: 24%;
   }
   
@@ -288,7 +282,7 @@ border-radius: 50%;
   }
   
   #overlay6 {
-    position: relative;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
