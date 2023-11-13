@@ -76,8 +76,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
   gap:18px;
-  padding-right: 830px;
-  padding-left: 830px;
+  padding-right: 1330px;
 }
 
 .grid .box-grid .box{
@@ -98,7 +97,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   }
-  
+
 #aboutinfos{
 
 text-align: center;
