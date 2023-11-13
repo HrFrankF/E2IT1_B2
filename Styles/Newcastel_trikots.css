@@ -319,6 +319,7 @@ border-radius: 50%;
     display: grid;   
     justify-content: center;   
     align-items: center;
+    margin: auto;
     
   }
 
