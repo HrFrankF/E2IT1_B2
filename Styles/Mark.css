@@ -60,16 +60,44 @@ footer {
   }
 
 #clublogos{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
-.Spielinfo{
-
-font-size: 20px;
-padding-left: 90px;
-
+.grid .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color:#fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 50px;
 }
+
+.grid .box-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+  gap:18px;
+  padding-right: 830px;
+  padding-left: 830px;
+}
+
+.grid .box-grid .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: grey;
+  text-align: center;
+  padding:30px 10px;
+}
+
+.grid .box-grid .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+
+.grid .box-grid .box .Spiele{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 #aboutinfos{
 
 text-align: center;
