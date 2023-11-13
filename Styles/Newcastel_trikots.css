@@ -316,8 +316,8 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
-    display: flex;
-    justify-content: center;
+    display: grid;   
+    justify-content: center;   
     align-items: center;
     
   }
