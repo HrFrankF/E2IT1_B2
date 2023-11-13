@@ -65,11 +65,11 @@ footer {
 }
 
 .grid h2{
-  text-align: center;
+  text-align: left;
   padding-bottom: 15px;
   color:#fff;
   text-shadow: 0 5px 10px rgba(0,0,0,.2);
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .grid .box-grid{
