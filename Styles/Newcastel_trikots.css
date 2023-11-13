@@ -74,8 +74,9 @@ border-radius: 50%;
 }
 
  #container1 {
-   position: relative;
-    width: 22%;
+   position: absolute;
+   text-align: right;  
+   width: 22%;
   }
   
   #erstestrikot {
@@ -115,7 +116,8 @@ border-radius: 50%;
   }
 
   #container2 {
-    position: relative;
+    position: absolute;
+    text-align: left;
     width: 23%;
   }
   
@@ -154,7 +156,8 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    position: relative;
+    position: absolute;
+    text-align: right;
     width: 22%;
   }
   
@@ -193,7 +196,8 @@ border-radius: 50%;
     text-align: center;
   }
   #container4 {
-    position: relative;;
+    position: absolute;
+    text-align: left;
     width: 23%;
   }
   
