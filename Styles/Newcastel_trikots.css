@@ -74,7 +74,7 @@ border-radius: 50%;
 }
 
  #container1 {
-   position: absolute;
+   position: relative;
    text-align: right;  
    width: 22%;
   }
@@ -116,7 +116,7 @@ border-radius: 50%;
   }
 
   #container2 {
-    position: absolute;
+    position: relative;
     text-align: left;
     width: 23%;
   }
@@ -156,7 +156,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    position: absolute;
+    position: relative;
     text-align: right;
     width: 22%;
   }
@@ -196,7 +196,7 @@ border-radius: 50%;
     text-align: center;
   }
   #container4 {
-    position: absolute;
+    position: relative;
     text-align: left;
     width: 23%;
   }
@@ -237,6 +237,7 @@ border-radius: 50%;
   }
   #container5 {
     position: relative;
+    text-align: right;
     width: 23%;
   }
   
@@ -276,6 +277,7 @@ border-radius: 50%;
   }
   #container6 {
     position: relative;
+    text-align: right;
     width: 24%;
   }
   
