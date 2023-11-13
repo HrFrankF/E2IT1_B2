@@ -64,7 +64,7 @@ footer {
     height: 60px;
 }
 
-.grid .heading{
+.grid h2{
   text-align: center;
   padding-bottom: 15px;
   color:#fff;
@@ -98,6 +98,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   }
+  
 #aboutinfos{
 
 text-align: center;
