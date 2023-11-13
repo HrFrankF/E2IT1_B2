@@ -315,9 +315,10 @@ border-radius: 50%;
 
   .Sponsoren {
 
-    position: absolute;
-    align-items: center;
+    position: relative;
     text-align: center;
+    display: flex;
+    justify-content: center; 
   }
 
 #selabild{
@@ -325,6 +326,7 @@ border-radius: 50%;
   padding-top: 50px;
   height: 90px;
   width: 210px;
+  position: absolute;
 
 }
 
