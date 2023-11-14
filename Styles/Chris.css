@@ -132,7 +132,7 @@ details[open] summary:after {
     content: " ";
 }
 
-#mannschaft img {
+#mannschaft-content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
