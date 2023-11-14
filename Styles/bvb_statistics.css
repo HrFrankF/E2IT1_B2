@@ -39,7 +39,6 @@ body{
 }
 main{
     color: white;
-    text-align: center;
     font-size: 19px;
 }
 h4,.kaderstrich {
@@ -54,7 +53,7 @@ color: deepskyblue;
     width: 30px;
     height: 20px;   
   }
-  
+
   footer{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
