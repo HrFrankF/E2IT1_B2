@@ -45,7 +45,7 @@ main{
     display: block;
 }
 .statistic-box{
-    background-color: aliceblue;
+    background-color: rgb(92, 92, 92);
     border-radius: 20px;
     padding: 40px;
     text-align: center;
