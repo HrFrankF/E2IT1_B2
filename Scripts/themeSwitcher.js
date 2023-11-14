@@ -35,6 +35,12 @@ function setTheme() {
 }
 
 function onload() {
+    var hasValue = localStorage.getItem("isDarkMode") != null;
+
+    if(!hasValue) {
+        localStorage.setItem("isDarkMode", true); 
+    }
+
     let isDarkMode = localStorage.getItem("isDarkMode") == "true";
     var switchInput = document.querySelector("#theme_switch");
     
