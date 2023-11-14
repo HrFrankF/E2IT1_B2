@@ -1,0 +1,65 @@
+header{
+    background-color: #fcd113e1;
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#navigation h1{
+    padding-top: 20px;
+}
+#navlogo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    margin: 5px;
+}
+#links{
+    background-color: #fcb213e1;
+    color: rgba(255, 230, 0, 0.904);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+#links a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+#links a:hover{
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+body{
+    background-color: rgb(29, 29, 29);
+}
+main{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+}
+h4,.kaderstrich {
+color: deepskyblue;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
+
+.Kaderflaggen{
+    width: 30px;
+    height: 20px;   
+  }
+  
+  footer{
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
