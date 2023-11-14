@@ -140,7 +140,7 @@ details[open] summary:after {
     border-radius: 1.5%;
 }
 
-#club iframe {
+#club-content iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
