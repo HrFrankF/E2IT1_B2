@@ -41,14 +41,20 @@ main{
     color: white;
     font-size: 19px;
 }
-h4,.kaderstrich {
-color: deepskyblue;
+.statistic-table{
+    display: block;
 }
-
-*{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
- }
-
+.statistic-box{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.statistic-box-hr{
+    color: orange;
+    width: 80%;
+    height: 4px;
+}
 .Kaderflaggen{
     width: 30px;
     height: 20px;   
