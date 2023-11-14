@@ -52,9 +52,15 @@ main{
     text-align: center;
 }
 .statistic-box-hr{
-    color: orange;
-    width: 80%;
-    height: 4px;
+    background-color: orange;
+    border: none;
+    border-radius: 1px;
+    width: 90%;
+    height: 5px;
+}
+.statistic-table{
+    margin: 0px;
+    color: white;
 }
 .Kaderflaggen{
     width: 30px;
