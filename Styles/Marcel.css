@@ -39,9 +39,7 @@ header h1{
 body{
     background-color: rgb(29, 29, 29);
 }
-#about{
-    margin-top: 20px;
-}
+
 #main{
     color: white;
     text-align: center;
@@ -61,38 +59,57 @@ footer{
     padding: 20px;
 }
 *{
+    font-family: 'Poppins', sans-serif;
+    margin:20; padding:10;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
     color: #fff;
     text-align: center;
 }
 table.center {
-    margin-left: auto; 
-    margin-right: auto;
-  }
-
-  #logos{
-    width: 40px;
-    height: 40px;
-}
-
-.Spiele{
-font-size: 20px;
-margin-left: auto;
-margin-right: auto;
-}
-#vergangenespiele{
     margin-left: auto;
     margin-right: auto;
 }
 
-#1{
-    float: left;
+#logos{
+    width: 80px;
+    height: 80px;
 }
-#2{
-    display: inline-block;
+
+.grid .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
 }
-#3{
-    display: inline-block;
+
+.grid .box-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+    gap:18px;
+    padding-right: 830px;
+    padding-left: 830px;
 }
-#4{
-    float: right;
+
+.grid .box-grid .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #002a47;
+    text-align: center;
+    padding:30px 10px;
 }
+
+.grid .box-grid .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+.grid .box-grid .box .Spiele{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    }

@@ -74,9 +74,9 @@ border-radius: 50%;
 }
 
  #container1 {
-    float: right;
-    position: relative;
-    width: 22%;
+   position: relative;
+   text-align: right;  
+   width: 22%;
   }
   
   #erstestrikot {
@@ -117,6 +117,7 @@ border-radius: 50%;
 
   #container2 {
     position: relative;
+    text-align: left;
     width: 23%;
   }
   
@@ -155,8 +156,8 @@ border-radius: 50%;
     text-align: center;
   }
   #container3 {
-    float: right;
     position: relative;
+    text-align: right;
     width: 22%;
   }
   
@@ -196,6 +197,7 @@ border-radius: 50%;
   }
   #container4 {
     position: relative;
+    text-align: left;
     width: 23%;
   }
   
@@ -234,8 +236,8 @@ border-radius: 50%;
     text-align: center;
   }
   #container5 {
-    float: right;
     position: relative;
+    text-align: right;
     width: 23%;
   }
   
@@ -275,6 +277,7 @@ border-radius: 50%;
   }
   #container6 {
     position: relative;
+    text-align: right;
     width: 24%;
   }
   
@@ -316,11 +319,11 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
+    display: grid;   
+    justify-content: center;   
     align-items: center;
-    position: absolute;
-    padding-left: 800px;
-    padding-right: 800px;
-
+    margin: auto;
+    
   }
 
 #selabild{

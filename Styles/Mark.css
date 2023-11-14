@@ -60,16 +60,44 @@ footer {
   }
 
 #clublogos{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
-.Spielinfo{
-
-font-size: 20px;
-padding-left: 90px;
-
+.grid h2{
+  text-align: left;
+  padding-bottom: 15px;
+  color:#fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 30px;
 }
+
+.grid .box-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+  gap:18px;
+  padding-right: 1330px;
+}
+
+.grid .box-grid .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background-image: url(https://th.bing.com/th/id/OIP.5KG6GOFNE0nL-WZ4QaX9eQHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+  text-align: center;
+  padding:30px 10px;
+}
+
+.grid .box-grid .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+
+.grid .box-grid .box .Spiele{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 #aboutinfos{
 
 text-align: center;
@@ -109,7 +137,7 @@ padding-top: 200px;
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(https://editorial.uefa.com/resources/027c-16c11d6e24a2-9a96c2600978-1000/format/wide1/lowres_5_.jpeg?imwidth=2048);
+    background-image: url(https://wallpapercave.com/wp/wp8094561.jpg);
     overflow: hidden;
     width: 0;
     height: 100%;
@@ -131,4 +159,29 @@ padding-top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+  summary{
+
+    font-size: 20px;
+
+  }
+
+  .mainbutton{
+
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background: grey;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 15px 25px;
+    position: relative;
+  }
+
+  .mainbutton:hover{
+
+    transform: scale(1.015);
+
   }
