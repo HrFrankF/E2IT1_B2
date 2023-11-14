@@ -41,8 +41,8 @@ main{
     color: white;
     font-size: 19px;
 }
-.statistic-table{
-    display: block;
+.statistic-grid{
+    display: inline;
 }
 .statistic-box{
     background-color: rgb(92, 92, 92);
