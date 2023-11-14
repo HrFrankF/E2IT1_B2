@@ -59,6 +59,7 @@ main{
     height: 5px;
 }
 .statistic-table{
+    display: inline;
     margin: 0px;
     color: white;
 }
