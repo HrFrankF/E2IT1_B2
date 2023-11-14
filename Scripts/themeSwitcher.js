@@ -35,6 +35,12 @@ function setTheme() {
 }
 
 function onload() {
+    var hasValue = localStorage.getItem("isDarkMode") != null;
+
+    if(!hasValue) {
+        localStorage.setItem("isDarkMode", true); 
+    }
+
     let isDarkMode = localStorage.getItem("isDarkMode") == "true";
     var switchInput = document.querySelector("#theme_switch");
     
@@ -48,12 +54,7 @@ function onload() {
 function initThemeToggleIcon(isDarkMode) {
     var moonMask = document.querySelector("#moon-mask");
 
-    if (isDarkMode) {
-        moonMask.style.visibility = "visible";
-    }
-    else {
-        moonMask.style.visibility = "hidden";
-    }
+    moonMask.style.visibility = isDarkMode ? "visible" : "hidden";
 }
 
 function initTheme() {
