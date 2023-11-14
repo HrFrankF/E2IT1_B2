@@ -54,12 +54,7 @@ function onload() {
 function initThemeToggleIcon(isDarkMode) {
     var moonMask = document.querySelector("#moon-mask");
 
-    if (isDarkMode) {
-        moonMask.style.visibility = "visible";
-    }
-    else {
-        moonMask.style.visibility = "hidden";
-    }
+    moonMask.style.visibility = isDarkMode ? "visible" : "hidden";
 }
 
 function initTheme() {
