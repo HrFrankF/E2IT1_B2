@@ -63,6 +63,14 @@ main{
     margin: 0px;
     color: white;
 }
+.statistic-table th{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.statistic-table td{
+    margin-left: 3px;
+    margin-right: 3px;
+}
 .Kaderflaggen{
     width: 30px;
     height: 20px;   
