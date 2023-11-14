@@ -6,6 +6,7 @@ submenuLinks.forEach(link => {
 
         link.style["text-decoration"] = "underline";
         link.style["text-transform"] = "uppercase";
+        
         route(link.hash);
     };
 });
