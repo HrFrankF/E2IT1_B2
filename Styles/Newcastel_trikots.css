@@ -216,31 +216,40 @@ text-align: left;
 h3{
 
 text-align: left;
+padding-left: 100px;
 
 }
 .grid{
-
-text-align: right;
-
-
+  background:linear-gradient(45deg, );
+  padding-left:  1480px;
+  padding-right: 300px;
+  padding-top: 10px;
+  position: absolute;
+  text-align: right;
 }
+
+.grid .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color:#fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 50px;
+}
+
 .grid .box-grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap:18px;
-  padding-left: 1330px;
-  padding-bottom: 1000px;
 }
 
 .grid .box-grid .box{
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
   border-radius: 5px;
-  background:burlywood;
+  background: burlywood;
   text-align: center;
-  padding:30px 10px;
+  padding:20px 10px;
 }
 
-.grid .box-grid .box:hover{
-  box-shadow: 0 10px 15px rgba(0,0,0,.3);
-  transform: scale(1.03);
+.grid .box-grid .box img{
+  height: 120px;
 }
