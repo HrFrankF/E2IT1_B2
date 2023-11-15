@@ -222,18 +222,8 @@ padding-left: 100px;
 .grid{
   background:linear-gradient(45deg, );
   padding-left:  1480px;
-  padding-right: 300px;
-  padding-top: 10px;
   position: absolute;
   text-align: right;
-}
-
-.grid .heading{
-  text-align: center;
-  padding-bottom: 15px;
-  color:#fff;
-  text-shadow: 0 5px 10px rgba(0,0,0,.2);
-  font-size: 50px;
 }
 
 .grid .box-grid{
@@ -250,6 +240,3 @@ padding-left: 100px;
   padding:20px 10px;
 }
 
-.grid .box-grid .box img{
-  height: 120px;
-}
