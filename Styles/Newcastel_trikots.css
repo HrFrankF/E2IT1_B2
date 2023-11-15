@@ -124,8 +124,8 @@ border-radius: 50%;
 
     position: relative;
     display: grid;   
-    justify-content: center;   
-    align-items: center;
+    justify-content: left;   
+    align-items: left;
     margin: auto;
     
   }
@@ -257,7 +257,7 @@ padding-top: 50px;
 .Sponsorenstrich{
 
 color: deepskyblue;
-text-align: center;
+text-align: left;
 
 
 
