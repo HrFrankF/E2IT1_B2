@@ -73,53 +73,6 @@ border-radius: 50%;
 
 }
 
-  
-  #erstestrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-    padding-bottom: 700px;
-  }
-
-
-  #zweitestrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-    padding-bottom: 500px;
-  }
-
-
-  #drittestrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-
-  #erstestwtrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-
-  #zweitestwtrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-  
-  #drittestwtrikot {
-    position: relative;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-  
   .Sponsoren {
 
     position: relative;
