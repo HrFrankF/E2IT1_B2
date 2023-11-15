@@ -256,8 +256,6 @@ padding-left: 100px;
 
 footer{
 
-position: absolute;
-width: 100%;
-padding-top: 2000px;
-height: 20px;
+position: relative;
+
 }
