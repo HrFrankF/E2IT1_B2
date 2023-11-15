@@ -86,6 +86,7 @@ footer {
   padding: 2px;
   column-gap: 4px;
   row-gap: 8px;
+  margin: 5px;
 }
 
 .news-item {

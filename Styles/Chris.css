@@ -17,6 +17,10 @@
     border-radius: 7px;
 }
 
+.grid-item a, a:active, a:hover {
+    text-decoration: none;
+}
+
 .grid-item img {
     width: 125px;
     height: 125px;
@@ -146,4 +150,3 @@ details[open] summary:after {
     margin-right: auto;
     width: 50%;
 }
-
