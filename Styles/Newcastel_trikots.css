@@ -75,6 +75,7 @@ border-radius: 50%;
 
   
   #erstestrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
@@ -93,6 +94,7 @@ border-radius: 50%;
   }
 
   #zweitestrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
@@ -111,6 +113,7 @@ border-radius: 50%;
   }
 
   #drittestrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
@@ -129,6 +132,7 @@ border-radius: 50%;
   }
 
   #erstestwtrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
@@ -148,6 +152,7 @@ border-radius: 50%;
   }
 
   #zweitestwtrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
@@ -166,6 +171,7 @@ border-radius: 50%;
   }
   
   #drittestwtrikot {
+    position: absolute;
     display: block;
     width: auto;
     height: auto;
