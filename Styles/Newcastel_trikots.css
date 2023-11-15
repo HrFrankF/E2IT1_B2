@@ -79,6 +79,7 @@ border-radius: 50%;
     display: grid;
     width: auto;
     height: auto;
+    padding-bottom: 700px;
   }
   
  #erstertrikottext {
@@ -98,6 +99,7 @@ border-radius: 50%;
     display: grid;
     width: auto;
     height: auto;
+    padding-bottom: 500px;
   }
   
   #zweitestrikottext {
