@@ -6,6 +6,7 @@ submenuLinks.forEach(link => {
 
         link.style["text-decoration"] = "underline";
         link.style["text-transform"] = "uppercase";
+        
         route(link.hash);
     };
 });
@@ -45,7 +46,7 @@ function showContentByRoute(route) {
         return;
     }
 
-    let section = document.querySelector(route);
+    let section = document.querySelector(route + "-content");
     section.style.display = "block";
 }
 
