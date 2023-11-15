@@ -79,38 +79,18 @@ border-radius: 50%;
     display: grid;
     width: auto;
     height: auto;
+    padding-bottom: 700px;
   }
-  
- #erstertrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+
 
   #zweitestrikot {
     position: absolute;
     display: grid;
     width: auto;
     height: auto;
+    padding-bottom: 500px;
   }
-  
-  #zweitestrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+
 
   #drittestrikot {
     position: absolute;
@@ -119,36 +99,11 @@ border-radius: 50%;
     height: auto;
   }
 
-  #drittestrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
   #erstestwtrikot {
     position: absolute;
     display: grid;
     width: auto;
     height: auto;
-  }
-  
-
-  #erstertwtrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
   }
 
   #zweitestwtrikot {
@@ -158,18 +113,6 @@ border-radius: 50%;
     height: auto;
   }
   
-  #zweitestwtrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
   #drittestwtrikot {
     position: absolute;
     display: grid;
@@ -177,24 +120,12 @@ border-radius: 50%;
     height: auto;
   }
   
-  #drittestwtrikottext {
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
   .Sponsoren {
 
     position: relative;
     display: grid;   
-    justify-content: center;   
-    align-items: center;
+    justify-content: left;   
+    align-items: left;
     margin: auto;
     
   }
@@ -326,8 +257,14 @@ padding-top: 50px;
 .Sponsorenstrich{
 
 color: deepskyblue;
-text-align: center;
+text-align: left;
 
+
+
+}
+.trikotdiv{
+
+text-align: right;
 
 
 }
