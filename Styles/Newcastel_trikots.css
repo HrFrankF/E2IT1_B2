@@ -220,6 +220,7 @@ text-align: left;
 .grid{
 
 text-align: right;
+position: absolute;
 
 }
 .grid .box-grid{
