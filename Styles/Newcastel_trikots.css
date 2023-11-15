@@ -71,7 +71,7 @@ border-radius: 50%;
 
   .Sponsoren {
 
-    position: relative;
+    position: absolute;
     display: grid;   
     justify-content: left;   
     align-items: left;
@@ -192,6 +192,7 @@ padding-top: 50px;
 height: 80px;
 width: 190px;
 padding-top: 50px;
+position: relative;
 
 }
 
@@ -201,6 +202,7 @@ padding-top: 50px;
   height: 65px;
   width: 180px;
   padding-top: 50px;
+  position: relative;
   
   }
 
@@ -222,7 +224,7 @@ padding-left: 100px;
 .grid{
   background:linear-gradient(45deg, );
   padding-left:  1480px;
-  position: relative;
+  position: absolute;
   text-align: right;
 }
 
