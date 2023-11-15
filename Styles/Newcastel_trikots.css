@@ -75,7 +75,7 @@ border-radius: 50%;
 
   
   #erstestrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
@@ -84,7 +84,7 @@ border-radius: 50%;
 
 
   #zweitestrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
@@ -93,28 +93,28 @@ border-radius: 50%;
 
 
   #drittestrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
   }
 
   #erstestwtrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
   }
 
   #zweitestwtrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
   }
   
   #drittestwtrikot {
-    position: absolute;
+    position: relative;
     display: grid;
     width: auto;
     height: auto;
@@ -265,6 +265,14 @@ text-align: left;
 .trikotdiv{
 
 text-align: right;
+padding-bottom: 400px;
 
 
 }
+
+h3{
+
+text-align: left;
+
+}
+
