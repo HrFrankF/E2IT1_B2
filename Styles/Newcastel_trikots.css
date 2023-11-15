@@ -71,7 +71,7 @@ border-radius: 50%;
 
   .Sponsoren {
 
-    position: absolute;
+    position: relative;
     display: grid;   
     justify-content: left;   
     align-items: left;
