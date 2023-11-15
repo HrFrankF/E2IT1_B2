@@ -262,13 +262,6 @@ text-align: left;
 
 
 }
-.trikotdiv{
-
-text-align: right;
-padding-bottom: 400px;
-
-
-}
 
 h3{
 
@@ -276,3 +269,23 @@ text-align: left;
 
 }
 
+.grid .box-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+  gap:18px;
+  padding-right: 830px;
+  padding-left: 830px;
+}
+
+.grid .box-grid .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #002a47;
+  text-align: center;
+  padding:30px 10px;
+}
+
+.grid .box-grid .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
