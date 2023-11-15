@@ -228,6 +228,7 @@ text-align: right;
   grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
   gap:18px;
   padding-left: 1330px;
+  padding-bottom: 1000px;
 }
 
 .grid .box-grid .box{
