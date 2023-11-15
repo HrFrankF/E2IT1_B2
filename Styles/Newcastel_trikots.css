@@ -222,7 +222,7 @@ padding-left: 100px;
 .grid{
   background:linear-gradient(45deg, );
   padding-left:  1480px;
-  position: relative;
+  position: absolute;
   text-align: right;
 }
 
@@ -237,7 +237,7 @@ padding-left: 100px;
   border-radius: 5px;
   background: burlywood;
   text-align: center;
-  padding:20px 10px;
+  padding:30px 20px;
 }
 
 .grid .box-grid .box:hover{
