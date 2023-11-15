@@ -73,53 +73,6 @@ border-radius: 50%;
 
 }
 
-  
-  #erstestrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-    padding-bottom: 700px;
-  }
-
-
-  #zweitestrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-    padding-bottom: 500px;
-  }
-
-
-  #drittestrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-
-  #erstestwtrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-
-  #zweitestwtrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-  
-  #drittestwtrikot {
-    position: absolute;
-    display: grid;
-    width: auto;
-    height: auto;
-  }
-  
   .Sponsoren {
 
     position: relative;
@@ -262,9 +215,33 @@ text-align: left;
 
 
 }
-.trikotdiv{
+
+h3{
+
+text-align: left;
+
+}
+.grid{
 
 text-align: right;
 
+}
+.grid .box-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+  gap:18px;
+  padding-left: 1330px;
+}
 
+.grid .box-grid .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background:burlywood;
+  text-align: center;
+  padding:30px 10px;
+}
+
+.grid .box-grid .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
 }
