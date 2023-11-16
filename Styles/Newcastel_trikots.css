@@ -229,7 +229,7 @@ text-align: center;
 .grid{
   background:linear-gradient(45deg, );
   position: relative;
-  display: flex;
+  display: grid;
   text-align: center;
   padding:15px 9%;
 }
