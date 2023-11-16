@@ -72,10 +72,10 @@ border-radius: 50%;
 
   .Sponsoren {
 
-    position: absolute;
+    position: relative;
     justify-content: center;   
     text-align: center;
-    padding-left: 800px;
+    padding-left: 900px;
     
   }
 
@@ -208,7 +208,7 @@ position: relative;
 .Sponsorenstrich{
 
 color: deepskyblue;
-text-align: left;
+text-align: center;
 
 
 
@@ -216,8 +216,8 @@ text-align: left;
 
 h3{
 
-text-align: left;
-padding-right: 100px;
+text-align: center;
+
 
 }
 .grid{
