@@ -123,6 +123,7 @@ padding-top: 200px;
     float: right;
     position: relative;
     width: 50%;
+    display: flex;
   }
   
   .homepagebild {
