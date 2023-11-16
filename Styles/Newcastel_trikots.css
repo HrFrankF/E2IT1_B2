@@ -9,6 +9,7 @@ header{
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 5px;
+    display: flex;
 }
 #navlogo{
     position: absolute;
@@ -223,7 +224,7 @@ text-align: center;
 .grid{
   background:linear-gradient(45deg, );
   position: relative;
-  display: initial;
+  display: inline-block;
   text-align: right;
 }
 
