@@ -135,3 +135,9 @@ td {
   padding-right: 20px;
   text-align: center;
 }
+
+#trailer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
