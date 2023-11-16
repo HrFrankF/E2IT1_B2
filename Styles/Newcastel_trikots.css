@@ -73,8 +73,9 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
-    justify-content: center;   
-    text-align: center;
+    justify-content: right;   
+    text-align: right;
+    display: inline-block;
     
   }
 
