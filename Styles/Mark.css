@@ -115,16 +115,16 @@ color: burlywood;
 color: burlywood;
 font-size: 20px;
 padding-top: 200px;
-display: block;
+display: inline-block;
 
 }
 
 
 #container {
-    float: right;
+   
     position: relative;
     width: 50%;
-    display: flex;
+    display: inline-block;
   }
   
   .homepagebild {
