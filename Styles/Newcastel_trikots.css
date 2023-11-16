@@ -223,7 +223,7 @@ text-align: center;
 .grid{
   background:linear-gradient(45deg, );
   position: relative;
-  display: inline-flex;
+  display: inline-flexbox;
   text-align: right;
 }
 
