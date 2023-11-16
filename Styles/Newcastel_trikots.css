@@ -135,7 +135,7 @@ width: 120px;
   height: 92px;
   width: 184px;
   padding-bottom: 30px;
-  position:inherit;
+  position: unset;
 
   }
 
