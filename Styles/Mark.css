@@ -121,10 +121,10 @@ display: inline-block;
 
 
 #container {
-    float: right;
+   
     position: relative;
     width: 50%;
-    display: flex;
+    display: inline-block;
   }
   
   .homepagebild {
