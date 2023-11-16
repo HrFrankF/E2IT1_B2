@@ -9,7 +9,7 @@ header{
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 5px;
-    display: flex;
+    
 }
 #navlogo{
     position: absolute;
@@ -19,20 +19,20 @@ header{
 header h1{
     padding-top: 10px;
     text-align: center;
-    display: inline;
+   
 }
 #links a{
     font-size: 24px;
     color: white;
     text-align: right;
-    display: inline;
+    
 }
 #links a:hover{
 
     text-decoration: none;
     color: rgb(179, 179, 179);
     text-align: center;
-    display: inline;
+  
 }
 body{
     background-color:black;
@@ -80,6 +80,7 @@ border-radius: 50%;
     justify-content: left;   
     text-align: left;
     display: flex;
+    padding-left: 30px;
     
   }
 
