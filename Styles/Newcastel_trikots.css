@@ -89,7 +89,6 @@ border-radius: 50%;
 
 #selabild{
   
-  padding-top: 50px;
   height: 90px;
   width: 210px;
 
@@ -109,6 +108,7 @@ border-radius: 50%;
 padding-top: 50px;
 height: 100px;
 width: 120px;
+
 
 
 }
@@ -151,6 +151,7 @@ width: 220px;
   content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
   height: 35px;
   width: 190px;
+  padding-bottom: 30px;
  
 
   }
