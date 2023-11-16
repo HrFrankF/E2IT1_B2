@@ -77,10 +77,10 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
-    justify-content: left;   
-    text-align: left;
+    justify-content: center;   
+    text-align: center;
     display: flex;
-    margin-left: 30px;
+    
     
   }
 
