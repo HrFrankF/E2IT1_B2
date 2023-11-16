@@ -85,8 +85,6 @@ border-radius: 50%;
 
 .Sponsoren a{
     margin-left: 80px;
-    filter: contrast(25%);
-    transition: filter 0.45s;
 }
 
 #selabild{
