@@ -73,9 +73,10 @@ border-radius: 50%;
   .Sponsoren {
 
     position: absolute;
-    justify-content: right;   
+    justify-content: center;   
+    text-align: center;
     margin: auto;
-  padding-right: 100px;
+    padding-right: 100px;
     
   }
 
