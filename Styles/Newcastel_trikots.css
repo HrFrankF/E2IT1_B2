@@ -73,11 +73,9 @@ border-radius: 50%;
   .Sponsoren {
 
     position: absolute;
-    display: flex;   
-    justify-content: left;   
-    align-items: left;
+    justify-content: right;   
     margin: auto;
-    padding-left: 100px;
+  padding-right: 100px;
     
   }
 
@@ -219,7 +217,7 @@ text-align: left;
 h3{
 
 text-align: left;
-padding-left: 100px;
+padding-right: 100px;
 
 }
 .grid{
