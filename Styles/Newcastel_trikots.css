@@ -135,6 +135,7 @@ width: 120px;
   height: 92px;
   width: 184px;
   padding-bottom: 30px;
+  padding-top: 80px;
 
 
   }
@@ -242,7 +243,7 @@ text-align: center;
 .grid .box-grid .box{
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
   border-radius: 5px;
-  background: burlywood;
+  background: black;
   text-align: center;
   padding:30px 20px;
 }
