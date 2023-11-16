@@ -231,7 +231,6 @@ padding-left: 100px;
 }
 
 .grid .box-grid{
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap:18px;
 }
