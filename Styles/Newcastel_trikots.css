@@ -228,9 +228,9 @@ text-align: center;
 }
 .grid{
   background:linear-gradient(45deg, );
-  position: relative;
+  position: absolute;
   display: flex;
-  text-align: right;
+  text-align: center;
 }
 
 .grid .box-grid{
