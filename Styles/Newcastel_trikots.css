@@ -19,17 +19,20 @@ header{
 header h1{
     padding-top: 10px;
     text-align: center;
+    display: flex;
 }
 #links a{
     font-size: 24px;
     color: white;
     text-align: right;
+    display: felx;
 }
 #links a:hover{
 
     text-decoration: none;
     color: rgb(179, 179, 179);
     text-align: center;
+    display: flex;
 }
 body{
     background-color:black;
