@@ -222,7 +222,7 @@ text-align: center;
 .grid{
   background:linear-gradient(45deg, );
   position: relative;
-  display: block;
+  display: inline-flex;
   text-align: left;
 }
 
