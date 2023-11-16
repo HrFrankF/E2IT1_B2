@@ -227,6 +227,7 @@ padding-left: 100px;
   position: relative;
   text-align: center;
   display: flex;
+  padding-top: 500px;
 }
 
 .grid .box-grid{
