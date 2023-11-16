@@ -73,8 +73,8 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
-    justify-content: right;   
-    text-align: right;
+    justify-content: left;   
+    text-align: left;
     display: inline-block;
     
   }
@@ -224,7 +224,7 @@ text-align: center;
   background:linear-gradient(45deg, );
   position: relative;
   display: inline-flex;
-  text-align: left;
+  text-align: right;
 }
 
 .grid .box-grid{
