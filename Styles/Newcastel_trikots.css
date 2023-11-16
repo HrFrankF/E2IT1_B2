@@ -75,7 +75,6 @@ border-radius: 50%;
     position: relative;
     justify-content: center;   
     text-align: center;
-    padding-left: 900px;
     
   }
 
@@ -222,8 +221,7 @@ text-align: center;
 }
 .grid{
   background:linear-gradient(45deg, );
-  position: relative;
-  text-align: right;
+  position: absolute;
   display: flex;
 }
 
