@@ -77,12 +77,17 @@ border-radius: 50%;
   .Sponsoren {
 
     position: relative;
-    justify-content: center;   
-    text-align: center;
-    display: flex;
+    display: inline-table;
+    align-items: center;
     
     
   }
+
+.Sponsoren a{
+    margin-left: 80px;
+    filter: contrast(25%);
+    transition: filter 0.45s;
+}
 
 #selabild{
   
