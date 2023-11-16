@@ -73,7 +73,7 @@ footer {
 }
 
 .grid .box-grid{
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
   gap:18px;
   padding-right: 1330px;
