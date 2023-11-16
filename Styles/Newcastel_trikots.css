@@ -228,7 +228,7 @@ text-align: center;
 }
 .grid{
   background:linear-gradient(45deg, );
-  position: absolute;
+  position: relative;
   display: flex;
   text-align: center;
 }
