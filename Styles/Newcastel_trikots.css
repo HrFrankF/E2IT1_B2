@@ -223,9 +223,8 @@ padding-right: 100px;
 .grid{
   background:linear-gradient(45deg, );
   position: relative;
-  text-align: center;
+  text-align: right;
   display: flex;
-  padding-top: 500px;
 }
 
 .grid .box-grid{
