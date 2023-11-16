@@ -221,8 +221,9 @@ text-align: center;
 }
 .grid{
   background:linear-gradient(45deg, );
-  position: absolute;
-  display: flex;
+  position: relative;
+  display: inline-block;
+  text-align: left;
 }
 
 .grid .box-grid{
