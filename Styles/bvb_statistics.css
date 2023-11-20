@@ -63,13 +63,10 @@ main{
     margin: 0px;
     color: white;
 }
-.statistic-table tr{
-    max-width: 80%;
-}
 .statistic-table th {
     margin-left: 3px;
     margin-right: 5111px;
-    width: 70px;
+    width: 184px;
     padding-left: 10px;
     padding-right: 10px;
 }
