@@ -6,6 +6,7 @@ let light = {
     ternary_color_elevated: "#bd4a4a",       //Naviagtion Links hover color
     header_font_color: "white",              //Headline text color
     images: {
+        "#impressum": "impressum_dark.png",
         "#nav-logo-img": "logo_light.png"
     }
 };
@@ -17,6 +18,7 @@ let dark = {
     ternary_color_elevated: "#1a3b6d",
     header_font_color: "white",
     images: {
+        "#impressum": "impressum_light.png",
         "#nav-logo-img": "logo_light.png"
     }
 };

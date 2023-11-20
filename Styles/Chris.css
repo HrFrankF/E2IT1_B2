@@ -17,6 +17,10 @@
     border-radius: 7px;
 }
 
+.grid-item a, a:active, a:hover {
+    text-decoration: none;
+}
+
 .grid-item img {
     width: 125px;
     height: 125px;

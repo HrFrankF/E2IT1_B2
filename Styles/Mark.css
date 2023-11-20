@@ -73,7 +73,7 @@ footer {
 }
 
 .grid .box-grid{
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
   gap:18px;
   padding-right: 1330px;
@@ -93,7 +93,7 @@ footer {
 }
 
 .grid .box-grid .box .Spiele{
-  font-size: 20px;
+  font-size: 50px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -115,14 +115,16 @@ color: burlywood;
 color: burlywood;
 font-size: 20px;
 padding-top: 200px;
+display: inline-block;
 
 }
 
 
 #container {
-    float: right;
+   
     position: relative;
     width: 50%;
+    display: inline-block;
   }
   
   .homepagebild {
