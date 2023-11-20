@@ -52,7 +52,8 @@ main{
 /* Stil für die Bilder */
 .diashow-images {
   width: 100%;
-  height: auto;
+  height: 500px;
+  object-fit: contain;
 }
 
 footer{
