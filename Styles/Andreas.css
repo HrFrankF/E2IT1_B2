@@ -8,8 +8,6 @@ header{
     margin-top: 5px;
     margin-left: 0px;
     margin-right: 0px;
-    z-index: 999;
-    position: relative;
 }
 #navigation h1{
     padding-top: 20px;
@@ -44,6 +42,8 @@ main{
     color: white;
     text-align: center;
     font-size: 19px;
+    background-position: center;
+    background-size: auto;
 }
 .diashow-frame{
     position: relative;
