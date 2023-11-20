@@ -73,14 +73,14 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
-.karte-G{
+#karte-G{
     width: 15px;
     height: 20px; 
     background-color: yellow;
     border: none;
     border-radius: 1px;
   }
-  .karte-R{
+  #karte-R{
     width: 15px;
     height: 20px; 
     background-color: red;
