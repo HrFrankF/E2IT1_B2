@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         imageIndex = 1;
       }
     
-      slides[imageIndex - 1].style.display = "block";
+      slides[imageIndex - 1].style.display = "inline-block";
+
       setTimeout(showSlides, 8000);
     }
   });
