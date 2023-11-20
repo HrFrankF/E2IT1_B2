@@ -20,13 +20,12 @@ const table4 = document.getElementById("table4");
 const table5 = document.getElementById("table5");
 const table6 = document.getElementById("table6");
 
-btn1.addEventListener("click", function(){
-    if(table1.style.display != "none"){
+btn1.addEventListener("click", function() {
+    if (table1.style.display !== "none") {
         box1.style.height = "100px";
         table1.style.display = "none";
-    }
-    else{
-        box1.style.height = "200px";
+    } else {
+        box1.style.height = "auto"; // Oder setze die gewünschte Höhe
         table1.style.display = "block";
     }
 });
