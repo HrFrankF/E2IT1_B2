@@ -26,7 +26,7 @@ btn1.addEventListener("click", function(){
         table1.style.display = "none";
     }
     else{
-        box1.style.height = "241px";
+        box1.style.height = "200px";
         table1.style.display = "block";
     }
 });
