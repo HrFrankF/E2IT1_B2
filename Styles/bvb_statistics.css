@@ -68,6 +68,10 @@ main{
     top: 100px;
     right: 200px;
 }
+.hidebtn img{
+    width: 95%;
+    height: 95%;
+}
 .statistic-table{
     display: inline;
     margin: 0px;
