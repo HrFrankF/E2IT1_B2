@@ -79,6 +79,7 @@ main{
     background-color: yellow;
     border: none;
     border-radius: 1px;
+    margin-right: 3px;
   }
   #karte-R{
     width: 15px;
@@ -86,6 +87,7 @@ main{
     background-color: red;
     border: none;
     border-radius: 1px;
+    margin-right: 3px;
   }
 
   footer{
