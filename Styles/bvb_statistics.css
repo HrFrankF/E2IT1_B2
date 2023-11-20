@@ -70,14 +70,14 @@ main{
     background: none;
     border: none;
 }
-.hidebtn:hover{
-    cursor: pointer;
-    transform: scale(0.01);
-    transition: transform 0.25s;
-}
 .hidebtn img{
     width: 95%;
     height: 95%;
+}
+.hidebtn img:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: transform 0.25s;
 }
 .statistic-table{
     display: inline;
