@@ -23,6 +23,7 @@ header{
     color: rgba(255, 230, 0, 0.904);
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: 0px;
     text-align: center;
 }
 #links a{
@@ -44,7 +45,7 @@ main{
 }
 .diashow-frame{
     position: relative;
-    margin-top: 20px; 
+    margin-top: 0px; 
 } 
 /* Stil für die Bilder */
 .diashow-images{
