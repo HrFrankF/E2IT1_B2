@@ -48,11 +48,11 @@ main{
     margin-top: 0px; 
 } 
 /* Stil für die Bilder */
-.diashow-images{
-    display: none;
-    width: 100%;
-    height: auto;
+.diashow-images {
+  width: 100%;
+  height: auto;
 }
+
 footer{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
