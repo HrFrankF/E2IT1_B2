@@ -72,8 +72,13 @@ main{
 }
 .hidebtn:hover{
     cursor: pointer;
-    transform: scale(1.01);
-    transition: transform 0.25s;
+    transform: scale(1.015);
+    transition: transform 0.3s;
+}
+.hidebtn img{
+    cursor: pointer;
+    width: 95%;
+    height: 95%;
 }
 .statistic-table{
     display: inline;
