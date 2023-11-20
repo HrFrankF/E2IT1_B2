@@ -70,11 +70,7 @@ main{
     background: none;
     border: none;
 }
-.hidebtn img{
-    width: 95%;
-    height: 95%;
-}
-.hidebtn img:hover{
+.hidebtn:hover{
     cursor: pointer;
     transform: scale(1.01);
     transition: transform 0.25s;
