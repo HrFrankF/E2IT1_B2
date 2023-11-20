@@ -61,6 +61,13 @@ main{
     width: 90%;
     height: 5px;
 }
+.hidebtn{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 100px;
+    right: 200px;
+}
 .statistic-table{
     display: inline;
     margin: 0px;
