@@ -73,9 +73,19 @@ main{
     padding-left: 10px;
     padding-right: 10px;
 }
-.Kaderflaggen{
-    width: 30px;
-    height: 20px;   
+.karte-G{
+    width: 15px;
+    height: 20px; 
+    background-color: yellow;
+    border: none;
+    border-radius: 1px;
+  }
+  .karte-R{
+    width: 15px;
+    height: 20px; 
+    background-color: red;
+    border: none;
+    border-radius: 1px;
   }
 
   footer{
