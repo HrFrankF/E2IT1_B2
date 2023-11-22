@@ -15,10 +15,10 @@ header{
 }
 #navlogo {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: -21px;
+    left: 42px;
     margin: 5px;
-}
+  }
 /*Verlinkungen in der Navigationsleiste*/
 #links{
     background-color: #fcb213e1;
@@ -60,6 +60,18 @@ main{
 }
 .diaimages{
     width: 100%;
+}
+#info-cointainer{
+    display: flex;
+}
+#lastgame{
+    background-color: white;
+}
+#nextgame{
+    background-color: antiquewhite;
+}
+#nextgames{
+    background-color: burlywood;
 }
 footer{
     background-color: rgb(235, 235, 235);
