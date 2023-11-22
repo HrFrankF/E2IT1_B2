@@ -1,4 +1,5 @@
 header{
+    position: relative;
     background-color: #fcd113e1;
     color: rgb(73, 73, 73);
     font-size: 25px;
@@ -12,11 +13,12 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
-#navlogo{
+#navlogo {
     position: absolute;
     top: 10px;
     left: 50px;
     margin: 5px;
+    z-index: -1; /* Setzt das Logo hinter andere Elemente */
 }
 #links{
     background-color: #fcb213e1;
@@ -49,6 +51,7 @@ main{
     position: relative;
     margin-top: 0px; 
     width: 100%;
+    z-index: 0;
 } 
 /* Stil für die Bilder */
 .diashow-images {
