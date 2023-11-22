@@ -18,8 +18,9 @@ header{
     top: 10px;
     left: 50px;
     margin: 5px;
-    z-index: -1; /* Setzt das Logo hinter andere Elemente */
+    z-index: -1;
 }
+/*Verlinkungen in der Navigationsleiste*/
 #links{
     background-color: #fcb213e1;
     color: rgba(255, 230, 0, 0.904);
@@ -47,6 +48,7 @@ main{
     background-position: center;
     background-size: auto;
 }
+/*DiaShow Container für die wechselnden Bilder*/
 .diashow-frame{
     position: relative;
     margin-top: 0px; 
