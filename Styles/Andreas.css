@@ -48,6 +48,7 @@ main{
 .diashow-frame{
     position: relative;
     margin-top: 0px; 
+    width: 100%;
 } 
 /* Stil für die Bilder */
 .diashow-images {
@@ -55,7 +56,9 @@ main{
   height: 500px;
   object-fit: contain;
 }
-
+.diaimages{
+    width: 100%;
+}
 footer{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
