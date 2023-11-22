@@ -187,6 +187,7 @@ display: inline-block;
     transform: scale(1.015);
 
   }
+  
 
   #containeranimation {
     color:#999;
@@ -197,19 +198,19 @@ display: inline-block;
     position:relative;
     width:100%;
     bottom:45%;
-    display:inline-block;
+    display:block;
     text-align: center;
   }
   
   #flip {
-    height:60px;
+    height:50px;
     overflow:hidden;
   }
   
   #flip > div > div {
     color:#fff;
     padding:4px 12px;
-    height:60px;
+    height:45px;
     margin-bottom:45px;
     display:inline-block;
   }
@@ -240,7 +241,7 @@ display: inline-block;
   }
 
   .lineUp {
-    animation: 2s anim-lineUp ease-out infinite;
+    animation: 5s anim-lineUp ease-out;
   }
   @keyframes anim-lineUp {
     0% {
