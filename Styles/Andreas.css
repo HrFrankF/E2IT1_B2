@@ -38,7 +38,7 @@ header{
     text-decoration: none;
 }
 body{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(10, 10, 10);
 }
 main{
     color: white;
@@ -54,24 +54,28 @@ main{
 } 
 /* Stil für die Bilder */
 .diashow-images {
-  width: 100%;
-  height: 500px;
-  object-fit: contain;
-}
+    width: 100%;
+    height: 461px;
+    object-fit: contain;
+  }
 .diaimages{
     width: 100%;
 }
-#info-cointainer{
+#info-cointainer {
     display: flex;
-}
-#lastgame{
-    background-color: white;
-}
+    height: 300px;
+  }
+  #lastgame {
+    background-color: rgb(37, 37, 37);
+    width: 26%;
+  }
 #nextgame{
-    background-color: antiquewhite;
+    background-color: rgb(125, 125, 125);
+    width: 50%;
 }
 #nextgames{
-    background-color: burlywood;
+    background-color: rgb(158, 158, 158);
+    width: 24%;
 }
 footer{
     background-color: rgb(235, 235, 235);
