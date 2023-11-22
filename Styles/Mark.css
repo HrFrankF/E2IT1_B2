@@ -209,7 +209,7 @@ display: inline-block;
   #flip > div > div {
     color:#fff;
     padding:4px 12px;
-    height:50px;
+    height:60px;
     margin-bottom:45px;
     display:inline-block;
   }
@@ -237,4 +237,25 @@ display: inline-block;
     71% {margin-top:0px;}
     99.99% {margin-top:0px;}
     100% {margin-top:-270px;}
+  }
+
+  .lineUp {
+    animation: 2s anim-lineUp ease-out infinite;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }
