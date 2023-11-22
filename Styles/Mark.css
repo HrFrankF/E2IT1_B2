@@ -221,15 +221,15 @@ display: inline-block;
   
   #flip div div {
     background:grey;
-    height: 50px;
+    height: 60px;
   }
   #flip div:first-child div {
     background:deepskyblue;
-    height: 50px;
+    height: 60px;
   }
   #flip div:last-child div {
     background:burlywood;
-    height: 50px;
+    height: 60px;
   }
   
   @keyframes show {
