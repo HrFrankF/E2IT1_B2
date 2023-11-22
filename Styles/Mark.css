@@ -192,7 +192,7 @@ display: inline-block;
   #containeranimation {
     color:#999;
     text-transform: uppercase;
-    font-size:50px;
+    font-size:35px;
     font-weight:bold;
     padding-top:200px;  
     position:relative;
@@ -210,7 +210,7 @@ display: inline-block;
   #flip > div > div {
     color:#fff;
     padding:4px 12px;
-    height:40px;
+    height:45px;
     margin-bottom:45px;
     display:inline-block;
   }
@@ -221,15 +221,15 @@ display: inline-block;
   
   #flip div div {
     background:grey;
-    height: 60px;
+    
   }
   #flip div:first-child div {
     background:deepskyblue;
-    height: 60px;
+    
   }
   #flip div:last-child div {
     background:burlywood;
-    height: 60px;
+    
   }
   
   @keyframes show {
