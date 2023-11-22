@@ -35,10 +35,11 @@ header{
     text-decoration: none;
 }
 body{
-    background-image: url('../Images/Sponsor_Dortmund/bgimage2.png');
+    background-image: url('../Images/Sponsor_Dortmund/bgimage2.jpeg');
     background-position: center;
     background-position-y: -50px;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 main{
     color: white;
@@ -83,6 +84,8 @@ main{
     border: none;
     border-radius: 1px;
     margin-right: 3px;
+    position: relative;
+    bottom: 6px;
   }
   #karte-R{
     width: 15px;
@@ -91,6 +94,8 @@ main{
     border: none;
     border-radius: 1px;
     margin-right: 3px;
+    position: relative;
+    bottom: 6px;
   }
 
   footer{
