@@ -35,7 +35,11 @@ header{
     text-decoration: none;
 }
 body{
-    background-color: rgb(29, 29, 29);
+    background-image: url('../Images/Sponsor_Dortmund/bgimage2.jpg');
+    background-position: center;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 main{
     color: white;
@@ -48,9 +52,9 @@ main{
     background-color: rgb(92, 92, 92);
     border-radius: 18px;
     padding: 1px 40px 35px 40px;
-    margin: 50px 30px 50px 30px;
+    margin: 70px 30px 35px 30px;
     text-align: center;
-}
+  }
 .statistic-box h4{
     font-size: 26px;
 }
@@ -60,25 +64,6 @@ main{
     border-radius: 1px;
     width: 90%;
     height: 5px;
-}
-.hidebtn {
-    width: 38px;
-    height: 25px;
-    position: relative;
-    bottom: 75px;
-    left: 845px;
-    background: none;
-    border: none;
-}
-.hidebtn:hover{
-    cursor: pointer;
-    transform: scale(1.015);
-    transition: transform 0.3s;
-}
-.hidebtn img{
-    cursor: pointer;
-    width: 95%;
-    height: 95%;
 }
 .statistic-table{
     display: inline;
@@ -99,6 +84,8 @@ main{
     border: none;
     border-radius: 1px;
     margin-right: 3px;
+    position: relative;
+    bottom: 6px;
   }
   #karte-R{
     width: 15px;
@@ -107,6 +94,8 @@ main{
     border: none;
     border-radius: 1px;
     margin-right: 3px;
+    position: relative;
+    bottom: 6px;
   }
 
   footer{

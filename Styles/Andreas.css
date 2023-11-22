@@ -23,6 +23,7 @@ header{
     color: rgba(255, 230, 0, 0.904);
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: 0px;
     text-align: center;
 }
 #links a{
@@ -41,6 +42,22 @@ main{
     color: white;
     text-align: center;
     font-size: 19px;
+    background-position: center;
+    background-size: auto;
+}
+.diashow-frame{
+    position: relative;
+    margin-top: 0px; 
+    width: 100%;
+} 
+/* Stil für die Bilder */
+.diashow-images {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+.diaimages{
+    width: 100%;
 }
 footer{
     background-color: rgb(235, 235, 235);
