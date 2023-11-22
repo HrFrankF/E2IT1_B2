@@ -52,9 +52,9 @@ main{
     background-color: rgb(92, 92, 92);
     border-radius: 18px;
     padding: 1px 40px 35px 40px;
-    margin: 50px 30px 50px 30px;
+    margin: 70px 30px 35px 30px;
     text-align: center;
-}
+  }
 .statistic-box h4{
     font-size: 26px;
 }
