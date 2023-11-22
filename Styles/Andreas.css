@@ -13,16 +13,11 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
-#navigation{
-    position: absolute;
-    z-index: -2;
-}
 #navlogo {
     position: absolute;
     top: 10px;
     left: 50px;
     margin: 5px;
-    z-index: -1;
 }
 /*Verlinkungen in der Navigationsleiste*/
 #links{
@@ -54,10 +49,8 @@ main{
 }
 /*DiaShow Container für die wechselnden Bilder*/
 .diashow-frame{
-    position: relative;
     margin-top: 0px; 
     width: 100%;
-    z-index: 0;
 } 
 /* Stil für die Bilder */
 .diashow-images {
