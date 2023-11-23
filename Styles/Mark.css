@@ -266,6 +266,6 @@ display: inline-block;
 
   hr.Vereinsinfo-hr{
 
-  background-color: 1px solid rgb(222,184,135);
+  border-top: 1px solid rgb(222,184,135);
 
   }
