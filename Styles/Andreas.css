@@ -70,19 +70,25 @@ main{
     font-family: system-ui;
     font-weight: bold;
     text-align: center;
-    position: absolute;
 }
 #lastgame {
     background-color: rgb(44, 44, 44);
     width: 26%;
     color: white;
-  }
-  #lastgame img {
+}
+#lastgame img {
     height: 58px;
     width: 58px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
-#lastgame a{
+#lastgame a {
     text-decoration: none;
+    position: relative;
+    bottom: 110px;
+}
+#lastgame-headline {
+    width: 100%;
 }
 #lastgame:hover{
     transform: scale(1.02);
@@ -104,6 +110,31 @@ main{
     background-color: rgb(159, 159, 159);
     width: 50%;
     color: black;
+}
+#nextgame img {
+    height: 58px;
+    width: 58px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#nextgame-headline {
+    width: 100%;
+}
+#nextgame:hover{
+    transform: scale(1.02);
+    transition: transform 0.4s;
+}
+#nextscore {
+    position: relative;
+    top: 105px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
+}
+#subinfo_nextscore{
+    color: gray;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
