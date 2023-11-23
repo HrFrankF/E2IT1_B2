@@ -164,6 +164,23 @@ main{
 .subtextgames{
     color: rgb(83, 83, 83);
 }
+#headline_main{
+    color: white;
+    font-size: 28px;
+    font-family: system-ui;
+}
+.home_main_hr{
+    width: 85%;
+    height: 2px;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    border-radius: 4px;
+}
+#text_main{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui;
+}
 footer{
     background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
