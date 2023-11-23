@@ -84,6 +84,11 @@ main{
 #lastscore {
     position: relative;
     top: 105px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#subinfo_lastscore{
+    color: gray;
 }
 #nextgame{
     background-color: rgb(159, 159, 159);
