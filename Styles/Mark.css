@@ -271,7 +271,7 @@ display: inline-block;
   }
 
   #meinVideo {
-    position: center;
+    position: left;
     right: 0;
     bottom: 0;
     height: 1000px;
