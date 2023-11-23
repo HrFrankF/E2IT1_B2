@@ -63,7 +63,7 @@ main{
 }
 #info-cointainer {
     display: flex;
-    height: 300px;
+    height: 385px;
   }
 .inf-con-headline{
     font-size: 36px;
@@ -81,11 +81,17 @@ main{
     height: 58px;
     width: 58px;
 }
+#lastgame a{
+    text-decoration: none;
+}
 #lastscore {
     position: relative;
     top: 105px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
 }
 #subinfo_lastscore{
     color: gray;
