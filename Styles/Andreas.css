@@ -1,4 +1,5 @@
 header{
+    position: relative;
     background-color: #fcd113e1;
     color: rgb(73, 73, 73);
     font-size: 25px;
@@ -12,17 +13,19 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
-#navlogo{
+#navlogo {
     position: absolute;
-    top: 10px;
-    left: 50px;
+    top: -21px;
+    left: 42px;
     margin: 5px;
-}
+  }
+/*Verlinkungen in der Navigationsleiste*/
 #links{
     background-color: #fcb213e1;
     color: rgba(255, 230, 0, 0.904);
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: 0px;
     text-align: center;
 }
 #links a{
@@ -35,12 +38,123 @@ header{
     text-decoration: none;
 }
 body{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(10, 10, 10);
 }
 main{
     color: white;
     text-align: center;
     font-size: 19px;
+    background-position: center;
+    background-size: auto;
+}
+/*DiaShow Container für die wechselnden Bilder*/
+.diashow-frame{
+    margin-top: -29px; 
+    width: 100%;
+} 
+/* Stil für die Bilder */
+.diashow-images {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+  }
+.diaimages{
+    width: 100%;
+}
+#info-cointainer {
+    display: flex;
+    height: 385px;
+  }
+.inf-con-headline{
+    font-size: 36px;
+    font-family: system-ui;
+    font-weight: bold;
+    text-align: center;
+}
+#lastgame {
+    background-color: rgb(44, 44, 44);
+    width: 26%;
+    color: white;
+}
+#lastgame img {
+    height: 58px;
+    width: 58px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#lastgame a {
+    text-decoration: none;
+    position: relative;
+    bottom: 110px;
+}
+#lastgame-headline {
+    width: 100%;
+}
+#lastgame:hover{
+    transform: scale(1.02);
+    transition: transform 0.4s;
+}
+#lastscore {
+    position: relative;
+    top: 105px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
+}
+#subinfo_lastscore{
+    color: gray;
+}
+#nextgame{
+    background-color: rgb(159, 159, 159);
+    width: 50%;
+    color: black;
+}
+#nextgame-teams{
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nextgame-headline {
+    width: 100%;
+}
+#nextgame:hover{
+    transform: scale(1.02);
+    transition: transform 0.4s;
+}
+#nextscore{
+    position: relative;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: system-ui;
+    color: rgb(0, 0, 0);
+}
+#subinfo_nextscore_container{
+    display: flex;
+    align-items: center;
+}
+#subinfo_nextscore_pic1{
+    position: absolute;
+    top: 208px;
+    left: 168px;
+}
+#subinfo_nextscore_pic2{
+    position: absolute;
+    top: 208px;
+    left: 168px;
+}
+#subinfo_nextscore {
+    color: rgb(82, 82, 82);
+    margin-left: 83px;
+    font-size: 22px;
+}
+#nextgames{
+    background-color: rgb(217, 217, 217);
+    width: 24%;
+    color: black;
 }
 footer{
     background-color: rgb(235, 235, 235);

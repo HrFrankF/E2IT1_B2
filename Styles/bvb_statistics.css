@@ -18,6 +18,7 @@ header{
     left: 50px;
     margin: 5px;
 }
+/*Verlinkungen in der Navigationsleiste*/
 #links{
     background-color: #fcb213e1;
     color: rgba(255, 230, 0, 0.904);
@@ -34,9 +35,11 @@ header{
     color: rgb(189, 189, 189);
     text-decoration: none;
 }
-body{
-    background-color: rgb(29, 29, 29);
-}
+body {
+    background-image: url('../Images/Sponsor_Dortmund/bgimage2.jpg');
+    background-position: center;
+    background-size: cover;
+  }
 main{
     color: white;
     font-size: 19px;
@@ -44,12 +47,15 @@ main{
 .statistic-grid{
     display: inline;
 }
-.statistic-box{
+.statistic-box {
     background-color: rgb(92, 92, 92);
     border-radius: 18px;
-    padding: 40px;
-    margin: 50px 10px 50px 10px;
+    padding: 1px 40px 35px 40px;
+    margin: 70px 30px 35px 30px;
     text-align: center;
+  }
+.statistic-box h4{
+    font-size: 26px;
 }
 .statistic-box-hr{
     background-color: orange;
@@ -66,12 +72,30 @@ main{
 .statistic-table th {
     margin-left: 3px;
     margin-right: 5111px;
-    width: 70px;
+    width: 184px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.Kaderflaggen{
-    width: 30px;
-    height: 20px;   
+#karte-G{
+    width: 15px;
+    height: 20px; 
+    background-color: yellow;
+    border: none;
+    border-radius: 1px;
+    margin-right: 3px;
+    position: relative;
+    bottom: -2px;
   }
+  #karte-R {
+    width: 15px;
+    height: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 1px;
+    margin-right: 3px;
+    position: relative;
+    bottom: -2px;
+}
 
   footer{
     background-color: rgb(235, 235, 235);

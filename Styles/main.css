@@ -104,12 +104,27 @@ footer {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* Stil für eine zentrierte Tabelle */
 table.center {
+=======
+td {
+  text-align: center;
+}
+
+thead tr td {
+  background-color: var(--secondary-color);
+  color: var(--header-font-color);
+}
+
+table {
+  width: 50%;
+>>>>>>> f31e1af66909ad4ca0558ecc1be284ebad933c42
   margin-left: auto;
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 /* Stil für die Logos */
 #logos {
   width: 80px;
@@ -167,4 +182,28 @@ table.center {
 
 .t .t2 {
   text-align: left;
+=======
+table,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: var(--ternary-color-elevated);
+  color: var(--header-font-color);
+}
+
+th,
+td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+#trailer {
+  width: 50%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> f31e1af66909ad4ca0558ecc1be284ebad933c42
 }

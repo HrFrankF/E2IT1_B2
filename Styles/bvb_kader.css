@@ -9,18 +9,16 @@ header {
     margin-left: 0px;
     margin-right: 0px;
 }
-
 #navigation h1 {
     padding-top: 20px;
 }
-
 #navlogo {
     position: absolute;
     top: 10px;
     left: 50px;
     margin: 5px;
 }
-
+/*Verlinkungen in der Navigationsleiste*/
 #links {
     background-color: #fcb213e1;
     color: rgba(255, 230, 0, 0.904);
@@ -28,33 +26,28 @@ header {
     padding-bottom: 5px;
     text-align: center;
 }
-
 #links a {
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
-
 #links a:hover {
     color: rgb(189, 189, 189);
     text-decoration: none;
 }
-
 body {
-    background-color: rgb(29, 29, 29);
-}
-
-main {
-    background-image: url('../Images/Sponsor_Dortmund/bgimage.jpeg');
+    background-image: url('../Images/Sponsor_Dortmund/bgimage.jpg');
     background-position: center;
-    background-position-y: -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
     viewport-fit: 20vh;
     color: white;
     text-align: center;
     font-size: 19px;
     padding-top: 1px;
 }
-
 /*Linie in der Tabelle der Spielerprofile*/
 .kader-hr {
     background-color: #fdad00;
@@ -63,12 +56,10 @@ main {
     border-radius: 2px;
     margin: 0px
 }
-
 /*Tabelle der Spielerprofile*/
 .kader {
     background: transparent;
 }
-
 /*Linie in den Spielerprofilen*/
 .player-hr{
     background-color: #db990a;
@@ -80,7 +71,6 @@ main {
     position: relative;
     margin-right: 40px;
 }
-
 /*Die Struklturierung der Spielerprofile*/
 .player {
     border: solid rgb(114, 114, 114) 5px;
@@ -94,18 +84,15 @@ main {
     margin: 10px;
     border-inline: none;
 }
-
 .player:hover{
     transform: scale(1.02);
 }
-
 /*Spielername als Überschrift*/
 .playername{
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
 }
-
 /*Läderflagge aus der Herkunft des Spielers*/
 .nation{
     width: 65px;
@@ -115,7 +102,6 @@ main {
     left: 202px;
 
 }
-
 /*Bild des Spielers*/
 .profile_pic {
     width: 145px;
@@ -126,7 +112,6 @@ main {
     border-radius: 40%;
     border: solid rgb(134, 134, 134)2px;
 }
-
 /*Text mit den Spielerinformationen*/
 .player h5 {
     position: relative;
@@ -134,7 +119,6 @@ main {
     right: -35px;
     text-align: left;
 }
-
 /*Bereiche der Überschrift der Positionen*/
 .position{
     background-color: rgba(26, 26, 26, 0.829);
@@ -142,7 +126,6 @@ main {
     padding-bottom: 10px;
     margin: 0px;
 }
-
 /*Download Button*/
 .player-button{
     text-decoration: none;
@@ -150,19 +133,18 @@ main {
     display: inline-block;
     background: #333;
     color: #fff;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
     padding: 15px 25px;
     position: relative;
     bottom: 43px;
 }
-
 .player-button:hover{
     transform: scale(1.015);
     letter-spacing: 0.5px;
 }
-
 footer {
     background-color: #fcb213e1;
     color: rgb(0, 0, 0);

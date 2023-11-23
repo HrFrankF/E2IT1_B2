@@ -18,6 +18,7 @@ header{
     left: 50px;
     margin: 5px;
 }
+/*Verlinkungen in der Navigationsleiste*/
 #links{
     background-color: #fcb213e1;
     color: rgba(255, 230, 0, 0.904);
@@ -106,7 +107,7 @@ main{
     filter: contrast(100%);
 }
 .partners-hr{
-    background-color: rgb(190, 145, 18);
+    background-color: rgb(247, 244, 238);
     height: 4px;
     border: none;
     border-radius: 2px;
