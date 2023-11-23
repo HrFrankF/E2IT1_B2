@@ -86,10 +86,27 @@ footer {
   color: white;
   position: absolute;
 }
-#footer_main{
+#footer_links{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#footer_links a{
+  text-decoration: none;
+}
+.footerlink{
+  font-size: 16px;
+}
+.footerlink:hover{
+  color: rgb(202, 202, 202);
+}
+#footer_main {
   color: grey;
-  width: 30%;
-  position: absolute;
+  width: 45%;
+  position: relative;
+  left: 518px;
+  top: 191px;
+  font-size: 12px;
 }
 
 .news-container {
