@@ -38,6 +38,8 @@ header {
 body {
     background-image: url('../Images/Sponsor_Dortmund/bgimage.jpg');
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main {
     viewport-fit: 20vh;
