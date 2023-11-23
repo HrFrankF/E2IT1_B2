@@ -94,7 +94,7 @@ footer {
   font-size: 15px;
   color: var(--header-font-color);
   background-color: var(--ternary-color-elevated);
-  height: 200px;
+  height: auto;
   width: 300px;
   padding: 5px;
   border-radius: 7px;
