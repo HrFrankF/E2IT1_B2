@@ -8,7 +8,6 @@ header{
     margin-top: 5px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 5px;
 }
 #navlogo{
   position: absolute;
@@ -274,8 +273,8 @@ display: inline-block;
     position: center;
     right: 0;
     bottom: 0;
-    height: 800px;
-    width: 1300px;
+    height: 1000px;
+    width: 2000px;
     
   }
   
