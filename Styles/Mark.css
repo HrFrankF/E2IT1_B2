@@ -269,6 +269,6 @@ display: inline-block;
 
   #Vereinsinfo-hr{
 
-  background-color: burlywood;
+  border-top: 1px solid burlywood;
 
   }
