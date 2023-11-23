@@ -154,7 +154,17 @@ main{
 #nextgames{
     background-color: rgb(217, 217, 217);
     width: 24%;
+    font-size: 18px;
+    font-family: system-ui;
+}
+#nextgames-headline {
+    width: 100%;
+}
+.headtextgames{
     color: black;
+}
+.subtextgames{
+    color: rgb(83, 83, 83);
 }
 footer{
     background-color: rgb(235, 235, 235);
