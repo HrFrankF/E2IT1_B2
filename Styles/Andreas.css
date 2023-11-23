@@ -138,18 +138,18 @@ main{
 }
 #subinfo_nextscore_pic1{
     position: absolute;
-    top: 208px;
-    left: 168px;
+    top: 199px;
+    left: 35px;
 }
 #subinfo_nextscore_pic2{
     position: absolute;
-    top: 208px;
-    left: 168px;
+    top: 206px;
+    left: 310px;
 }
 #subinfo_nextscore {
     color: rgb(82, 82, 82);
     margin-left: 83px;
-    font-size: 22px;
+    font-size: 20px;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
