@@ -75,17 +75,19 @@ main{
     background-color: rgb(44, 44, 44);
     width: 26%;
     color: white;
-    position: absolute;
-  }
+}
 #lastgame img {
     height: 58px;
     width: 58px;
 }
-#lastgame a{
+#lastgame a {
     text-decoration: none;
+    position: relative;
+    bottom: 110px;
 }
-#lastgame-headline{
-    width: 80%;
+#lastgame-headline {
+    width: 100%;
+
 }
 #lastgame:hover{
     transform: scale(1.02);
