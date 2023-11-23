@@ -84,6 +84,10 @@ main{
 #lastgame a{
     text-decoration: none;
 }
+#lastgame:hover{
+    transform: scale(1.02);
+    transition: transform 0.4s;
+}
 #lastscore {
     position: relative;
     top: 105px;
