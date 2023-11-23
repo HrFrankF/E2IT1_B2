@@ -72,7 +72,7 @@ main {
     margin-right: 40px;
 }
 /*Die Struklturierung der Spielerprofile*/
-.player {
+.player{
     border: solid rgb(114, 114, 114) 5px;
     background-color: #313131dc;
     border-radius: 15px;
@@ -102,11 +102,11 @@ main {
 /*Bild des Spielers*/
 .profile_pic {
     width: 145px;
-    height: 145px;
+    height: 135px;
     position: relative;
     left: 60px;
     bottom: 290px;
-    border-radius: 40%;
+    border-radius: 25%;
     border: solid rgb(134, 134, 134)2px;
 }
 /*Text mit den Spielerinformationen*/
