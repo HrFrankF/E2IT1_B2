@@ -263,3 +263,10 @@ display: inline-block;
       transform: translateY(0%);
     }
   }
+
+  #lineUptext {
+
+    font-size: 15px;
+    font-weight: 100;
+
+  }
