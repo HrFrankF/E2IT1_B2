@@ -65,17 +65,25 @@ main{
     display: flex;
     height: 300px;
   }
-  #lastgame {
+.inf-con-headline{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#lastgame {
     background-color: rgb(44, 44, 44);
     width: 26%;
+    color: white;
   }
 #nextgame{
     background-color: rgb(159, 159, 159);
     width: 50%;
+    color: black;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
     width: 24%;
+    color: black;
 }
 footer{
     background-color: rgb(235, 235, 235);
