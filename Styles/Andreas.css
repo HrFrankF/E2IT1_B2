@@ -136,6 +136,10 @@ main{
     display: flex;
     align-items: center;
 }
+#subinfo_nextscore_container img{
+    position: relative;
+    top: 5px;
+}
 #subinfo_nextscore{
     color: rgb(82, 82, 82);
     margin-left: 97px;
