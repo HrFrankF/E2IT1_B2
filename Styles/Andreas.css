@@ -55,7 +55,7 @@ main{
 /* Stil für die Bilder */
 .diashow-images {
     width: 100%;
-    height: 461px;
+    height: 600px;
     object-fit: contain;
   }
 .diaimages{
