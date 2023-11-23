@@ -170,12 +170,12 @@ main{
     font-size: 28px;
     font-family: system-ui;
 }
-.home_main_hr{
+.home_main_hr {
     width: 85%;
-    height: 2px;
+    height: 12px;
     background-color: rgb(255, 145, 0);
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 #text_main{
     color: white;
