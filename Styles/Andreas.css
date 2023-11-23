@@ -177,6 +177,10 @@ main{
     border: none;
     border-radius: 6px;
 }
+#ueber_uns_textbox{
+    text-align: center;
+    width: 70%; height: auto;
+}
 #text_main{
     color: white;
     font-size: 20px;
