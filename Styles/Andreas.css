@@ -131,7 +131,11 @@ main{
     font-size: 25px;
     font-weight: bold;
     font-family: system-ui;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+#subinfo_nextscore_container{
+    display: flex;
+    align-items: center;
 }
 #subinfo_nextscore{
     color: gray;
