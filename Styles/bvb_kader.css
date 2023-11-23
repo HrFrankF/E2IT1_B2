@@ -76,10 +76,8 @@ main {
     border: solid rgb(114, 114, 114) 5px;
     background-color: #313131dc;
     border-radius: 15px;
-    margin: 50px 5px 35px 5px;
-    height: 199px;
     text-align: center;
-    width: 350px;
+    width: 370px;
     display: inline-table;
     margin: 10px;
     border-inline: none;
