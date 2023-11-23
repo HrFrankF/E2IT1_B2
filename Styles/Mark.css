@@ -41,9 +41,6 @@ footer{
     text-align: center;
     padding: 20px;
 }
-h4,.kaderstrich {
-    color: turquoise;
-}
 
 *{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -269,6 +266,6 @@ display: inline-block;
 
   hr.Vereinsinfo-hr{
 
-  border-top: 1px solid burlywood;
+  background-color: 1px solid burlywood;
 
   }
