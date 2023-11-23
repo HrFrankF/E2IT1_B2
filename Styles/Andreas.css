@@ -70,19 +70,22 @@ main{
     font-family: system-ui;
     font-weight: bold;
     text-align: center;
-    position: absolute;
 }
 #lastgame {
     background-color: rgb(44, 44, 44);
     width: 26%;
     color: white;
+    position: absolute;
   }
-  #lastgame img {
+#lastgame img {
     height: 58px;
     width: 58px;
 }
 #lastgame a{
     text-decoration: none;
+}
+#lastgame-headline{
+    width: 80%;
 }
 #lastgame:hover{
     transform: scale(1.02);
