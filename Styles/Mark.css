@@ -274,6 +274,8 @@ display: inline-block;
     position: center;
     right: 0;
     bottom: 0;
+    height: 400px;
+    width: 100%;
     
   }
   
