@@ -111,11 +111,11 @@ main{
     width: 50%;
     color: black;
 }
-#nextgame img {
-    height: 58px;
-    width: 58px;
-    margin-left: 15px;
-    margin-right: 15px;
+#nextgame-teams{
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #nextgame-headline {
     width: 100%;
@@ -124,11 +124,10 @@ main{
     transform: scale(1.02);
     transition: transform 0.4s;
 }
-#nextscore {
+#nextscore{
     position: relative;
-    top: 105px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     font-family: system-ui;
     color: rgb(0, 0, 0);
@@ -138,7 +137,8 @@ main{
     align-items: center;
 }
 #subinfo_nextscore{
-    color: gray;
+    color: rgb(82, 82, 82);
+    margin-left: 97px;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
