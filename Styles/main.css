@@ -82,20 +82,26 @@ footer {
   padding: 20px;
   text-align: center;
 }
-#footer_head{
+#footer_head {
   color: white;
   position: absolute;
+  width: 100%;
 }
-#footer_links{
+#footer_links {
   position: relative;
   display: flex;
   align-items: center;
+  top: 110px;
+  left: 730px;
 }
-#footer_links a{
+#footer_links a {
   text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .footerlink{
-  font-size: 16px;
+  font-size: 15px;
 }
 .footerlink:hover{
   color: rgb(202, 202, 202);
