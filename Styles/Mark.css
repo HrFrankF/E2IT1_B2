@@ -244,7 +244,7 @@ display: inline-block;
   }
 
   .lineUp {
-    animation: 5s anim-lineUp ease-out;
+    animation: 3s anim-lineUp ease-out;
   }
   @keyframes anim-lineUp {
     0% {
