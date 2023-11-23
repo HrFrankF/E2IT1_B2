@@ -136,13 +136,20 @@ main{
     display: flex;
     align-items: center;
 }
-#subinfo_nextscore_container img{
-    position: relative;
-    top: 5px;
+#subinfo_nextscore_pic1{
+    position: absolute;
+    top: 208px;
+    left: 168px;
 }
-#subinfo_nextscore{
+#subinfo_nextscore_pic2{
+    position: absolute;
+    top: 208px;
+    left: 168px;
+}
+#subinfo_nextscore {
     color: rgb(82, 82, 82);
-    margin-left: 97px;
+    margin-left: 83px;
+    font-size: 22px;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
