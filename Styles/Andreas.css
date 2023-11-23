@@ -77,12 +77,13 @@ main{
     width: 26%;
     color: white;
   }
-  #lastgame img{
-    height: 100px;
-    width: 100px;
-  }
-#lastscore{
-    position: absolute;
+  #lastgame img {
+    height: 58px;
+    width: 58px;
+}
+#lastscore {
+    position: relative;
+    top: 105px;
 }
 #nextgame{
     background-color: rgb(159, 159, 159);
