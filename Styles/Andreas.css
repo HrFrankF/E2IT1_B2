@@ -121,7 +121,11 @@ main{
     width: 100%;
 }
 #nextgame:hover{
-    transform: scale(1.02);
+    transform: scale(1.005);
+    transition: transform 0.4s;
+}
+#nextgames:hover{
+    transform: scale(1.005);
     transition: transform 0.4s;
 }
 #nextscore{
