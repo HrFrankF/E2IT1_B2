@@ -49,7 +49,7 @@ main{
 }
 /*DiaShow Container für die wechselnden Bilder*/
 .diashow-frame{
-    margin-top: 0px; 
+    margin-top: -29px; 
     width: 100%;
 } 
 /* Stil für die Bilder */
