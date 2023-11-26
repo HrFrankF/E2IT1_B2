@@ -72,16 +72,14 @@ main {
     margin-right: 40px;
 }
 /*Die Struklturierung der Spielerprofile*/
-.player {
+.player{
     border: solid rgb(114, 114, 114) 5px;
     background-color: #313131dc;
     border-radius: 15px;
-    margin: 50px 5px 35px 5px;
-    height: 199px;
     text-align: center;
-    width: 350px;
+    width: 370px;
     display: inline-table;
-    margin: 10px;
+    margin: 18px;
     border-inline: none;
 }
 .player:hover{
@@ -94,22 +92,21 @@ main {
     text-decoration: underline;
 }
 /*Läderflagge aus der Herkunft des Spielers*/
-.nation{
+.nation {
     width: 65px;
     height: 40px;
     position: relative;
-    bottom: 365px;
+    bottom: 485px;
     left: 202px;
-
 }
 /*Bild des Spielers*/
 .profile_pic {
     width: 145px;
-    height: 145px;
+    height: 135px;
     position: relative;
-    left: 45px;
-    bottom: 168px;
-    border-radius: 40%;
+    left: 60px;
+    bottom: 290px;
+    border-radius: 25%;
     border: solid rgb(134, 134, 134)2px;
 }
 /*Text mit den Spielerinformationen*/
