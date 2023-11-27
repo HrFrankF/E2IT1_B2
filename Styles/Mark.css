@@ -1,100 +1,100 @@
 header{
-    background-color:grey;
-    color: rgb(73, 73, 73);
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 3px;
+  background-color:grey;
+  color: rgb(73, 73, 73);
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 3px;
 }
 #navlogo{
-  position: absolute;
-  top: 15px;
-  left: 50px;
+position: absolute;
+top: 15px;
+left: 50px;
 }
 header h1{
-    padding-top: 10px;
-    text-align: center;
+  padding-top: 10px;
+  text-align: center;
 }
 #links a{
-    font-size: 24px;
-    color: white;
-    text-align: right;
+  font-size: 24px;
+  color: white;
+  text-align: right;
 }
 #links a:hover{
 
-    text-decoration: none;
-    color: rgb(179, 179, 179);
-    text-align: center;
+  text-decoration: none;
+  color: rgb(179, 179, 179);
+  text-align: center;
 }
 body{
-    background-color:black;
-    color: white;
-    
+  background-color:black;
+  color: white;
+ 
 }
 footer{
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 *{
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 footer {
-    background-color: deepskyblue;
-    border-radius: 20%;
-    border-bottom-left-radius: var(--main-border-radius);
-    border-bottom-right-radius: var(--main-border-radius);
-    padding: 20px;
-    color: black;
-    text-align: center;
-  }
+  background-color: deepskyblue;
+  border-radius: 20%;
+  border-bottom-left-radius: var(--main-border-radius);
+  border-bottom-right-radius: var(--main-border-radius);
+  padding: 20px;
+  color: black;
+  text-align: center;
+}
 
 #clublogos{
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .grid h2{
-  text-align: center;
-  padding-bottom: 15px;
-  color:#fff;
-  text-shadow: 0 5px 10px rgba(0,0,0,.2);
-  font-size: 30px;
+text-align: left;
+padding-bottom: 15px;
+color:#fff;
+text-shadow: 0 5px 10px rgba(0,0,0,.2);
+font-size: 30px;
 }
 
 .grid .box-grid{
-  display: flex;
-  grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
-  gap:18px;
-  text-align: center;
+display: flex;
+grid-template-columns: repeat(auto-fit, minmax(270px, /*1fr*/));
+gap:18px;
+text-align: center;
 }
 
 .grid .box-grid .box{
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
-  border-radius: 5px;
-  background-image: url(https://th.bing.com/th/id/OIP.5KG6GOFNE0nL-WZ4QaX9eQHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7);
-  text-align: center;
-  padding:30px 10px;
+box-shadow: 0 5px 10px rgba(0,0,0,.2);
+border-radius: 5px;
+background-image: url(https://th.bing.com/th/id/OIP.5KG6GOFNE0nL-WZ4QaX9eQHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+text-align: center;
+padding:30px 10px;
 }
 
 .grid .box-grid .box:hover{
-  box-shadow: 0 10px 15px rgba(0,0,0,.3);
-  transform: scale(1.03);
+box-shadow: 0 10px 15px rgba(0,0,0,.3);
+transform: scale(1.03);
 }
 
 .grid .box-grid .box .Spiele{
-  font-size: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  }
+font-size: 50px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
 
 #aboutinfos{
 
@@ -104,200 +104,191 @@ text-align: center;
 #Vereinsdaten{
 
 text-align: center;
-color: burlywood;
-
-}
-
-#Footertrennung{
-
-color: burlywood;
-font-size: 20px;
-padding-top: 200px;
-display: inline-block;
+color: white;
 
 }
 
 
 #container {
-   
-    position: relative;
-    width: 50%;
-    display: inline-block;
-  }
-  
-  .homepagebild {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 11%;
-  }
-  
-  .overlayimg {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url(https://wallpapercave.com/wp/wp8094561.jpg);
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-    border-radius: 11%;
-  }
-  
-  #container:hover .overlayimg {
-    width: 100%;
-  }
-  
-  .imgtext {
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+ 
+  position: relative;
+  width: 50%;
+  display: inline-block;
+}
 
-  .mainbutton{
+.homepagebild {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 11%;
+}
 
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-    background: grey;
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    border-radius: 20px;
-    padding: 15px 25px;
-    position: relative;
-  }
+.overlayimg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://wallpapercave.com/wp/wp8094561.jpg);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  border-radius: 11%;
+}
 
-  .mainbutton:hover{
+#container:hover .overlayimg {
+  width: 100%;
+}
 
-    transform: scale(1.015);
+.imgtext {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
 
-  }
-  
+.mainbutton{
 
-  #containeranimation {
-    color:#999;
-    text-transform: uppercase;
-    font-size:35px;
-    font-weight:bold;
-    padding-top: 100px;  
-    position:relative;
-    width:100%;
-    bottom: 5%;
-    display:block;
-    text-align: center;
-  }
-  
-  #flip {
-    height:50px;
-    overflow:hidden;
-  }
-  
-  #flip > div > div {
-    color:#fff;
-    padding:4px 12px;
-    height:45px;
-    margin-bottom:45px;
-    display:inline-block;
-  }
-  
-  #flip div:first-child {
-    animation: show 6s linear infinite;
-  }
-  
-  #flip div div {
-    background:grey;
-    
-  }
-  #flip div:first-child div {
-    background:deepskyblue;
-    
-  }
-  #flip div:last-child div {
-    background:burlywood;
-    
-  }
-  
-  @keyframes show {
-    0% {margin-top:-270px;}
-    5% {margin-top:-180px;}
-    33% {margin-top:-180px;}
-    38% {margin-top:-90px;}
-    66% {margin-top:-90px;}
-    71% {margin-top:0px;}
-    99.99% {margin-top:0px;}
-    100% {margin-top:-270px;}
-  }
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background: grey;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 15px 25px;
+  position: relative;
+}
 
-  .lineUp {
-    animation: 3s anim-lineUp ease-out;
-  }
-  @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(80%);
-    }
-    20% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
+.mainbutton:hover{
 
-  #lineUptext {
+  transform: scale(1.015);
 
-    font-size: 18px;
-    font-weight: 100;
+}
 
-  }
 
-  hr.Vereinsinfo-hr{
+#containeranimation {
+  color:#999;
+  text-transform: uppercase;
+  font-size:35px;
+  font-weight:bold;
+  padding-top: 100px;  
+  position:relative;
+  width:100%;
+  bottom: 5%;
+  display:block;
+  text-align: center;
+}
 
-  border-top: 1,1px solid rgb(222,184,135);
+#flip {
+  height:50px;
+  overflow:hidden;
+}
 
-  }
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
 
-  #meinVideo {
-    position: left;
-    right: 0;
-    bottom: 0;
-    height: 1100px;
-    width: 2000px;
-    
+#flip div:first-child {
+  animation: show 6s linear infinite;
+}
+
+#flip div div {
+  background:grey;
+ 
+}
+#flip div:first-child div {
+  background:deepskyblue;
+ 
+}
+#flip div:last-child div {
+  background:burlywood;
+ 
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+.lineUp {
+  animation: 3s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
   }
-  
-  .contentvideo {
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
+  20% {
+    opacity: 0;
   }
-  
-  #meinBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
   }
-  
-  #meinBtn:hover {
-    background: #ddd;
-    color: black;
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
   }
+}
+
+#lineUptext {
+
+  font-size: 18px;
+  font-weight: 100;
+
+}
+
+hr.Vereinsinfo-hr{
+
+border-top: 1,1px solid burlywood;
+
+}
+
+#meinVideo {
+  position: center;
+  right: 0;
+  bottom: 0;
+  height: 1100px;
+  width: 1830px;
+ 
+}
+
+.contentvideo {
+  bottom: 0;
+  background-image: url("https://th.bing.com/th/id/OIP.E6MF-qPdYCsbd4ZYMEkx_AHaEo?w=357&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#meinBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#meinBtn:hover {
+  background: #ddd;
+  color: black;
+}
