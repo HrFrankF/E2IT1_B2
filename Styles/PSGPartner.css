@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Stil für den Header */
+/* Stil für den Header */
 header {
     background-color: #003255;
     color: #fff;
@@ -12,8 +12,8 @@ header {
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Stil für h1 innerhalb des Headers */
@@ -22,14 +22,10 @@ header h1 {
     text-align: center;
 }
 
-/* Überschrift-Stil */
-.heading {
+header h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    color: #fff;
-    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-    font-size: 25px;
 }
 
 /* Stil für das Navigationslogo */
@@ -39,7 +35,6 @@ header h1 {
     left: 65px;
     margin: 5px;
     padding: 5px;
-
 }
 
 /* Stil für Links */
@@ -96,68 +91,80 @@ footer {
     text-align: center;
 }
 
-/* Stil für eine zentrierte Tabelle */
-table.center {
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+/* Überschrift-Stil */
+.heading {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 25px;
+}
+
+.partner-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Stil für die Logos */
-#logos {
-    width: 80px;
-    height: 80px;
-}
-
-/* Stil für die Tabelle der Gruppe F */
-.t {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Stil für Zellen in der Tabelle */
-.t td {
-    font-size: 14px;
-    padding: 10px 5px;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: keep-all;
-    vertical-align: middle;
-    text-align: middle;
-}
-
-/* Stil für Kopfzeilen in der Tabelle */
-.t th {
-    font-size: 14px;
-    font-weight: normal;
-    padding: 10px 5px;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: normal;
-    vertical-align: middle;
-    text-align: middle;
-}
-
-/* Stil für markierte Elemente in der Tabelle */
-.t .t-markiert {
-    background-color: #003255;
-    color: #ffffff;
-}
-
-/* Stil für Bilder in der Tabelle */
-.t .tableimg {
-    display: inline-block;
-    vertical-align: middle;
-    width: 25px;
-    height: 25px;
+.partner-container img {
+    display: inline-flex;
+    height: 50px;
     position: relative;
-    justify-content: left;
-    margin-right: 5px;
-    margin-left: 0;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-/* Stil für T2 */
-.t .t2 {
-    text-align: left;
+.partner-container a {
+    display: inline-flex;
+    height: 50px;
+    position: relative;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partner-container img:hover {
+    transform: scale(1.1);
+}
+
+.partner-flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.partner-flex-columns1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.partner-flex-columns3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.partner-flex-columns4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.headerwidth {
+    width: 65%;
 }
