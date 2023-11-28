@@ -84,7 +84,7 @@ main{
     border-radius: 1px;
     margin-right: 3px;
     position: relative;
-    bottom: -2px;
+    bottom: 2px;
   }
   #karte-R {
     width: 15px;
@@ -94,7 +94,7 @@ main{
     border-radius: 1px;
     margin-right: 3px;
     position: relative;
-    bottom: -2px;
+    bottom: 2px;
 }
 
   footer{

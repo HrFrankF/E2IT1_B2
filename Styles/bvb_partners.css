@@ -36,11 +36,10 @@ header{
     text-decoration: none;
 }
 body{
-    background-color: rgb(29, 29, 29);
-}
-main{
     background-image: url('../Images/Sponsor_Dortmund/BVB_Partners_Background.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+main{
     color: white;
     text-align: center;
     font-size: 19px;
@@ -110,7 +109,6 @@ main{
     background-color: rgb(247, 244, 238);
     height: 4px;
     border: none;
-    border-radius: 2px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
