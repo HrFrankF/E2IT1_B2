@@ -109,6 +109,24 @@ main {
     border-radius: 25%;
     border: solid rgb(134, 134, 134)2px;
 }
+/*Läderflagge aus der Herkunft der Trainer*/
+.nation_trainer {
+    width: 65px;
+    height: 40px;
+    position: relative;
+    bottom: 350px;
+    left: 202px;
+}
+/*Bild der Trainer*/
+.profile_pic_trainer {
+    width: 145px;
+    height: 135px;
+    position: relative;
+    left: 60px;
+    bottom: 117px;
+    border-radius: 25%;
+    border: solid rgb(134, 134, 134)2px;
+}
 /*Text mit den Spielerinformationen*/
 .player h5 {
     position: relative;
