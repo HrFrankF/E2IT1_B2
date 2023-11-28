@@ -179,13 +179,15 @@ main{
 }
 #ueber_uns_textbox {
     text-align: center;
-    margin-left: 172px;
-    width: 1500px;
-}
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    display: block ruby;
+  }
 #text_main{
     color: white;
     font-size: 18px;
     font-family: system-ui;
+    width: 90%;
 }
 footer{
     background-color: rgb(235, 235, 235);
