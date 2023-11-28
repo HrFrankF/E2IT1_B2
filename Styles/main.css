@@ -79,7 +79,6 @@ footer {
   height: 700px;
   border-bottom-left-radius: var(--main-border-radius);
   border-bottom-right-radius: var(--main-border-radius);
-  padding: 20px;
   text-align: center;
 }
 #footer_head {
