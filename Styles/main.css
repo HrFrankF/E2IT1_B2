@@ -94,7 +94,7 @@ footer {
 #footer_links a {
   text-decoration: none;
   color: white;
-  margin: 10px;
+  margin: 75px 10px 10px 10px;
 }
 .footerlink{
   font-size: 15px;
@@ -107,7 +107,7 @@ footer {
   width: 45%;
   position: relative;
   left: 380px;
-  top: 191px;
+  top: 90px;
   font-size: 12px;
 }
 
