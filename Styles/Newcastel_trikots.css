@@ -1,65 +1,65 @@
 header{
-    background-color:grey;
-    color: rgb(73, 73, 73);
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 5px;
-    
+  background-color:grey;
+  color: rgb(73, 73, 73);
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  
 }
 #navlogo{
-    position: absolute;
-    top: 15px;
-    left: 50px;
-   }
+  position: absolute;
+  top: 15px;
+  left: 50px;
+ }
 header h1{
-    padding-top: 10px;
-    text-align: center;
-   
+  padding-top: 10px;
+  text-align: center;
+ 
 }
 #links a{
-    font-size: 24px;
-    color: white;
-    text-align: right;
-    
+font-size: 24px;
+color: white;
+text-align: right;
+text-decoration: none;
 }
 #links a:hover{
 
-    text-decoration: none;
-    color: rgb(179, 179, 179);
-    text-align: center;
-  
+text-decoration: none;
+color: rgb(179, 179, 179);
+text-align: center;
+transition: 0.5s;
 }
 body{
-    background-color:black;
-    color: white;
-    text-align: center;
+  background-color:black;
+  color: white;
+  text-align: center;
 }
 footer{
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 *{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 footer {
-    background-color: deepskyblue;
-    border-radius: 20%;
-    border-bottom-left-radius: var(--main-border-radius);
-    border-bottom-right-radius: var(--main-border-radius);
-    padding: 20px;
-    color: black;
-    text-align: center;
-    position: relative;
- }
+  background-color: deepskyblue;
+  border-radius: 20%;
+  border-bottom-left-radius: var(--main-border-radius);
+  border-bottom-right-radius: var(--main-border-radius);
+  padding: 20px;
+  color: black;
+  text-align: center;
+  position: relative;
+}
 
 
 .Newcasteltrikots{
@@ -74,35 +74,36 @@ border-radius: 50%;
 
 }
 
-  .Sponsoren {
+.Sponsoren {
 
-    position: relative;
-    display: inline-table;
-    align-items: center;
-    
-    
-  }
+  position: relative;
+  display: inline-table;
+  align-items: center;
+  
+  
+}
 
 .Sponsoren a{
-    margin-left: 80px;
+  margin-left: 80px;
 }
 
 #selabild{
-  
-  height: 90px;
-  width: 210px;
+
+height: 90px;
+width: 210px;
 
 }
 
 #selabild:hover{
 
-  content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
-  height: 65px;
-  width: 190px;
-  padding-bottom: 25px;
-  
-  }
-  
+content: url(https://www.nufc.co.uk/media/77344/sela-logo-green.png);
+height: 65px;
+width: 190px;
+padding-bottom: 25px;
+padding-right: 20px;
+
+}
+
 
 #castorebild{
 
@@ -115,29 +116,32 @@ width: 120px;
 }
 
 #castorebild:hover{
-  content: url(https://www.nufc.co.uk/media/67627/castoreteamslogo_blue.png);
-  height: 107px;
-  width: 115px;
+content: url(https://www.nufc.co.uk/media/67627/castoreteamslogo_blue.png);
+height: 107px;
+width: 115px;
+padding-top: 43px;
+padding-right: 5px ;
 
-  
 }
 
 #noonbild{
 
-  padding-top: 50px;
-  height: 100px;
-  width: 200px;
+padding-top: 50px;
+height: 100px;
+width: 200px;
 
 }
 
 #noonbild:hover{
-  content: url(https://www.nufc.co.uk/media/67626/noon-master-cropped.png);
-  height: 92px;
-  width: 184px;
-  padding-bottom: 30px;
-  padding-top: 90px;
+content: url(https://www.nufc.co.uk/media/67626/noon-master-cropped.png);
+height: 92px;
+width: 184px;
+padding-bottom: 12px;
+padding-right: 15px;
+padding-left: 10px;
+padding-top: 27px;
 
-  }
+}
 
 #sportsbetbild{
 
@@ -149,14 +153,17 @@ width: 220px;
 
 #sportsbetbild:hover{
 
- 
-  content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
-  height: 35px;
-  width: 190px;
-  padding-bottom: 27px;
- 
 
-  }
+content: url(https://www.nufc.co.uk/media/80121/sportsbet_main_horiz_w.png);
+height: 35px;
+width: 190px;
+padding-bottom: 27px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 35px;
+
+
+}
 
 #betmgmbild{
 
@@ -168,13 +175,15 @@ width: 200px;
 
 #betmgmbild:hover{
 
-  content: url(https://www.nufc.co.uk/media/80854/betmgm-primarylogo-stacked-white.png);
-  height: 75px;
-  width: 165px;
-  padding-bottom: 30px;
- 
-  
-  }
+content: url(https://www.nufc.co.uk/media/80854/betmgm-primarylogo-stacked-white.png);
+height: 75px;
+width: 165px;
+padding-bottom: 25px;
+padding-left: 18px;
+padding-right: 17px;
+
+
+}
 #carlingbild{
 
 height: 150px;
@@ -184,32 +193,35 @@ width: 220px;
 
 #carlingbild:hover{
 
-  content: url(https://www.nufc.co.uk/media/67628/carling_white.png);
-  height: 120Px;
-  width: 165Px;
-  padding-bottom: 30px
+content: url(https://www.nufc.co.uk/media/67628/carling_white.png);
+height: 120px;
+width: 165px;
+padding-bottom: 3px;
+padding-top: 16px;
+padding-left: 25px;
+padding-right: 20px;
 
-  
-  }
+
+}
 
 #Saudibild{
 
 height: 80px;
 width: 190px;
-
 position: relative;
 
 }
 
 #Saudibild:hover{
 
-  content: url(https://www.nufc.co.uk/media/81706/saudia_horizontal_logo_rgb.png);
-  height: 65px;
-  width: 180px;
-  position: relative;
-  padding-bottom: 30px;
+content: url(https://www.nufc.co.uk/media/81706/saudia_horizontal_logo_rgb.png);
+height: 65px;
+width: 180px;
+position: relative;
+padding-bottom: 20px;
+padding-left: 10px;
 
-  }
+}
 
 .Sponsorenstrich{
 
@@ -227,39 +239,42 @@ text-align: center;
 
 }
 .grid{
-  background:linear-gradient(45deg, );
-  position: relative;
-  display: grid;
-  text-align: center;
-  padding:15px 9%;
+background:linear-gradient(45deg, );
+position: relative;
+display: grid;
+text-align: center;
+padding:15px 9%;
+
 }
 
 .grid .box-grid{
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap:18px;
+grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+gap:18px;
 }
 
 .grid .box-grid .box{
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
-  border-radius: 5px;
-  background: url(https://th.bing.com/th/id/OIP.3n01ufXlPkYoHaZzyyqw2QHaEo?w=299&h=186&c=7&r=0&o=5&dpr=1.1&pid=1.7);
-  text-align: center;
-  padding:30px 20px;
+box-shadow: 0 5px 10px rgba(0,0,0,.2);
+border-radius: 5px;
+background: url(https://th.bing.com/th/id/OIP.3n01ufXlPkYoHaZzyyqw2QHaEo?w=299&h=186&c=7&r=0&o=5&dpr=1.1&pid=1.7);
+text-align: center;
+padding:30px 20px;
+transition: transform .3s;
 }
 
 .grid .box-grid .box:hover{
-  box-shadow: 0 10px 15px rgba(0,0,0,.3);
-  transform: scale(1.03);
+box-shadow: 0 10px 15px rgba(0,0,0,.3);
+transform: scale(1.03) ;
+
 }
 
 @media (max-width:200px){
-  .grid{
-      padding:20px;
-  }
+.grid{
+    padding:20px;
+}
 }
 
 hr {
-  
+
 color: grey;
 
 }
