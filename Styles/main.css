@@ -193,6 +193,15 @@ td {
     margin-left: 0;
 }
 
+/*Button Container*/
+.btn-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%; 
+  text-align: center; 
+}
+
 /* Button2 Stil */
 .btn2 {
   margin-top: 10px;
