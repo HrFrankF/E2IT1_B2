@@ -24,12 +24,14 @@ header h1{
     font-size: 24px;
     color: white;
     text-align: right;
+    text-decoration: none;
 }
 #links a:hover{
 
     text-decoration: none;
     color: rgb(179, 179, 179);
     text-align: center;
+    transition: 0.5s;
 }
 body{
     background-color:black;
@@ -88,6 +90,7 @@ footer {
     background: gray;
     text-align: center;
     padding:20px 10px;
+    transition: transform .3s;
 }
 
 .grid .box-grid .box img{
@@ -120,6 +123,8 @@ footer {
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
+    text-decoration: none;
+    transition: transform 3s;
 }
 
 .grid .box-grid .box .btn:hover{
@@ -156,59 +161,6 @@ footer {
     
 
   }
-  #Trainerbox{
-
-    text-align: right;
-    position: absolute;
-    padding-left: 1300px;
-
-  }
-  #Torschützenbox{
-
-    text-align: right;
-    position: absolute; 
-    padding-left: 900px;
-
-  }
-
- #Torschützenbox  #Trainerbox{
-    box-shadow: 0 5px 10 aqua(0,0,0,.2);
-    border-radius: 5px;
-    background: aqua;
-    text-align: center;
-    padding:30px 20px;
-}
-
- #Torschützenbox  #Trainerbox h3{
-    color:#f5f4f4;
-    font-size: 22px;
-    padding:10px 0;
-}
-
- #Torschützenbox  #Trainerbox p{
-    color:#dbd9d9;
-    font-size: 15px;
-    line-height: 1.8;
-}
-
- #Torschützenbox  #Trainerbox .btn{
-    margin-top: 10px;
-    display: inline-block;
-    background:#333;
-    color:#fff;
-    font-size: 17px;
-    border-radius: 5px;
-    padding: 8px 25px;
-}
-
- #Torschützenbox  #Trainerbox .btn:hover{
-    letter-spacing: 1px;
-}
-
- #Torschützenbox  #Trainerbox:hover{
-    box-shadow: 0 10px 15px rgba(0,0,0,.3);
-    transform: scale(1.04);
-}
 
 @media (max-width:768px){
     .grid{
