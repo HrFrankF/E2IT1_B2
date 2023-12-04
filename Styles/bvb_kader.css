@@ -49,6 +49,12 @@ main {
     font-size: 19px;
     padding-top: 1px;
 }
+.headline_main{
+    margin: 0px 100px 0px 100px;
+    padding: 10px;
+    background-color: yellow;
+    color: white;
+}
 /*Linie in der Tabelle der Spielerprofile*/
 .kader-hr {
     background-color: #fdad00;
