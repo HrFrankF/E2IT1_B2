@@ -1,1088 +1,1102 @@
 <!DOCTYPE html>
 <html>
 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+        <title>Champions League Gruppe F</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-    <title>Champions League Gruppe F</title>
+        <link rel="stylesheet" href="Styles/main.css">
+        <link rel="stylesheet" href="Styles/themeSwitch.css">
+        <link rel="stylesheet" href="Styles/Chris.css">
 
-    <link rel="stylesheet" href="Styles/main.css">
-    <link rel="stylesheet" href="Styles/themeSwitch.css">
-
-    <script src="Scripts/themes.js"></script>
-</head>
-
-<body onload="onload()">
-    <header>
-        <!-- Menu mit Logo -->
-        <div>
-            <a class="nav-logo" href="index.html"><img alt="UEFA Logo" id="nav-logo-img" /></a>
-            <h1>Champions League Gruppe F</h1>
-
-            <label id="theme-switch-container">
-                <input type="checkbox" id="theme_switch" onclick="setTheme()">
-
-                <!-- Theme Switcher Icon-->
-                <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
-                    <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
-                    <g class="sun-beams" stroke="currentColor">
-                        <line x1="12" y1="1" x2="12" y2="3" />
-                        <line x1="12" y1="21" x2="12" y2="23" />
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                        <line x1="1" y1="12" x2="3" y2="12" />
-                        <line x1="21" y1="12" x2="23" y2="12" />
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                    </g>
-                    <mask id="moon-mask">
-                        <rect x="0" y="0" width="100%" height="100%" fill="white" />
-                        <circle cx="24" cy="10" r="6" fill="black" />
-                    </mask>
-                </svg>
-            </label>
-        </div>
+        <script src="Scripts/themes.js"></script>
+        <script>
+            // eigenes angepasstes light theme
+            light = {
+                font_color: "#000",
+                primary_color: "#FFFBF5",
+                secondary_color: "#F7EFE5",
+                ternary_color: "#C3ACD0",
+                ternary_color_elevated: "#BCE29E",
+                header_font_color: "black",
+                images: {
+                     "#impressum": "impressum_dark.png",
+                    "#nav-logo-img": "logo_dark.png"
+                }
+            };
+        </script>
+    </head>
 
 
-        <nav>
-            <ul>
-                <li>
-                    <img alt="PSG Logo" src="Images/psg.png" />
-                    <a href="Marcel.html">PSG</a>
-                </li>
-                <li>
-                    <img alt="NewCastle Logo" src="Images/newcastle.png" />
-                    <a href="Mark.html">NewCastle</a>
-                </li>
-                <li>
-                    <img alt="Dortmund Logo" src="Images/dortmund.png" />
-                    <a href="Andreas.html">Dortmund</a>
-                </li>
-                <li>
-                    <img alt="Milan Logo" src="Images/milan.png" />
-                    <a href="Chris.html">Milan</a>
-                </li>
-                <li>
-                    <img id="impressum" />
-                    <a href="impressum.html">Impressum</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <body onload="onload()">
+        <header>
+            <!-- Menu mit Logo -->
+            <div>
+                <a class="nav-logo" href="index.html"><img id="nav-logo-img" /></a>
+                <h1>Champions League - Milan</h1>
 
-    <section id="submenu">
-        <a href="#club" active>Der Club</a>
-        <a href="#kader">Kader</a>
-        <a href="#mannschaft">Mannschaft</a>
-        <a href="https://www.acmilan.com/en" target="_blank">Zur Webseite</a>
-    </section>
+                <label id="theme-switch-container">
+                    <input type="checkbox" id="theme_switch" onclick="setTheme()">
 
-    <main>
-        <section class="content" id="club-content">
-            <p>Die Associazione Calcio Milan, kurz AC Milan oder Milan, in Deutschland allgemein bekannt als die
-                oder der AC Mailand,
-                ist ein 1899 gegründetes italienisches Fußballunternehmen aus der lombardischen Hauptstadt Mailand.
-            </p>
+                    <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                        <g class="sun-beams" stroke="currentColor">
+                            <line x1="12" y1="1" x2="12" y2="3" />
+                            <line x1="12" y1="21" x2="12" y2="23" />
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                            <line x1="1" y1="12" x2="3" y2="12" />
+                            <line x1="21" y1="12" x2="23" y2="12" />
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                        </g>
+                        <mask id="moon-mask">
+                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                            <circle cx="24" cy="10" r="6" fill="black" />
+                        </mask>
+                    </svg>
+                </label>
+            </div>
 
-            <p>Mit 19 nationalen Meistertiteln, fünf nationalen Pokalsiegen, dem siebenmaligen Gewinn des
-                Europapokals der
-                Landesmeister bzw. der UEFA Champions League, dem viermaligen Gewinn des Weltpokals, zwei Erfolgen
-                im Europapokal der
-                Pokalsieger und fünf Siegen im UEFA Super Cup zählt die AC Milan zu den erfolgreichsten
-                Fußballvereinen der Welt.
+            <nav>
+                <ul>
+                    <li>
+                        <img alt="PSG Logo" src="Images/psg.png" />
+                        <a href="Marcel.html">PSG</a>
+                    </li>
+                    <li>
+                        <img alt="NewCastle Logo" src="Images/newcastle.png" />
+                        <a href="Mark.html">NewCastle</a>
+                    </li>
+                    <li>
+                        <img alt="Dortmund Logo" src="Images/dortmund.png" />
+                        <a href="Andreas.html">Dortmund</a>
+                    </li>
+                    <li>
+                        <img alt="Milan Logo" src="Images/milan.png" />
+                        <a href="Chris.html">Milan</a>
+                    </li>
+                    <li>
+                        <img id="impressum" />
+                        <a href="impressum.html">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-                Heimspielstätte ist das auch unter dem ehemaligen Namen San Siro bekannte Giuseppe-Meazza-Stadion.
-                Der Klub teilt es
-                sich mit dem Stadtrivalen Inter Mailand.</p>
-
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/mjQRheMPVI4"
-                title="eFootball™ x AC Milan Partnership Launch Trailer" frameborder="0"></iframe>
+        <section id="submenu">
+            <a href="#club" active>Der Club</a>
+            <a href="#kader">Kader</a>
+            <a href="#mannschaft">Mannschaft</a>
+            <a href="https://www.acmilan.com/en" target="_blank">Zur Webseite</a>
         </section>
 
-        <!-- Beginn Inhalt für Kader -->
-        <section class="content" id="kader-content">
-            <details open>
-                <summary>Trainer</summary>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <p class="hidden trainer">0</p>
-                        <h4>Stefano Pioli</h4>
-                        <img src="Images/milan/stefano_pioli.jpg" />
-                    </div>
-                </div>
-            </details>
+        <main>
+            <section class="content" id="club-content">
+                <p>Die Associazione Calcio Milan, kurz AC Milan oder Milan, in Deutschland allgemein bekannt als die
+                    oder der AC Mailand,
+                    ist ein 1899 gegründetes italienisches Fußballunternehmen aus der lombardischen Hauptstadt Mailand.
+                </p>
 
-            <details open>
-                <summary>Torwart</summary>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>16</p>
+                <p>Mit 19 nationalen Meistertiteln, fünf nationalen Pokalsiegen, dem siebenmaligen Gewinn des
+                    Europapokals der
+                    Landesmeister bzw. der UEFA Champions League, dem viermaligen Gewinn des Weltpokals, zwei Erfolgen
+                    im Europapokal der
+                    Pokalsieger und fünf Siegen im UEFA Super Cup zählt die AC Milan zu den erfolgreichsten
+                    Fußballvereinen der Welt.
+
+                    Heimspielstätte ist das auch unter dem ehemaligen Namen San Siro bekannte Giuseppe-Meazza-Stadion.
+                    Der Klub teilt es
+                    sich mit dem Stadtrivalen Inter Mailand.</p>
+
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/mjQRheMPVI4"
+                    title="eFootball™ x AC Milan Partnership Launch Trailer" frameborder="0"></iframe>
+            </section>
+
+            <!-- Beginn Inhalt für Kader -->
+            <section class="content" id="kader-content">
+                <details open>
+                    <summary>Trainer</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <p class="hidden trainer">0</p>
+                            <h4>Stefano Pioli</h4>
+                            <img src="Images/milan/stefano_pioli.jpg" />
+                        </div>
+                    </div>
+                </details>
+
+                <details open>
+                    <summary>Torwart</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>16</p>
+                            </div>
+
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250042780--mike-maignan/"
+                                target="_blank">
+                                <h4>Mike Maignan</h4>
+                            </a>
+                            <img src="Images/milan/mike_maighan.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>28</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                </tr>
+                            </table>
                         </div>
 
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250042780--mike-maignan/"
-                            target="_blank">
-                            <h4>Mike Maignan</h4>
-                        </a>
-                        <img src="Images/milan/mike_maighan.jpg" />
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>57</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250082738--marco-sportiello/"
+                                target="_blank">
+                                <h4>Marco Sportiello</h4>
+                            </a>
+                            <img src="Images/milan/marco_sportiello.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>28</td>
-                                <td>3</td>
-                                <td>3</td>
-                            </tr>
-                        </table>
-                    </div>
-
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>57</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>31</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250082738--marco-sportiello/"
-                            target="_blank">
-                            <h4>Marco Sportiello</h4>
-                        </a>
-                        <img src="Images/milan/marco_sportiello.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>31</td>
-                                <td>1</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>69</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164068--lapo-nava/"
+                                target="_blank">
+                                <h4>Lapo Nava</h4>
+                            </a>
+                            <img src="Images/milan/lapo_nava.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>69</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164068--lapo-nava/"
-                            target="_blank">
-                            <h4>Lapo Nava</h4>
-                        </a>
-                        <img src="Images/milan/lapo_nava.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>19</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>78</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164110--andrea-bartoccioni/"
+                                target="_blank">
+                                <h4>Andrea Bartoccioni</h4>
+                            </a>
+                            <img src="Images/milan/andrea_bartoccioni.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>78</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164110--andrea-bartoccioni/"
-                            target="_blank">
-                            <h4>Andrea Bartoccioni</h4>
-                        </a>
-                        <img src="Images/milan/andrea_bartoccioni.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>19</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>83</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/63838--antonio-mirante/"
+                                target="_blank">
+                                <h4>Antonio Mirante</h4>
+                            </a>
+                            <img src="Images/milan/antonio_mirante.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>83</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>40</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/63838--antonio-mirante/"
-                            target="_blank">
-                            <h4>Antonio Mirante</h4>
-                        </a>
-                        <img src="Images/milan/antonio_mirante.jpg" />
-
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>40</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
                     </div>
-                </div>
-            </details>
+                </details>
 
-            <details>
-                <summary>Verteidigung</summary>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>2</p>
+                <details>
+                    <summary>Verteidigung</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>2</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250058044--davide-calabria/"
+                                target="_blank">
+                                <h4>David Calabria</h4>
+                            </a>
+                            <img src="Images/milan/davide_calabria.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>26</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250058044--davide-calabria/"
-                            target="_blank">
-                            <h4>David Calabria</h4>
-                        </a>
-                        <img src="Images/milan/davide_calabria.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>26</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>19</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250076126--theo-hernandez/"
+                                target="_blank">
+                                <h4>Theo Hernàndez</h4>
+                            </a>
+                            <img src="Images/milan/theo_hernandez.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>19</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>26</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250076126--theo-hernandez/"
-                            target="_blank">
-                            <h4>Theo Hernàndez</h4>
-                        </a>
-                        <img src="Images/milan/theo_hernandez.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>26</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>20</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250122983--pierre-kalulu/"
+                                target="_blank">
+                                <h4>Pierre Kalulu</h4>
+                            </a>
+                            <img src="Images/milan/pierre_kalulu.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>20</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>23</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250122983--pierre-kalulu/"
-                            target="_blank">
-                            <h4>Pierre Kalulu</h4>
-                        </a>
-                        <img src="Images/milan/pierre_kalulu.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>23</td>
-                                <td>1</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>23</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250067630--fikayo-tomori/"
+                                target="_blank">
+                                <h4>Fikayo Tomori</h4>
+                            </a>
+                            <img src="Images/milan/fikayo_tomori.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>23</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ENG</td>
+                                    <td>25</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250067630--fikayo-tomori/"
-                            target="_blank">
-                            <h4>Fikayo Tomori</h4>
-                        </a>
-                        <img src="Images/milan/fikayo_tomori.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ENG</td>
-                                <td>25</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>24</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/108509--simon-kj%C3%A6r/"
+                                target="_blank">
+                                <h4>Simon Kjær</h4>
+                            </a>
+                            <img src="Images/milan/simon_kjaer.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>24</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>DEN</td>
+                                    <td>34</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/108509--simon-kj%C3%A6r/"
-                            target="_blank">
-                            <h4>Simon Kjær</h4>
-                        </a>
-                        <img src="Images/milan/simon_kjaer.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>DEN</td>
-                                <td>34</td>
-                                <td>1</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>42</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250123978--malick-thiaw/"
+                                target="_blank">
+                                <h4>Malick Thiaw</h4>
+                            </a>
+                            <img src="Images/milan/malick_thiaw.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>42</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>GER</td>
+                                    <td>22</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250123978--malick-thiaw/"
-                            target="_blank">
-                            <h4>Malick Thiaw</h4>
-                        </a>
-                        <img src="Images/milan/malick_thiaw.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>GER</td>
-                                <td>22</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>30</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250090800--mattia-caldara/"
+                                target="_blank">
+                                <h4>Mattia Caldara</h4>
+                            </a>
+                            <img src="Images/milan/mattia_caldara.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>30</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>29</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250090800--mattia-caldara/"
-                            target="_blank">
-                            <h4>Mattia Caldara</h4>
-                        </a>
-                        <img src="Images/milan/mattia_caldara.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>29</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>42</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250026962--alessandro-florenzi/"
+                                target="_blank">
+                                <h4>Allessando Florenzi</h4>
+                            </a>
+                            <img src="Images/milan/allesandro_florenzi.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>42</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>32</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250026962--alessandro-florenzi/"
-                            target="_blank">
-                            <h4>Allessando Florenzi</h4>
-                        </a>
-                        <img src="Images/milan/allesandro_florenzi.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>32</td>
-                                <td>2</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>84</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164067--clinton-nsiala-makengo/"
+                                target="_blank">
+                                <h4>Clinton Nsiaala-Makengo</h4>
+                            </a>
+                            <img src="Images/milan/clinton_nsiala-makengo.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>84</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>19</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164067--clinton-nsiala-makengo/"
-                            target="_blank">
-                            <h4>Clinton Nsiaala-Makengo</h4>
-                        </a>
-                        <img src="Images/milan/clinton_nsiala-makengo.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>19</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>86</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177341--dorian-paloschi/"
+                                target="_blank">
+                                <h4>Dorian Paloschi</h4>
+                            </a>
+                            <img src="Images/milan/dorian_paloschi.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>86</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177341--dorian-paloschi/"
-                            target="_blank">
-                            <h4>Dorian Paloschi</h4>
-                        </a>
-                        <img src="Images/milan/dorian_paloschi.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>17</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>93</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164095--andrei-coubis/"
+                                target="_blank">
+                                <h4>Andrei Coubis</h4>
+                            </a>
+                            <img src="Images/milan/empty.svg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>93</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ROU</td>
+                                    <td>20</td>
+                                    <td>0</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164095--andrei-coubis/"
-                            target="_blank">
-                            <h4>Andrei Coubis</h4>
-                        </a>
-                        <img src="Images/milan/empty.svg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ROU</td>
-                                <td>20</td>
-                                <td>0</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>95</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177381--davide-bartesaghi/"
+                                target="_blank">
+                                <h4>David Bartesaghi</h4>
+                            </a>
+                            <img src="Images/milan/davide_bartesaghi.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>95</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177381--davide-bartesaghi/"
-                            target="_blank">
-                            <h4>David Bartesaghi</h4>
-                        </a>
-                        <img src="Images/milan/davide_bartesaghi.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>17</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>97</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177765--adam-bakoune/"
+                                target="_blank">
+                                <h4>Adam Bakoune</h4>
+                            </a>
+                            <img src="Images/milan/adam_bakoune.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>97</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250177765--adam-bakoune/"
-                            target="_blank">
-                            <h4>Adam Bakoune</h4>
-                        </a>
-                        <img src="Images/milan/adam_bakoune.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>17</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>98</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250182792--vittorio-magni/"
+                                target="_blank">
+                                <h4>Vittorio Magni</h4>
+                            </a>
+                            <img src="Images/milan/vittorio_magni.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>98</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250182792--vittorio-magni/"
-                            target="_blank">
-                            <h4>Vittorio Magni</h4>
-                        </a>
-                        <img src="Images/milan/vittorio_magni.jpg" />
-
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>17</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
                     </div>
-                </div>
-            </details>
+                </details>
 
-            <details>
-                <summary>Mittelfeld</summary>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>7</p>
+                <details>
+                    <summary>Mittelfeld</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>7</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250101473--yacine-adli/"
+                                target="_blank">
+                                <h4>Yacine Adli</h4>
+                            </a>
+                            <img src="Images/milan/yacine_adli.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>23</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250101473--yacine-adli/"
-                            target="_blank">
-                            <h4>Yacine Adli</h4>
-                        </a>
-                        <img src="Images/milan/yacine_adli.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>23</td>
-                                <td>2</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>8</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250056566--ruben-loftus-cheek/"
+                                target="_blank">
+                                <h4>Ruben Loftus-Cheeck</h4>
+                            </a>
+                            <img src="Images/milan/ruben_loftus_cheek.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>8</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ENG</td>
+                                    <td>27</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250056566--ruben-loftus-cheek/"
-                            target="_blank">
-                            <h4>Ruben Loftus-Cheeck</h4>
-                        </a>
-                        <img src="Images/milan/ruben_loftus_cheek.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ENG</td>
-                                <td>27</td>
-                                <td>1</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>14</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250121294--tijjani-reijnders/"
+                                target="_blank">
+                                <h4>Tijjani Reijnders</h4>
+                            </a>
+                            <img src="Images/milan/tijjani_reijnders.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>14</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>NED</td>
+                                    <td>25</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250121294--tijjani-reijnders/"
-                            target="_blank">
-                            <h4>Tijjani Reijnders</h4>
-                        </a>
-                        <img src="Images/milan/tijjani_reijnders.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>NED</td>
-                                <td>25</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>32</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250112117--tommaso-pobega/"
+                                target="_blank">
+                                <h4>Tomaso Pobega</h4>
+                            </a>
+                            <img src="Images/milan/tommaso_pobega.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>32</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>24</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250112117--tommaso-pobega/"
-                            target="_blank">
-                            <h4>Tomaso Pobega</h4>
-                        </a>
-                        <img src="Images/milan/tommaso_pobega.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>24</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>33</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250064252--rade-krunic/"
+                                target="_blank">
+                                <h4>Rade Krunić</h4>
+                            </a>
+                            <img src="Images/milan/rade_krunic.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>33</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>BiH</td>
+                                    <td>30</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250064252--rade-krunic/"
-                            target="_blank">
-                            <h4>Rade Krunić</h4>
-                        </a>
-                        <img src="Images/milan/rade_krunic.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>BiH</td>
-                                <td>30</td>
-                                <td>2</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>72</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250168730--mattia-malaspina/"
+                                target="_blank">
+                                <h4>Mattia Malaspina</h4>
+                            </a>
+                            <img src="Images/milan/mattia_malaspina.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>72</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>18</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250168730--mattia-malaspina/"
-                            target="_blank">
-                            <h4>Mattia Malaspina</h4>
-                        </a>
-                        <img src="Images/milan/mattia_malaspina.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>18</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>80</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250117511--yunus-musah/"
+                                target="_blank">
+                                <h4>Yunus Musah</h4>
+                            </a>
+                            <img src="Images/milan/yunus_musah.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>80</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>USA</td>
+                                    <td>20</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250117511--yunus-musah/"
-                            target="_blank">
-                            <h4>Yunus Musah</h4>
-                        </a>
-                        <img src="Images/milan/yunus_musah.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>USA</td>
-                                <td>20</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>81</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250168869--victor-eletu/"
+                                target="_blank">
+                                <h4>Victor Electu</h4>
+                            </a>
+                            <img src="Images/milan/victor_electu.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>81</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>NGA</td>
+                                    <td>18</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250168869--victor-eletu/"
-                            target="_blank">
-                            <h4>Victor Electu</h4>
-                        </a>
-                        <img src="Images/milan/victor_electu.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>NGA</td>
-                                <td>18</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>85</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164054--kevin-zeroli/"
+                                target="_blank">
+                                <h4>Kevin Zeroli</h4>
+                            </a>
+                            <img src="Images/milan/kevin_zeroli.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>85</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>18</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164054--kevin-zeroli/"
-                            target="_blank">
-                            <h4>Kevin Zeroli</h4>
-                        </a>
-                        <img src="Images/milan/kevin_zeroli.jpg" />
-
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>18</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
                     </div>
-                </div>
-            </details>
+                </details>
 
-            <details>
-                <summary>Sturm</summary>
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>9</p>
+                <details>
+                    <summary>Sturm</summary>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>9</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250020851--olivier-giroud/"
+                                target="_blank">
+                                <h4>Oliver Giroud</h4>
+                            </a>
+                            <img src="Images/milan/oliver_girooud.jpg" />
+
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>FRA</td>
+                                    <td>37</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250020851--olivier-giroud/"
-                            target="_blank">
-                            <h4>Oliver Giroud</h4>
-                        </a>
-                        <img src="Images/milan/oliver_girooud.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>FRA</td>
-                                <td>37</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>10</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250089228--rafael-leao/"
+                                target="_blank">
+                                <h4>Rafael Leão</h4>
+                            </a>
+                            <img src="Images/milan/rafael_leao.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>10</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>POR</td>
+                                    <td>24</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250089228--rafael-leao/"
-                            target="_blank">
-                            <h4>Rafael Leão</h4>
-                        </a>
-                        <img src="Images/milan/rafael_leao.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>POR</td>
-                                <td>24</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>11</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250096698--christian-pulisic/"
+                                target="_blank">
+                                <h4>Christian Pulišić</h4>
+                            </a>
+                            <img src="Images/milan/christian_pulisic.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>11</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>USA</td>
+                                    <td>25</td>
+                                    <td>3</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250096698--christian-pulisic/"
-                            target="_blank">
-                            <h4>Christian Pulišić</h4>
-                        </a>
-                        <img src="Images/milan/christian_pulisic.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>USA</td>
-                                <td>25</td>
-                                <td>3</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>15</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250058244--luka-jovic/"
+                                target="_blank">
+                                <h4>Luka Jović</h4>
+                            </a>
+                            <img src="Images/milan/luke_jovic.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>15</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>SRB</td>
+                                    <td>25</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250058244--luka-jovic/"
-                            target="_blank">
-                            <h4>Luka Jović</h4>
-                        </a>
-                        <img src="Images/milan/luke_jovic.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>SRB</td>
-                                <td>25</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>17</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250101696--noah-okafor/"
+                                target="_blank">
+                                <h4>Noah Okafor</h4>
+                            </a>
+                            <img src="Images/milan/noah_okafor.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>17</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>SUI</td>
+                                    <td>23</td>
+                                    <td>1</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250101696--noah-okafor/"
-                            target="_blank">
-                            <h4>Noah Okafor</h4>
-                        </a>
-                        <img src="Images/milan/noah_okafor.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>SUI</td>
-                                <td>23</td>
-                                <td>1</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>21</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250122746--samuel-chukwueze/"
+                                target="_blank">
+                                <h4>Samuel Chukwueze</h4>
+                            </a>
+                            <img src="Images/milan/samuel_chukwueze.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>21</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>NGA</td>
+                                    <td>24</td>
+                                    <td>2</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250122746--samuel-chukwueze/"
-                            target="_blank">
-                            <h4>Samuel Chukwueze</h4>
-                        </a>
-                        <img src="Images/milan/samuel_chukwueze.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>NGA</td>
-                                <td>24</td>
-                                <td>2</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>70</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164055--chaka-traore/"
+                                target="_blank">
+                                <h4>Chaka Traore</h4>
+                            </a>
+                            <img src="Images/milan/chaka_traore.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>70</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>CIV</td>
+                                    <td>18</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250164055--chaka-traore/"
-                            target="_blank">
-                            <h4>Chaka Traore</h4>
-                        </a>
-                        <img src="Images/milan/chaka_traore.jpg" />
 
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>CIV</td>
-                                <td>18</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
-                    </div>
+                        <div class="grid-item">
+                            <div class="trikot">
+                                <p>99</p>
+                            </div>
+                            <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250178212--diego-sia/"
+                                target="_blank">
+                                <h4>Diego Sia</h4>
+                            </a>
+                            <img src="Images/milan/diego_sila.jpg" />
 
-                    <div class="grid-item">
-                        <div class="trikot">
-                            <p>99</p>
+                            <table>
+                                <tr>
+                                    <th>Nationalität</th>
+                                    <th>Alter</th>
+                                    <th>Spiele</th>
+                                    <th>Gegentore</th>
+                                </tr>
+                                <tr>
+                                    <td>ITA</td>
+                                    <td>17</td>
+                                    <td>-</td>
+                                    <td>-</td>
+                                </tr>
+                            </table>
                         </div>
-                        <a href="https://de.uefa.com/uefachampionsleague/clubs/players/250178212--diego-sia/"
-                            target="_blank">
-                            <h4>Diego Sia</h4>
-                        </a>
-                        <img src="Images/milan/diego_sila.jpg" />
-
-                        <table>
-                            <tr>
-                                <th>Nationalität</th>
-                                <th>Alter</th>
-                                <th>Spiele</th>
-                                <th>Gegentore</th>
-                            </tr>
-                            <tr>
-                                <td>ITA</td>
-                                <td>17</td>
-                                <td>-</td>
-                                <td>-</td>
-                            </tr>
-                        </table>
                     </div>
-                </div>
-            </details>
-        </section>
+                </details>
+            </section>
 
-        <section class="content" id="mannschaft-content">
-            <img src="Images/milan/mannschaft.jpg" />
-        </section>
-    </main>
+            <section class="content" id="mannschaft-content">
+                <img src="Images/milan/mannschaft.jpg" />
+            </section>
+        </main>
 
-    <footer>
-        &copy; 2023 Made by Chris
-    </footer>
+        <footer>
+            &copy; 2023 Made by Chris
+        </footer>
 
-    <script src="Scripts/themeSwitcher.js"></script>
-    <script src="Scripts/router.js"></script>
-</body>
+        <script src="Scripts/themeSwitcher.js"></script>
+        <script src="Scripts/router.js"></script>
+    </body>
 
 </html>
