@@ -181,7 +181,7 @@ td {
   padding-right: 2px;
 }
 
-/*Nur für PSG auf der Main Seite*/
+/* Bild nur für PSG auf der Main Seite(News) */
 .PSGLogonews{
     display: inline-block;
     vertical-align: middle;
@@ -192,7 +192,7 @@ td {
     margin-right: 5px;
     margin-left: 0;
 }
-/*Button2 Stil */
+/* Button2 Stil */
 .btn2 {
   margin-top: 10px;
   display: inline-block;
