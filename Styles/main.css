@@ -83,20 +83,18 @@ footer {
 }
 #footer_head {
   color: white;
-  position: relative;
-  width: 41%;
-  top: 100px;
-  left: 402px;
+  width: 100%;
 }
 #footer_links {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 #footer_links a {
   text-decoration: none;
   color: white;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
 }
 .footerlink{
   font-size: 15px;
