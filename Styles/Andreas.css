@@ -55,7 +55,7 @@ main{
 /* Stil für die Bilder */
 .diashow-images {
     width: 100%;
-    height: 600px;
+    height: 460px;
     object-fit: contain;
   }
 .diaimages{
@@ -82,19 +82,19 @@ main{
     margin-left: 15px;
     margin-right: 15px;
 }
-#lastgame a {
+#lastgame a{
     text-decoration: none;
     position: relative;
     bottom: 110px;
 }
-#lastgame-headline {
+#lastgame-headline{
     width: 100%;
 }
 #lastgame:hover{
-    transform: scale(1.02);
+    transform: scale(1.015);
     transition: transform 0.4s;
 }
-#lastscore {
+#lastscore{
     position: relative;
     top: 105px;
     text-decoration: none;
@@ -111,35 +111,83 @@ main{
     width: 50%;
     color: black;
 }
-#nextgame img {
-    height: 58px;
-    width: 58px;
-    margin-left: 15px;
-    margin-right: 15px;
+#nextgame-teams{
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 #nextgame-headline {
     width: 100%;
 }
-#nextgame:hover{
-    transform: scale(1.02);
-    transition: transform 0.4s;
-}
-#nextscore {
+#nextscore{
     position: relative;
-    top: 105px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bold;
     font-family: system-ui;
-    color: white;
+    color: rgb(0, 0, 0);
 }
-#subinfo_nextscore{
-    color: gray;
+#subinfo_nextscore_container{
+    display: flex;
+    align-items: center;
+}
+#subinfo_nextscore_pic1{
+    position: absolute;
+    top: 194px;
+    left: 23px;
+}
+#subinfo_nextscore_pic2 {
+    position: absolute;
+    top: 201px;
+    left: 345px;
+}
+#subinfo_nextscore {
+    color: rgb(82, 82, 82);
+    margin-left: 70px;
+    font-size: 20px;
 }
 #nextgames{
     background-color: rgb(217, 217, 217);
     width: 24%;
+    font-size: 20px;
+    font-family: system-ui;
+    font-weight: bold;
+}
+#nextgames-headline {
+    width: 100%;
     color: black;
+}
+.headtextgames{
+    color: black;
+}
+.subtextgames{
+    color: rgb(83, 83, 83);
+    font-size: 17px;
+}
+#headline_main{
+    color: white;
+    font-size: 28px;
+    font-family: system-ui;
+}
+.home_main_hr {
+    width: 85%;
+    height: 12px;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    border-radius: 6px;
+}
+#ueber_uns_textbox {
+    text-align: center;
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    display: block ruby;
+  }
+#text_main{
+    color: white;
+    font-size: 18px;
+    font-family: system-ui;
+    width: 90%;
 }
 footer{
     background-color: rgb(235, 235, 235);

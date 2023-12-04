@@ -23,19 +23,29 @@ header h1{
   font-size: 24px;
   color: white;
   text-align: right;
+<<<<<<< HEAD
   text-decoration: none;
+=======
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
 }
 #links a:hover{
 
   text-decoration: none;
   color: rgb(179, 179, 179);
   text-align: center;
+<<<<<<< HEAD
   transition: 0.5s;
+=======
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
 }
 body{
   background-color:black;
   color: white;
+<<<<<<< HEAD
   
+=======
+ 
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
 }
 footer{
   font-weight: bold;
@@ -84,13 +94,20 @@ border-radius: 5px;
 background-image: url(https://th.bing.com/th/id/OIP.5KG6GOFNE0nL-WZ4QaX9eQHaEK?w=301&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7);
 text-align: center;
 padding:30px 10px;
+<<<<<<< HEAD
 transition: transform .3s;
+=======
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
 }
 
 .grid .box-grid .box:hover{
 box-shadow: 0 10px 15px rgba(0,0,0,.3);
+<<<<<<< HEAD
 transform: scale(1.07);
 
+=======
+transform: scale(1.03);
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
 }
 
 .grid .box-grid .box .Spiele{
@@ -121,7 +138,11 @@ color: white;
 }
 
 .homepagebild {
+<<<<<<< HEAD
   display: flex;
+=======
+  display: block;
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
   width: 100%;
   height: auto;
   border-radius: 11%;
@@ -145,7 +166,11 @@ color: white;
 }
 
 .imgtext {
+<<<<<<< HEAD
   white-space: nowrap; 
+=======
+  white-space: nowrap;
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77
   color: white;
   font-size: 20px;
   position: absolute;
@@ -156,6 +181,7 @@ color: white;
   -ms-transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 .fill{
 
   margin-top: 10px;
@@ -324,3 +350,145 @@ border-top: 1,1px solid burlywood;
   transform: scale(.85);
 
 }
+=======
+.mainbutton{
+
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background: grey;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 15px 25px;
+  position: relative;
+}
+
+.mainbutton:hover{
+
+  transform: scale(1.015);
+
+}
+
+
+#containeranimation {
+  color:#999;
+  text-transform: uppercase;
+  font-size:35px;
+  font-weight:bold;
+  padding-top: 100px;  
+  position:relative;
+  width:100%;
+  bottom: 5%;
+  display:block;
+  text-align: center;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 6s linear infinite;
+}
+
+#flip div div {
+  background:grey;
+ 
+}
+#flip div:first-child div {
+  background:deepskyblue;
+ 
+}
+#flip div:last-child div {
+  background:burlywood;
+ 
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+.lineUp {
+  animation: 3s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+#lineUptext {
+
+  font-size: 18px;
+  font-weight: 100;
+
+}
+
+hr.Vereinsinfo-hr{
+
+border-top: 1,1px solid burlywood;
+
+}
+
+#meinVideo {
+  position: center;
+  right: 0;
+  bottom: 0;
+  height: 1100px;
+  width: 1830px;
+ 
+}
+
+.contentvideo {
+  bottom: 0;
+  background-image: url("https://th.bing.com/th/id/OIP.E6MF-qPdYCsbd4ZYMEkx_AHaEo?w=357&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7");
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#meinBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#meinBtn:hover {
+  background: #ddd;
+  color: black;
+}
+>>>>>>> 880d7c23062aa063445f09582f8793f15947ff77

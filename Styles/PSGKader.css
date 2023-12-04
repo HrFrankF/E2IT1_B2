@@ -1,5 +1,11 @@
-header{
-    background-color:  #003255;
+/* Scrollverhalten */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Stil für den Header */
+header {
+    background-color: #003255;
     color: #fff;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
@@ -9,60 +15,69 @@ header{
     margin-left: 0px;
     margin-right: 0px;
 }
-header h1{
+
+/* Stil für h1 innerhalb des Headers */
+header h1 {
     padding-top: 20px;
     text-align: center;
 }
-#navlogo{
+
+/* Stil für das Navigationslogo */
+#navlogo {
     position: absolute;
     top: 15px;
     left: 65px;
     margin: 5px;
     padding: 5px;
 }
-#links{
+
+/* Stil für Links */
+#links {
     background-color: #00417000;
     color: #080808;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
 }
-#links a{
+
+/* Stil für Links innerhalb von #links */
+#links a {
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
-#links a:hover{
+
+/* Hover-Stil für Links */
+#links a:hover {
     color: #080808;
     text-decoration: none;
 }
-body{
+
+/* Stil für den gesamten Body */
+body {
     background-color: rgb(29, 29, 29);
 }
 
-#main{
-    color: white;
-    text-align: center;
-    font-size: 19px;
-}
-#about{
-    margin-top: 20px;
-    text-align: center;
-    padding-top: 20px;
-}
-footer{
+/* Stil für den Footer */
+footer {
     background-color: #fff;
     color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20px;
     text-align: center;
     padding: 20px;
+    bottom: 0;
+    width: 100%;
 }
-*{
+
+/* Globale Stildefinition für alle Elemente */
+* {
     font-family: 'Poppins', sans-serif;
-    margin:20; padding:10;
+    margin: 20;
+    padding: 10;
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none;
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
@@ -70,81 +85,108 @@ footer{
     text-align: center;
 }
 
-.grid{
-    background:linear-gradient(45deg, );
-    padding:15px 9%;
+/* Stil für eine Grid-Anordnung */
+.grid {
+    background: linear-gradient(45deg, );
+    padding: 15px 9%;
     padding-bottom: 100px;
 }
 
-.grid .heading{
+/* Stil für die Überschrift in der Grid-Anordnung */
+.grid .heading {
     text-align: center;
     padding-bottom: 15px;
-    color:#fff;
-    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     font-size: 50px;
 }
 
-.grid .box-grid{
+/* Stil für die Boxen in der Grid-Anordnung */
+.grid .box-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap:18px;
+    gap: 18px;
 }
 
-.grid .box-grid .box{
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+/* Stil für einzelne Boxen in der Grid-Anordnung */
+.grid .box-grid .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border-radius: 5px;
     background: #002a47;
     text-align: center;
-    padding:30px 20px;
+    padding: 30px 20px;
 }
-/*Flagge(Nation der Spieler) */
+
+/* Stil für die Flagge (Nation des Spielers) */
 .grid .box-grid .box .imgklasse {
     float: right;
     width: 65px;
     height: 40px;
     position: relative;
 }
-/*Spielerbild*/
+
+/* Stil für das Spielerbild */
 .grid .box-grid .box .Spielerbild {
-    height: 200px; 
+    height: 200px;
 }
 
-.grid .box-grid .box h2{
+/* Stil für die Überschrift h2 */
+.grid .box-grid .box h2 {
     text-align: left;
     color: #9a9ea0;
     font-size: 40px;
     font-weight: bold;
 }
 
-.grid .box-grid .box h3{
-    color:#f5f4f4;
+/* Stil für die Überschrift h3 */
+.grid .box-grid .box h3 {
+    color: #f5f4f4;
     font-size: 22px;
-    padding:10px 0;
+    padding: 10px 0;
 }
 
-.grid .box-grid .box p{
-    color:#dbd9d9;
+/* Stil für den Textinhalt */
+.grid .box-grid .box p {
+    color: #dbd9d9;
     font-size: 15px;
     line-height: 1.8;
 }
 
-.grid .box-grid .box .btn{
+/* Stil für den Button */
+.grid .box-grid .box .btn {
     margin-top: 10px;
     display: inline-block;
-    background:#333;
-    color:#fff;
+    background: #333;
+    color: #fff;
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
 }
 
-.grid .box-grid .box .btn:hover{
+/* Hover-Stil für den Button */
+.grid .box-grid .box .btn:hover {
     letter-spacing: 1px;
 }
 
-.grid .box-grid .box:hover{
-    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+/* Hover-Stil für die Box */
+.grid .box-grid .box:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
     transform: scale(1.03);
 }
 
+/* Stil für Button*/
+.btn {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin-bottom: 40px;
+}
 
+/* hover Button*/
+.btn:hover {
+    letter-spacing: 1px;
+}

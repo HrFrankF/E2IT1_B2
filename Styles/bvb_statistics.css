@@ -84,18 +84,18 @@ main{
     border-radius: 1px;
     margin-right: 3px;
     position: relative;
-    bottom: 6px;
+    bottom: 2px;
   }
-  #karte-R{
+  #karte-R {
     width: 15px;
-    height: 20px; 
+    height: 20px;
     background-color: red;
     border: none;
     border-radius: 1px;
     margin-right: 3px;
     position: relative;
-    bottom: 6px;
-  }
+    bottom: 2px;
+}
 
   footer{
     background-color: rgb(235, 235, 235);
