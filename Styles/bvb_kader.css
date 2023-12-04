@@ -36,10 +36,11 @@ header {
     text-decoration: none;
 }
 body {
-    background-image: url('../Images/Sponsor_Dortmund/bgimage.jpg');
+    background-image: url(../Images/Sponsor_Dortmund/bgimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0px;
 }
 main {
     viewport-fit: 20vh;
@@ -47,6 +48,20 @@ main {
     text-align: center;
     font-size: 19px;
     padding-top: 1px;
+}
+.headline_main {
+    margin: 0px 100px 45px 100px;
+    padding: 12px;
+    background-color: #dab61c;
+    color: #2a2a2a;
+    font-size: 32px;
+    font-family: system-ui;
+    border-radius: 2px;
+}
+#teampic{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 45px;
 }
 /*Linie in der Tabelle der Spielerprofile*/
 .kader-hr {
@@ -122,8 +137,8 @@ main {
     width: 145px;
     height: 135px;
     position: relative;
-    left: 60px;
-    bottom: 117px;
+    left: 62px;
+    bottom: 160px;
     border-radius: 25%;
     border: solid rgb(134, 134, 134)2px;
 }
