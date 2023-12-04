@@ -213,6 +213,14 @@ td {
   text-decoration: none;
   transform: scale(1.09)
 }
+/*Button Center*/
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 /*Impressum*/
 .impressum-content {
