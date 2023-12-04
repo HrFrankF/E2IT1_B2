@@ -135,7 +135,7 @@ main{
 }
 #subinfo_nextscore {
     color: rgb(82, 82, 82);
-    margin-left: 70px;
+    margin-left: auto;
     font-size: 20px;
 }
 #nextgames{
