@@ -439,8 +439,8 @@ border-top: 1,1px solid burlywood;
   position: center;
   right: 0;
   bottom: 0;
-  height: 1100px;
-  width: 1830px;
+  height: auto;
+  width: 100%;
  
 }
 
