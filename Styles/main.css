@@ -213,3 +213,15 @@ td {
   text-decoration: none;
   transform: scale(1.09)
 }
+
+/*Impressum*/
+.impressum-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.impressum-section {
+  margin-bottom: 20px;
+}
+.impressum-section h2 {
+  margin-bottom: 10px;
+}
