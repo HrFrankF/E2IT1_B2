@@ -132,6 +132,16 @@ footer {
   text-align: center;
 }
 
+/*Button Container*/
+.news-item .btn-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%; 
+  text-align: center; 
+}
+
+
 td {
   text-align: center;
 }
@@ -191,15 +201,6 @@ td {
     justify-content: left;
     margin-right: 5px;
     margin-left: 0;
-}
-
-/*Button Container*/
-.btn-container {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 40%; 
-  text-align: center; 
 }
 
 /* Button2 Stil */
