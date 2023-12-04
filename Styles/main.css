@@ -204,9 +204,11 @@ td {
   padding: 8px 25px;
   margin-bottom: 10px;
   bottom: 0;
+  transition: 1s;
 }
 
 /* Button hover */
 .btn2:hover {
-  letter-spacing: 1px;
+  text-decoration: none;
+  transform: scale(1.05)
 }
