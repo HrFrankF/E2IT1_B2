@@ -36,10 +36,11 @@ header {
     text-decoration: none;
 }
 body {
-    background-image: url('../Images/Sponsor_Dortmund/bgimage.jpg');
+    background-image: url(../Images/Sponsor_Dortmund/bgimage.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0px;
 }
 main {
     viewport-fit: 20vh;
@@ -122,8 +123,8 @@ main {
     width: 145px;
     height: 135px;
     position: relative;
-    left: 60px;
-    bottom: 117px;
+    left: 62px;
+    bottom: 160px;
     border-radius: 25%;
     border: solid rgb(134, 134, 134)2px;
 }

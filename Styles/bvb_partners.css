@@ -39,6 +39,7 @@ body{
     background-image: url('../Images/Sponsor_Dortmund/BVB_Partners_Background.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0px;
 }
 main{
     color: white;
@@ -71,7 +72,7 @@ main{
     border-radius: 3px;
 }
 #partners h4{
-    background-color: #8b8b8b9d;
+    background-color: #6666669d;
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 20px;
@@ -107,7 +108,7 @@ main{
     filter: contrast(100%);
 }
 .partners-hr{
-    background-color: rgb(247, 244, 238);
+    background-color: rgb(187 124 0);
     height: 4px;
     border: none;
     margin-top: 5px;

@@ -39,6 +39,7 @@ body {
     background-image: url('../Images/Sponsor_Dortmund/bgimage2.jpg');
     background-position: center;
     background-size: cover;
+    margin: 0px;
   }
 main{
     color: white;

@@ -83,15 +83,14 @@ footer {
 }
 #footer_head {
   color: white;
-  position: absolute;
-  width: 100%;
+  position: relative;
+  width: 41%;
+  top: 100px;
+  left: 402px;
 }
 #footer_links {
-  position: relative;
   display: flex;
   align-items: center;
-  top: 110px;
-  left: 692px;
 }
 #footer_links a {
   text-decoration: none;
@@ -109,7 +108,7 @@ footer {
   color: grey;
   width: 45%;
   position: relative;
-  left: 518px;
+  left: 380px;
   top: 191px;
   font-size: 12px;
 }
