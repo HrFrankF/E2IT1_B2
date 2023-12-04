@@ -181,6 +181,7 @@ td {
   padding-right: 2px;
 }
 
+/*Nur für PSG auf der Main Seite*/
 .PSGLogonews{
     display: inline-block;
     vertical-align: middle;
@@ -190,4 +191,20 @@ td {
     justify-content: left;
     margin-right: 5px;
     margin-left: 0;
+}
+/*Button2 Stil */
+.btn2 {
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  margin-bottom: 10px;
+}
+
+/* Button hover */
+.btn2:hover {
+  letter-spacing: 1px;
 }
