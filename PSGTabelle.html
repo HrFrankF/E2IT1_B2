@@ -11,401 +11,373 @@
 
 <body>
     <!-- Überschrift und Navigationsleiste -->
-    <header>
-        <h1>Paris Saint-Germain</h1>
-        <nav id="navigation">
-            <img id="navlogo" src="Images/PSG.png" alt="LOGO PSG" width="205px" height="205px">
-            <ul id="links">
-                <a href="index.html">Home</a> | <a href="Marcel.html">Allgemein</a> | <a href="PSGKader.html">Kader</a>
-                | <a href="PSGTabelle.html">Tabelle</a> | <a href="PSGpartner.html">Partner</a> |
-                <a href="https://en.psg.fr/">zu PSG</a>
-            </ul>
-        </nav>
-    </header>
+    <div class="Navbar">
+        <header>
+            <h1>Paris Saint-Germain</h1>
+            <nav id="navigation">
+                <ul id="links-left">
+                    <a href="index.html">Home</a> | <a href="Marcel.html">Allgemein</a> | <a
+                        href="PSGKader.html">Kader</a>
+                </ul>
+                <img id="navlogo" src="Images/PSG.png" alt="PSG LOGO">
+                <ul id="links-right">
+                    <a href="PSGTabelle.html">Tabelle</a> | <a href="PSGpartner.html">Partner</a> |
+                    <a href="https://en.psg.fr/">Zu PSG</a>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
-    <div id="main">
-        <!--Stand 15.11.23 von der Tabelle Championsleague Gruppe F-->
-        <h1 class="heading">Champions League Gruppe F 2023-24</h1>
-        <table class="t">
-            <!-- Tabellenüberschriften -->
-            <tr>
-                <th class="t1">Pos.</th>
-                <th class="t2">Team</th>
-                <th class="t1">Punkte</th>
-                <th class="t1">Spiele</th>
-                <th class="t1">Siege</th>
-                <th class="t1">unentschieden</th>
-                <th class="t1">verloren</th>
-                <th class="t1">Tore</th>
-                <th class="t1">Gegentore</th>
-                <th class="t1">Tor Differenz</th>
-            </tr>
-            <!-- Tabelleninhalt Borussia Dortmund-->
-            <tr>
-                <td class="t1">1</td>
-                <td class="t2"><img src="Images/dortmund.png" alt="Logo Dortmund" class="tableimg">BORUSSIA DORTMUND
-                </td>
-                <td class="t1">7</td>
-                <td class="t1">4</td>
-                <td class="t1">2</td>
-                <td class="t1">1</td>
-                <td class="t1">1</td>
-                <td class="t1">3</td>
-                <td class="t1">2</td>
-                <td class="t1">+1</td>
-            </tr>
-            <!-- Tabelleninhalt PSG-->
-            <tr>
-                <td class="t-markiert">2</td>
-                <td class="t-markiert t2"><img src="Images/PSG.png" alt="Logo PSG" class="tableimg">PARIS SAINT-GERMAIN
-                </td>
-                <td class="t-markiert">6</td>
-                <td class="t-markiert">4</td>
-                <td class="t-markiert">2</td>
-                <td class="t-markiert">0</td>
-                <td class="t-markiert">2</td>
-                <td class="t-markiert">7</td>
-                <td class="t-markiert">6</td>
-                <td class="t-markiert">+1</td>
-            </tr>
-            <!-- Tabelleninhalt AC MILAN-->
-            <tr>
-                <td class="t1">3</td>
-                <td class="t2"><img src="Images/milan.png" alt="Logo AC Milan" class="tableimg">AC MILAN</td>
-                <td class="t1">5</td>
-                <td class="t1">4</td>
-                <td class="t1">1</td>
-                <td class="t1">2</td>
-                <td class="t1">1</td>
-                <td class="t1">2</td>
-                <td class="t1">4</td>
-                <td class="t1">-2</td>
-            </tr>
-            <!-- Tabelleninhalt NEWCASTLE UNITED-->
-            <tr>
-                <td class="t1">4</td>
-                <td class="t2"><img src="Images/newcastle.png" alt="Logo Newcastle" class="tableimg">NEWCASTLE UNITED
-                </td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">1</td>
-                <td class="t1">1</td>
-                <td class="t1">2</td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">0</td>
-            </tr>
-        </table>
+    <!--Stand 15.11.23 von der Tabelle Championsleague Gruppe F-->
+    <h1 class="headingh1">Champions League Gruppe F 2023-24</h1>
+    <table class="t">
+        <!-- Tabellenüberschriften -->
+        <tr>
+            <th class="t1">Pos.</th>
+            <th class="t2">Team</th>
+            <th class="t1">Punkte</th>
+            <th class="t1">Spiele</th>
+            <th class="t1">Siege</th>
+            <th class="t1">unentschieden</th>
+            <th class="t1">verloren</th>
+            <th class="t1">Tore</th>
+            <th class="t1">Gegentore</th>
+            <th class="t1">Tor Differenz</th>
+        </tr>
+        <!-- Tabelleninhalt Borussia Dortmund-->
+        <tr>
+            <td class="t1" data-label="Position">1</td>
+            <td class="t2" data-label="Team"><img src="Images/dortmund.png" alt="Logo Dortmund"
+                    class="tableimg">BORUSSIA DORTMUND
+            </td>
+            <td class="t1" data-label="Punkte">7</td>
+            <td class="t1" data-label="Spiele">4</td>
+            <td class="t1" data-label="Siege">2</td>
+            <td class="t1" data-label="Unentschieden">1</td>
+            <td class="t1" data-label="Verloren">1</td>
+            <td class="t1" data-label="Tore">3</td>
+            <td class="t1" data-label="Gegentore">2</td>
+            <td class="t1" data-label="Tor Differenz">+1</td>
+        </tr>
+        <!-- Tabelleninhalt PSG-->
+        <tr>
+            <td class="t-markiert" data-label="Position">2</td>
+            <td class="t-markiert t2" data-label="Team"><img src="Images/PSG.png" alt="Logo PSG" class="tableimg">PARIS
+                SAINT-GERMAIN
+            </td>
+            <td class="t-markiert" data-label="Punkte">6</td>
+            <td class="t-markiert" data-label="Spiele">4</td>
+            <td class="t-markiert" data-label="Siege">2</td>
+            <td class="t-markiert" data-label="Unentschieden">0</td>
+            <td class="t-markiert" data-label="Verloren">2</td>
+            <td class="t-markiert" data-label="Tore">7</td>
+            <td class="t-markiert" data-label="Gegentore">6</td>
+            <td class="t-markiert" data-label="Tor Differenz">+1</td>
+        </tr>
+        <!-- Tabelleninhalt AC MILAN-->
+        <tr>
+            <td class="t1" data-label="Position">3</td>
+            <td class="t2" data-label="Team"><img src="Images/milan.png" alt="Logo AC Milan" class="tableimg">AC MILAN
+            </td>
+            <td class="t1" data-label="Punkte">5</td>
+            <td class="t1" data-label="Spiele">4</td>
+            <td class="t1" data-label="Siege">1</td>
+            <td class="t1" data-label="Unentschieden">2</td>
+            <td class="t1" data-label="Verloren">1</td>
+            <td class="t1" data-label="Tore">2</td>
+            <td class="t1" data-label="Gegentore">4</td>
+            <td class="t1" data-label="Tor Differenz">-2</td>
+        </tr>
+        <!-- Tabelleninhalt NEWCASTLE UNITED-->
+        <tr>
+            <td class="t1" data-label="Position">4</td>
+            <td class="t2" data-label="Team"><img src="Images/newcastle.png" alt="Logo Newcastle"
+                    class="tableimg">NEWCASTLE UNITED
+            </td>
+            <td class="t1" data-label="Punkte">4</td>
+            <td class="t1" data-label="Spiele">4</td>
+            <td class="t1" data-label="Siege">1</td>
+            <td class="t1" data-label="Unentschieden">1</td>
+            <td class="t1" data-label="Verloren">2</td>
+            <td class="t1" data-label="Tore">4</td>
+            <td class="t1" data-label="Gegentore">4</td>
+            <td class="t1" data-label="Tor Differenz">0</td>
+        </tr>
+    </table>
 
-        <!--Stand 16.11.23 von der Tabelle Ligue 1-->
-        <h1 class="heading">Ligue 1 2023-24</h1>
+    <!--Stand 16.11.23 von der Tabelle Ligue 1-->
+    <h1 class="headingh1">Ligue 1 2023-24</h1>
+    <table class="t">
+        <!-- Tabellenüberschriften -->
+        <tr>
+            <th class="t1">Pos.</th>
+            <th class="t2"><span class="table-text-align-left">Team</span></th>
+            <th class="t1">Punkte</th>
+            <th class="t1">Spiele</th>
+            <th class="t1">Siege</th>
+            <th class="t1">Unentschieden</th>
+            <th class="t1">Verloren</th>
+            <th class="t1">Tore</th>
+            <th class="t1">Gegentore</th>
+            <th class="t1">Tor Differenz</th>
+        </tr>
+        <!-- Tabelleninhalt PARIS SAINT-GERMAIN -->
+        <tr>
+            <td class="t-markiert" data-label="Position">1</td>
+            <td class="t-markiert t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/PSG.png"
+                    alt="Logo PARIS SAINT-GERMAIN" class="tableimg">PARIS SAINT-GERMAIN</td>
+            <td class="t-markiert" data-label="Punkte">27</td>
+            <td class="t-markiert" data-label="Spiele">12</td>
+            <td class="t-markiert" data-label="Siege">8</td>
+            <td class="t-markiert" data-label="Unentschieden">3</td>
+            <td class="t-markiert" data-label="Verloren">1</td>
+            <td class="t-markiert" data-label="Tore">29</td>
+            <td class="t-markiert" data-label="Gegentore">9</td>
+            <td class="t-markiert" data-label="Tor Differenz">+20</td>
+        </tr>
+        <!-- Tabelleninhalt OGC NICE-->
+        <tr>
+            <td class="t1" data-label="Position">2</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/ogc_nice.png" alt="Logo OGC NICE"
+                    class="tableimg">OGC NICE</td>
+            <td class="t1" data-label="Punkte">26</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">7</td>
+            <td class="t1" data-label="Unentschieden">5</td>
+            <td class="t1" data-label="Verloren">0</td>
+            <td class="t1" data-label="Tore">13</td>
+            <td class="t1" data-label="Gegentore">4</td>
+            <td class="t1" data-label="Tor Differenz">+9</td>
+        </tr>
+        <!-- Tabelleninhalt AS MONACO-->
+        <tr>
+            <td class="t1" data-label="Position">3</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/as monaco.png" alt="Logo AS MONACO"
+                    class="tableimg">AS MONACO</td>
+            <td class="t1" data-label="Punkte">24</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">7</td>
+            <td class="t1" data-label="Unentschieden">3</td>
+            <td class="t1" data-label="Verloren">2</td>
+            <td class="t1" data-label="Tore">25</td>
+            <td class="t1" data-label="Gegentore">14</td>
+            <td class=" t1" data-label="Tor Differenz">+11</td>
+        </tr>
+        <!-- Tabelleninhalt LILLE OSC-->
+        <tr>
+            <td class="t1" data-label="Position">4</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/lille osc.png" alt="Logo LILLE OSC"
+                    class="tableimg">LILLE OSC</td>
+            <td class="t1" data-label="Punkte">20</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">5</td>
+            <td class="t1" data-label="Unentschieden">5</td>
+            <td class="t1" data-label="Verloren">2</td>
+            <td class="t1" data-label="Tore">15</td>
+            <td class="t1" data-label="Gegentore">11</td>
+            <td class="t1" data-label="Tor Differenz">+4</td>
+        </tr>
+        <!-- Tabelleninhalt STADE DE REIMS-->
+        <tr>
+            <td class="t1" data-label="Position">5</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/stade de reims.png"
+                    alt="Logo STADE DE REIMS" class="tableimg">STADE DE REIMS</td>
+            <td class="t1" data-label="Punkte">20</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">6</td>
+            <td class="t1" data-label="Unentschieden">2</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">17</td>
+            <td class="t1" data-label="Gegentore">15</td>
+            <td class="t1" data-label="Tor Differenz">+2</td>
+        </tr>
+        <!-- Tabelleninhalt RC LENS-->
+        <tr>
+            <td class="t1" data-label="Position">6</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/rc lens.png" alt="Logo RC LENS"
+                    class="tableimg">RC LENS</td>
+            <td class="t1" data-label="Punkte">16</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">4</td>
+            <td class="t1" data-label="Unentschieden">4</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">13</td>
+            <td class="t1" data-label="Gegentore">13</td>
+            <td class="t1" data-label="Tor Differenz">0</td>
+        </tr>
+        <!-- Tabelleninhalt LE HAVRE-->
+        <tr>
+            <td class="t1" data-label="Position">7</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/le havre ac.png" alt="Logo LE HAVRE AC"
+                    class="tableimg">LE HAVRE AC</td>
+            <td class="t1" data-label="Punkte">15</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">3</td>
+            <td class="t1" data-label="Unentschieden">6</td>
+            <td class="t1" data-label="Verloren">3</td>
+            <td class="t1" data-label="Tore">12</td>
+            <td class="t1" data-label="Gegentore">13</td>
+            <td class="t1" data-label="Tor Differenz">-1</td>
+        </tr>
+        <!-- Tabelleninhalt STADE BRESTOIS 29-->
+        <tr>
+            <td class="t1" data-label="Position">8</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/stade brestois 29.png"
+                    alt="Logo STADE BRESTOIS 29" class="tableimg">STADE BRESTOIS 29</td>
+            <td class="t1" data-label="Spiele">15</td>
+            <td class="t1" data-label="Punkte">11</td>
+            <td class="t1" data-label="Siege">4</td>
+            <td class="t1" data-label="Unentschieden">3</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">11</td>
+            <td class="t1" data-label="Gegentore">13</td>
+            <td class="t1" data-label="Tor Differenz">-2</td>
+        </tr>
+        <!-- Tabelleninhalt FC NANTES-->
+        <tr>
+            <td class="t1" data-label="Position">9</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/fc nantes.png" alt="Logo FC NANTES"
+                    class="tableimg">FC NANTES</td>
+            <td class="t1" data-label="Spiele">14</td>
+            <td class="t1" data-label="Punkte">12</td>
+            <td class="t1" data-label="Siege">4</td>
+            <td class="t1" data-label="Unentschieden">2</td>
+            <td class="t1" data-label="Verloren">6</td>
+            <td class="t1" data-label="Tore">17</td>
+            <td class="t1" data-label="Gegentore">23</td>
+            <td class="t1" data-label="Tor Differenz">-6</td>
+        </tr>
+        <!-- Tabelleninhalt OLYMPIQUE MARSEILLE-->
+        <tr>
+            <td class="t1" data-label="Position">10</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/olympique marseille.png"
+                    alt="Logo OLYMPIQUE MARSEILLE" class="tableimg">OLYMPIQUE MARSEILLE</td>
+            <td class="t1" data-label="Spiele">13</td>
+            <td class="t1" data-label="Punkte">11</td>
+            <td class="t1" data-label="Siege">3</td>
+            <td class="t1" data-label="Unentschieden">4</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">12</td>
+            <td class="t1" data-label="Gegentore">13</td>
+            <td class="t1" data-label="Tor Differenz">-1</td>
+        </tr>
+        <!-- Tabelleninhalt FC METZ-->
+        <tr>
+            <td class="t1" data-label="Position">11</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/fc metz.png" alt="Logo FC METZ"
+                    class="tableimg">FC METZ</td>
+            <td class="t1" data-label="Spiele">13</td>
+            <td class="t1" data-label="Punkte">12</td>
+            <td class="t1" data-label="Siege">3</td>
+            <td class="t1" data-label="Unentschieden">4</td>
+            <td class="t1" data-label="Verloren">5</td>
+            <td class="t1" data-label="Tore">12</td>
+            <td class="t1" data-label="Gegentore">18</td>
+            <td class="t1" data-label="Tor Differenz">-6</td>
+        </tr>
+        <!-- Tabelleninhalt MONTPELLIER HSC-->
+        <tr>
+            <td class="t1" data-label="Position">12</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/montpellier hsc.png"
+                    alt="Logo MONTPELLIER HSC" class="tableimg">MONTPELLIER HSC</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Punkte">11</td>
+            <td class="t1" data-label="Siege">3</td>
+            <td class="t1" data-label="Unentschieden">4</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">15</td>
+            <td class="t1" data-label="Gegentore">14</td>
+            <td class="t1" data-label="Tor Differenz">+1</td>
+        </tr>
+        <!-- Tabelleninhalt STADE RENNAIS-->
+        <tr>
+            <td class="t1" data-label="Position">13</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/stade rennais.png"
+                    alt="Logo STADE RENNAIS" class="tableimg">STADE RENNAIS</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Punkte">12</td>
+            <td class="t1" data-label="Siege">2</td>
+            <td class="t1" data-label="Unentschieden">6</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">16</td>
+            <td class="t1" data-label="Gegentore">16</td>
+            <td class="t1" data-label="Tor Differenz">0</td>
+        </tr>
+        <!-- Tabelleninhalt TOULOUSE FC-->
+        <tr>
+            <td class="t1" data-label="Position">14</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/toulouse fc.png" alt="Logo TOULOUSE FC"
+                    class="tableimg">TOULOUSE FC</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Punkte">12</td>
+            <td class="t1" data-label="Siege">2</td>
+            <td class="t1" data-label="Unentschieden">6</td>
+            <td class="t1" data-label="Verloren">4</td>
+            <td class="t1" data-label="Tore">13</td>
+            <td class="t1" data-label="Gegentore">16</td>
+            <td class="t1" data-label="Tor Differenz">-3</td>
+        </tr>
+        <!-- Tabelleninhalt RC STRASBOURG-->
+        <tr>
+            <td class="t1" data-label="Position">15</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/rc strasbourg.png"
+                    alt="Logo RC STRASBOURG" class="tableimg">RC STRASBOURG</td>
+            <td class="t1" data-label="Punkte">12</td>
+            <td class="t1" data-label="Spiele">11</td>
+            <td class="t1" data-label="Siege">3</td>
+            <td class="t1" data-label="Unentschieden">3</td>
+            <td class="t1" data-label="Verloren">5</td>
+            <td class="t1" data-label="Tore">9</td>
+            <td class="t1" data-label="Gegentore">15</td>
+            <td class="t1" data-label="Tor Differenz">-6</td>
+        </tr>
+        <!-- Tabelleninhalt FC LORIENT-->
+        <tr>
+            <td class="t1" data-label="Position">16</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/fc lorient.png" alt="Logo FC LORIENT"
+                    class="tableimg">FC LORIENT</td>
+            <td class="t1" data-label="Punkte">11</td>
+            <td class="t1" data-label="Spiele">12</td>
+            <td class="t1" data-label="Siege">2</td>
+            <td class="t1" data-label="Unentschieden">5</td>
+            <td class="t1" data-label="Verloren">5</td>
+            <td class="t1" data-label="Tore">15</td>
+            <td class="t1" data-label="Gegentore">21</td>
+            <td class="t1" data-label="Tor Differenz">-6</td>
+        </tr>
+        <!-- Tabelleninhalt CLERMONT FOOT-->
+        <tr>
+            <td class="t1" data-label="Position">17</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/clermont foot.png"
+                    alt="Logo CLERMONT FOOT" class="tableimg">CLERMONT FOOT</td>
+            <td class="t1" data-label="Punkte">9</td>
+            <td class="t1" data-label="Spiele">11</td>
+            <td class="t1" data-label="Siege">2</td>
+            <td class="t1" data-label="Unentschieden">3</td>
+            <td class="t1" data-label="Verloren">6</td>
+            <td class="t1" data-label="Tore">8</td>
+            <td class="t1" data-label="Gegentore">14</td>
+            <td class="t1" data-label="Tor Differenz">-6</td>
+        </tr>
+        <!-- Tabelleninhalt OLYMPIQUE LYONNAIS-->
+        <tr>
+            <td class="t1" data-label="Position">18</td>
+            <td class="t2" data-label="Team"><img src="Images/PSG/1.LigaLogos/olympique lyonnais.png"
+                    alt="Logo OLYMPIQUE LYONNAIS" class="tableimg">OLYMPIQUE LYONNAIS</td>
+            <td class="t1" data-label="Punkte">7</td>
+            <td class="t1" data-label="Spiele">11</td>
+            <td class="t1" data-label="Siege">1</td>
+            <td class="t1" data-label="Unentschieden">4</td>
+            <td class="t1" data-label="Verloren">6</td>
+            <td class="t1" data-label="Tore">9</td>
+            <td class="t1" data-label="Gegentore">19</td>
+            <td class="t1" data-label="Tor Differenz">-10</td>
+        </tr>
+    </table>
 
-        <table class="t">
-            <!-- Tabellenüberschriften -->
-            <tr>
-                <th class="t1">Pos.</th>
-                <th class="t2"><span class="table-text-align-left">Team</span></th>
-                <th class="t1">Punkte</th>
-                <th class="t1">Spiele</th>
-                <th class="t1">Siege</th>
-                <th class="t1">Unentschieden</th>
-                <th class="t1">Verloren</th>
-                <th class="t1">Tore</th>
-                <th class="t1">Gegentore</th>
-                <th class="t1">Tor Differenz</th>
-            </tr>
-            <!-- Tabelleninhalt PARIS SAINT-GERMAIN -->
-            <tr>
-                <td class="t-markiert">1</td>
-                <td class="t-markiert t2"><img src="Images/PSG/1.LigaLogos/PSG.png" alt="Logo PARIS SAINT-GERMAIN"
-                        class="tableimg">PARIS SAINT-GERMAIN</td>
-                <td class="t-markiert">27</td>
-                <td class="t-markiert">12</td>
-                <td class="t-markiert">8</td>
-                <td class="t-markiert">3</td>
-                <td class="t-markiert">1</td>
-                <td class="t-markiert">29</td>
-                <td class="t-markiert">9</td>
-                <td class="t-markiert">+20</td>
-            </tr>
-            <!-- Tabelleninhalt OGC NICE-->
-            <tr>
-                <td class="t1">2</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/ogc_nice.png" alt="Logo OGC NICE" class="tableimg">OGC
-                    NICE
-                </td>
-                <td class="t1">26</td>
-                <td class="t1">12</td>
-                <td class="t1">7</td>
-                <td class="t1">5</td>
-                <td class="t1">0</td>
-                <td class="t1">13</td>
-                <td class="t1">4</td>
-                <td class="t1">+9</td>
-            </tr>
-            <!-- Tabelleninhalt AS MONACO-->
-            <tr>
-                <td class="t1">3</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/as monaco.png" alt="Logo AS MONACO" class="tableimg">AS
-                    MONACO</td>
-                <td class="t1">24</td>
-                <td class="t1">12</td>
-                <td class="t1">7</td>
-                <td class="t1">3</td>
-                <td class="t1">2</td>
-                <td class="t1">25</td>
-                <td class="t1">14</td>
-                <td class="t1">+11</td>
-            </tr>
-            <!-- Tabelleninhalt LILLE OSC-->
-            <tr>
-                <td class="t1">4</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/lille osc.png" alt="Logo LILLE OSC"
-                        class="tableimg">LILLE
-                    OSC</td>
-                <td class="t1">20</td>
-                <td class="t1">12</td>
-                <td class="t1">5</td>
-                <td class="t1">5</td>
-                <td class="t1">2</td>
-                <td class="t1">15</td>
-                <td class="t1">11</td>
-                <td class="t1">+4</td>
-            </tr>
-            <!-- Tabelleninhalt STADE DE REIMS-->
-            <tr>
-                <td class="t1">5</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/stade de reims.png" alt="Logo STADE DE REIMS"
-                        class="tableimg">STADE DE REIMS</td>
-                <td class="t1">20</td>
-                <td class="t1">12</td>
-                <td class="t1">6</td>
-                <td class="t1">2</td>
-                <td class="t1">4</td>
-                <td class="t1">17</td>
-                <td class="t1">15</td>
-                <td class="t1">+2</td>
-            </tr>
-            <!-- Tabelleninhalt RC LENS-->
-            <tr>
-                <td class="t1">6</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/rc lens.png" alt="Logo RC LENS" class="tableimg">RC LENS
-                </td>
-                <td class="t1">16</td>
-                <td class="t1">12</td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">13</td>
-                <td class="t1">13</td>
-                <td class="t1">0</td>
-            </tr>
-            <!-- Tabelleninhalt LE HAVRE-->
-            <tr>
-                <td class="t1">7</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/le havre ac.png" alt="Logo LE HAVRE AC"
-                        class="tableimg">LE
-                    HAVRE AC</td>
-                <td class="t1">15</td>
-                <td class="t1">12</td>
-                <td class="t1">3</td>
-                <td class="t1">6</td>
-                <td class="t1">3</td>
-                <td class="t1">12</td>
-                <td class="t1">13</td>
-                <td class="t1">-1</td>
-            </tr>
-            <!-- Tabelleninhalt STADE BRESTOIS 29-->
-            <tr>
-                <td class="t1">8</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/stade brestois 29.png" alt="Logo STADE BRESTOIS 29"
-                        class="tableimg">STADE BRESTOIS 29</td>
-                <td class="t1">15</td>
-                <td class="t1">11</td>
-                <td class="t1">4</td>
-                <td class="t1">3</td>
-                <td class="t1">4</td>
-                <td class="t1">11</td>
-                <td class="t1">13</td>
-                <td class="t1">-2</td>
-            </tr>
-            <!-- Tabelleninhalt FC NANTES-->
-            <tr>
-                <td class="t1">9</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/fc nantes.png" alt="Logo FC NANTES" class="tableimg">FC
-                    NANTES</td>
-                <td class="t1">14</td>
-                <td class="t1">12</td>
-                <td class="t1">4</td>
-                <td class="t1">2</td>
-                <td class="t1">6</td>
-                <td class="t1">17</td>
-                <td class="t1">23</td>
-                <td class="t1">-6</td>
-            </tr>
-            <!-- Tabelleninhalt OLYMPIQUE MARSEILLE-->
-            <tr>
-                <td class="t1">10</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/olympique marseille.png" alt="Logo OLYMPIQUE MARSEILLE"
-                        class="tableimg">OLYMPIQUE MARSEILLE</td>
-                <td class="t1">13</td>
-                <td class="t1">11</td>
-                <td class="t1">3</td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">12</td>
-                <td class="t1">13</td>
-                <td class="t1">-1</td>
-            </tr>
-            <!-- Tabelleninhalt FC METZ-->
-            <tr>
-                <td class="t1">11</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/fc metz.png" alt="Logo FC METZ" class="tableimg">FC METZ
-                </td>
-                <td class="t1">13</td>
-                <td class="t1">12</td>
-                <td class="t1">3</td>
-                <td class="t1">4</td>
-                <td class="t1">5</td>
-                <td class="t1">12</td>
-                <td class="t1">18</td>
-                <td class="t1">-6</td>
-            </tr>
-            <!-- Tabelleninhalt MONTPELLIER HSC-->
-            <tr>
-                <td class="t1">12</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/montpellier hsc.png" alt="Logo MONTPELLIER HSC"
-                        class="tableimg">MONTPELLIER HSC</td>
-                <td class="t1">12</td>
-                <td class="t1">11</td>
-                <td class="t1">3</td>
-                <td class="t1">4</td>
-                <td class="t1">4</td>
-                <td class="t1">15</td>
-                <td class="t1">14</td>
-                <td class="t1">+1</td>
-            </tr>
-            <!-- Tabelleninhalt STADE RENNAIS-->
-            <tr>
-                <td class="t1">13</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/stade rennais.png" alt="Logo STADE RENNAIS"
-                        class="tableimg">STADE RENNAIS</td>
-                <td class="t1">12</td>
-                <td class="t1">12</td>
-                <td class="t1">2</td>
-                <td class="t1">6</td>
-                <td class="t1">4</td>
-                <td class="t1">16</td>
-                <td class="t1">16</td>
-                <td class="t1">0</td>
-            </tr>
-            <!-- Tabelleninhalt TOULOUSE FC-->
-            <tr>
-                <td class="t1">14</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/toulouse fc.png" alt="Logo TOULOUSE FC"
-                        class="tableimg">TOULOUSE FC</td>
-                <td class="t1">12</td>
-                <td class="t1">12</td>
-                <td class="t1">2</td>
-                <td class="t1">6</td>
-                <td class="t1">4</td>
-                <td class="t1">13</td>
-                <td class="t1">16</td>
-                <td class="t1">-3</td>
-            </tr>
-            <!-- Tabelleninhalt RC STRASBOURG-->
-            <tr>
-                <td class="t1">15</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/rc strasbourg.png" alt="Logo RC STRASBOURG"
-                        class="tableimg">RC STRASBOURG</td>
-                <td class="t1">12</td>
-                <td class="t1">11</td>
-                <td class="t1">3</td>
-                <td class="t1">3</td>
-                <td class="t1">5</td>
-                <td class="t1">9</td>
-                <td class="t1">15</td>
-                <td class="t1">-6</td>
-            </tr>
-            <!-- Tabelleninhalt FC LORIENT-->
-            <tr>
-                <td class="t1">16</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/fc lorient.png" alt="Logo FC LORIENT"
-                        class="tableimg">FC
-                    LORIENT</td>
-                <td class="t1">11</td>
-                <td class="t1">12</td>
-                <td class="t1">2</td>
-                <td class="t1">5</td>
-                <td class="t1">5</td>
-                <td class="t1">15</td>
-                <td class="t1">21</td>
-                <td class="t1">-6</td>
-            </tr>
-            <!-- Tabelleninhalt CLERMONT FOOT-->
-            <tr>
-                <td class="t1">17</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/clermont foot.png" alt="Logo CLERMONT FOOT"
-                        class="tableimg">CLERMONT FOOT</td>
-                <td class="t1">9</td>
-                <td class="t1">11</td>
-                <td class="t1">2</td>
-                <td class="t1">3</td>
-                <td class="t1">6</td>
-                <td class="t1">8</td>
-                <td class="t1">14</td>
-                <td class="t1">-6</td>
-            </tr>
-            <!-- Tabelleninhalt OLYMPIQUE LYONNAIS-->
-            <tr>
-                <td class="t1">18</td>
-                <td class="t2"><img src="Images/PSG/1.LigaLogos/olympique lyonnais.png" alt="Logo OLYMPIQUE LYONNAIS"
-                        class="tableimg">OLYMPIQUE LYONNAIS</td>
-                <td class="t1">7</td>
-                <td class="t1">11</td>
-                <td class="t1">1</td>
-                <td class="t1">4</td>
-                <td class="t1">6</td>
-                <td class="t1">9</td>
-                <td class="t1">19</td>
-                <td class="t1">-10</td>
-            </tr>
-        </table>
-        <!-- Vereinsdaten -->
-        <div id="data">
-            <table class="center">
-                <h3>Vereinsdaten</h3>
-                <!-- Tabelle für Vereinsdaten -->
-                <tr>
-                    <th>Vereinsname</th>
-                    <td>Paris St. Germain</td>
-                </tr>
-                <tr>
-                    <th>Gründungsdatum</th>
-                    <td>12.08.1970</td>
-                </tr>
-                <tr>
-                    <th>Vereinsfarben</th>
-                    <td>Blau-Rot</td>
-                </tr>
-                <tr>
-                    <th>Anschrift</th>
-                    <td>Paris Saint-Germain Football Club<br>
-                        24, Rue du Commandant Guilbaud<br>
-                        75781 Paris Cedex 16</td>
-                </tr>
-                <tr>
-                    <th>Webseite</th>
-                    <td>https://www.psg.fr/</td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td>website@psg.fr</td>
-                </tr>
-            </table>
-        </div>
 
-        <footer>Marcel Tiroke</footer>
+
+    <footer>Marcel Tiroke</footer>
 
 </body>
 

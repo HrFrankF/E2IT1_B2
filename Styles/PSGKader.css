@@ -22,35 +22,77 @@ header h1 {
     text-align: center;
 }
 
+/* Stil für die Nav */
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Stil für das Navigationslogo */
 #navlogo {
-    position: absolute;
-    top: 15px;
-    left: 65px;
+    width: 100%;
+    max-width: 180px;
     margin: 5px;
     padding: 5px;
 }
 
-/* Stil für Links */
-#links {
+/* Stil für linke und rechte Seite */
+#links-left,
+#links-right {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
     background-color: #00417000;
     color: #080808;
+}
+
+/* Stil für Links */
+#links-left a,
+#links-right a {
+    background-color: #00417000;
+    color: #ffffff;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 
-/* Stil für Links innerhalb von #links */
-#links a {
-    font-size: 24px;
-    color: white;
+/* Hover-Stil für Links */
+#links-left a:hover,
+#links-right a:hover {
+    color: #080808;
     text-decoration: none;
 }
 
-/* Hover-Stil für Links */
-#links a:hover {
-    color: #080808;
-    text-decoration: none;
+/* Media Query für Bildschirme mit einer Breite von maximal 768px */
+@media screen and (max-width: 768px) {
+    #navigation {
+        align-items: flex-start;
+    }
+
+    #navlogo {
+        width: 100%;
+        max-width: 140px;
+        margin: auto;
+    }
+
+    #links-left,
+    #links-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links-left a,
+    #links-right a {
+        margin: 10px 0;
+    }
+
 }
 
 /* Stil für den gesamten Body */
@@ -83,6 +125,15 @@ footer {
     transition: .2s linear;
     color: #fff;
     text-align: center;
+}
+
+.headingh1 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 25px;
 }
 
 /* Stil für eine Grid-Anordnung */
