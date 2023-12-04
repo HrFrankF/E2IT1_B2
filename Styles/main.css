@@ -205,10 +205,11 @@ td {
   margin-bottom: 10px;
   bottom: 0;
   transition: 1s;
+  text-decoration: none;
 }
 
 /* Button hover */
 .btn2:hover {
   text-decoration: none;
-  transform: scale(1.05)
+  transform: scale(1.09)
 }
