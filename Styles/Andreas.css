@@ -13,10 +13,14 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
+#navimage{
+    width: 30px;
+    height: 30px;
+}
 #navlogo {
     position: absolute;
     top: -21px;
-    left: 42px;
+    left: 50px;
     margin: 5px;
   }
 /*Verlinkungen in der Navigationsleiste*/
