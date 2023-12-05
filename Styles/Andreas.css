@@ -13,12 +13,19 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
-#navimage {
+#navimage_x {
     width: 30px;
     height: 30px;
     position: fixed;
     top: 65px;
     right: 38px;
+  }
+  #navimage_insta {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 65px;
+    right: 68px;
   }
 #navlogo {
     position: absolute;
