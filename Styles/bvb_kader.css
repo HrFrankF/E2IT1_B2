@@ -12,6 +12,20 @@ header {
 #navigation h1 {
     padding-top: 20px;
 }
+#navimage_x {
+    width: 60px;
+    height: 37px;
+    position: fixed;
+    top: 62px;
+    right: 12px;
+  }
+  #navimage_insta {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 65px;
+    right: 68px;
+  }
 #navlogo {
     position: absolute;
     top: 10px;
