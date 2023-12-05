@@ -32,6 +32,9 @@ header{
     top: -21px;
     left: 50px;
     margin: 5px;
+    width: 100%;
+    max-width: 205px;
+    height: 205px;
   }
 /*Verlinkungen in der Navigationsleiste*/
 #links{
