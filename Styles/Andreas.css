@@ -205,3 +205,27 @@ footer{
     text-align: center;
     padding: 20px;
 }
+@media only screen and (max-width: 768px) {
+    /* Styles für Tablets */
+    #navigation {
+      font-size: 20px;
+    }
+  
+    #navimage_x {
+      display: none;
+    }
+  
+    #navimage_insta {
+      display: none;
+    }
+
+    #navlogo {
+        position: absolute;
+        top: -21px;
+        left: 50px;
+        margin: 5px;
+        width: 100%;
+        max-width: 100px;
+        height: 100px;
+      }
+  }
