@@ -13,10 +13,13 @@ header{
 #navigation h1{
     padding-top: 20px;
 }
-#navimage{
+#navimage {
     width: 30px;
     height: 30px;
-}
+    position: fixed;
+    top: 65px;
+    right: 38px;
+  }
 #navlogo {
     position: absolute;
     top: -21px;
