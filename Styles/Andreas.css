@@ -205,6 +205,36 @@ main{
   width: 80%;
   margin: auto;
 }
+#trikot_container_bild{
+width: 100%;
+height: 275px;
+}
+#trikot_container_bild img{
+width: 100%;
+height: 100%;
+}
+#trikot_container_bild_player{
+position: relative;
+right: 100px;
+}
+#trikot_container_bild_player img {
+width: 350px;
+position: absolute;
+right: 19px;
+bottom: -33px;
+height: 347px;
+}
+#trikot_textbox {
+position: absolute;
+bottom: -1050px;
+left: 100px;
+}
+#trikot_textbox_Title{
+color: rgb(24, 24, 24);
+background-color: rgb(255, 225, 0);
+font-family: system-ui;
+padding: 14px;
+}
 footer{
   background-color: rgb(235, 235, 235);
   color: rgb(0, 0, 0);
