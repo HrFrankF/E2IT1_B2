@@ -22,8 +22,9 @@ header h1 {
     text-align: center;
 }
 
+
 /* Überschrift-Stil */
-.heading {
+.headingh1 {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -32,36 +33,77 @@ header h1 {
     font-size: 25px;
 }
 
+/* Stil für die Nav */
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Stil für das Navigationslogo */
 #navlogo {
-    position: absolute;
-    top: 15px;
-    left: 65px;
+    width: 100%;
+    max-width: 180px;
     margin: 5px;
     padding: 5px;
+}
 
+/* Stil für linke und rechte Seite */
+#links-left,
+#links-right {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: #00417000;
+    color: #080808;
 }
 
 /* Stil für Links */
-#links {
+#links-left a,
+#links-right a {
     background-color: #00417000;
-    color: #080808;
+    color: #ffffff;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 
-/* Stil für Links innerhalb von #links */
-#links a {
-    font-size: 24px;
-    color: white;
+/* Hover-Stil für Links */
+#links-left a:hover,
+#links-right a:hover {
+    color: #080808;
     text-decoration: none;
 }
 
-/* Hover-Stil für Links */
-#links a:hover {
-    color: #080808;
-    text-decoration: none;
+/* Media Query für Bildschirme mit einer Breite von maximal 768px */
+@media screen and (max-width: 768px) {
+    #navigation {
+        align-items: flex-start;
+    }
+
+    #navlogo {
+        width: 100%;
+        max-width: 140px;
+        margin: auto;
+    }
+
+    #links-left,
+    #links-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links-left a,
+    #links-right a {
+        margin: 10px 0;
+    }
+
 }
 
 /* Stil für den gesamten Body */
@@ -109,15 +151,19 @@ table.center {
 }
 
 /* Stil für die Tabelle der Gruppe F */
-.t {
+table.t {
+    width: 100%;
+    max-width: 65%;
     border-collapse: collapse;
     border-spacing: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
+
+
 /* Stil für Zellen in der Tabelle */
-.t td {
+table.t td {
     font-size: 14px;
     padding: 10px 5px;
     border-width: 1px;
@@ -128,7 +174,7 @@ table.center {
 }
 
 /* Stil für Kopfzeilen in der Tabelle */
-.t th {
+table.t th {
     font-size: 14px;
     font-weight: normal;
     padding: 10px 5px;
@@ -140,13 +186,13 @@ table.center {
 }
 
 /* Stil für markierte Elemente in der Tabelle */
-.t .t-markiert {
+table.t .t-markiert {
     background-color: #003255;
     color: #ffffff;
 }
 
 /* Stil für Bilder in der Tabelle */
-.t .tableimg {
+table.t .tableimg {
     display: inline-block;
     vertical-align: middle;
     width: 25px;
@@ -158,6 +204,41 @@ table.center {
 }
 
 /* Stil für T2 */
-.t .t2 {
+table.t .t2 {
     text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    table.t th {
+        display: none;
+    }
+
+    table.t tbody tr {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    table.t tbody tr:last-of-type {
+        border-bottom: 1px solid #ccc;
+    }
+
+    table.t tbody td {
+        display: block;
+        text-align: left;
+    }
+
+    table.t.t2 tbody td {
+        display: block;
+        text-align: left;
+    }
+
+    table.t tbody td::before {
+        content: attr(data-label) ": ";
+        display: inline-block;
+        min-width: 200px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
 }

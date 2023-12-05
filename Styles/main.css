@@ -122,6 +122,7 @@ footer {
 }
 
 .news-item {
+  position: relative;
   margin: 2px;
   font-size: 15px;
   color: var(--header-font-color);
@@ -131,6 +132,32 @@ footer {
   padding: 5px;
   border-radius: 7px;
   text-align: center;
+}
+
+.item-text {
+  margin-bottom: 60px;
+}
+
+.item-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  margin-bottom: 10px;
+  transition: 1s;
+  text-decoration: none;
+}
+
+.item-button:hover {
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
 td {
@@ -213,4 +240,21 @@ td {
 .btn2:hover {
   text-decoration: none;
   transform: scale(1.09)
+}
+/*Button Center*/
+.vertical-center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Impressum*/
+.impressum-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.impressum-section {
+  margin-bottom: 20px;
+}
+.impressum-section h2 {
+  margin-bottom: 10px;
 }

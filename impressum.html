@@ -1,82 +1,127 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-        <title>Champions League Gruppe F</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+    <title>Champions League Gruppe F</title>
 
-        <link rel="stylesheet" href="Styles/main.css">
-        <link rel="stylesheet" href="Styles/themeSwitch.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/themeSwitch.css">
 
-        <script src="Scripts/themes.js"></script>
-    </head>
+    <script src="Scripts/themes.js"></script>
+</head>
 
-    <body onload="onload()">
-        <header>
-            <div>
-                <a class="nav-logo" href="index.html"><img id="nav-logo-img" /></a>
-                <h1>Champions League Gruppe F</h1>
+<body onload="onload()">
+    <header>
+        <!-- Menu mit Logo -->
+        <div>
+            <a class="nav-logo" href="index.html"><img alt="UEFA Logo" id="nav-logo-img" /></a>
+            <h1>Champions League Gruppe F</h1>
 
-                <label id="theme-switch-container">
-                    <input type="checkbox" id="theme_switch" onclick="setTheme()">
+            <label id="theme-switch-container">
+                <input type="checkbox" id="theme_switch" onclick="setTheme()">
 
-                    <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
-                        <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
-                        <g class="sun-beams" stroke="currentColor">
-                            <line x1="12" y1="1" x2="12" y2="3" />
-                            <line x1="12" y1="21" x2="12" y2="23" />
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                            <line x1="1" y1="12" x2="3" y2="12" />
-                            <line x1="21" y1="12" x2="23" y2="12" />
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-                        </g>
-                        <mask id="moon-mask">
-                            <rect x="0" y="0" width="100%" height="100%" fill="white" />
-                            <circle cx="24" cy="10" r="6" fill="black" />
-                        </mask>
-                    </svg>
-                </label>
+                <!-- Theme Switcher Icon-->
+                <svg id="sun" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                    <circle class="sun" cx="12" cy="12" r="6" mask="url(#moon-mask)" fill="currentColor" />
+                    <g class="sun-beams" stroke="currentColor">
+                        <line x1="12" y1="1" x2="12" y2="3" />
+                        <line x1="12" y1="21" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="3" y2="12" />
+                        <line x1="21" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                    </g>
+                    <mask id="moon-mask">
+                        <rect x="0" y="0" width="100%" height="100%" fill="white" />
+                        <circle cx="24" cy="10" r="6" fill="black" />
+                    </mask>
+                </svg>
+            </label>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <img alt="PSG Logo" src="Images/psg.png" />
+                    <a href="Marcel.html">PSG</a>
+                </li>
+                <li>
+                    <img alt="NewCastle Logo" src="Images/newcastle.png" />
+                    <a href="Mark.html">NewCastle</a>
+                </li>
+                <li>
+                    <img alt="Dortmund Logo" src="Images/dortmund.png" />
+                    <a href="Andreas.html">Dortmund</a>
+                </li>
+                <li>
+                    <img alt="Milan Logo" src="Images/milan.png" />
+                    <a href="Chris.html">Milan</a>
+                </li>
+                <li>
+                    <img id="impressum" />
+                    <a href="impressum.html">Impressum</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Impressum</h1>
+        <div class="impressum-content">
+            <div class="impressum-section">
+                <h2>Angaben gemäß § 5 TMG:</h2>
+                <p>Champions League Fanatics GmbH<br>
+                    Musterstraße 123<br>
+                    12345 Beispielstadt</p>
             </div>
+            <div class="impressum-section">
+                <h2>Vertreten durch:</h2>
+                <p>Geschäftsführer: Max Mustermann</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Kontakt:</h2>
+                <p>Telefon: +49 123 456789<br>
+                    E-Mail: info@championsleaguefanatics.com</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Registereintrag:</h2>
+                <p>Eintragung im Handelsregister.<br>
+                    Registergericht: Amtsgericht Beispielstadt<br>
+                    Registernummer: HRB 12345</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Umsatzsteuer-ID:</h2>
+                <p>Umsatzsteuer-Identifikationsnummer gemäß §27a UStG: DE 123456789</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
+                <p>Max Mustermann<br>
+                    Musterstraße 123<br>
+                    12345 Beispielstadt</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Haftungshinweis:</h2>
+                <p>Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer
+                    Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+            </div>
+            <div class="impressum-section">
+                <h2>Urheberrechtshinweis:</h2>
+                <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
+                    deutschen Urheberrecht...</p>
+            </div>
+        </div>
+    </main>
 
-            <nav>
-                <ul> 
-                    <li>
-                        <img src="Images/psg.png" />
-                        <a href="Marcel.html">PSG</a>
-                    </li>
-                    <li>
-                        <img src="Images/newcastle.png" />
-                        <a href="Mark.html">NewCastle</a>
-                    </li>
-                    <li>
-                        <img src="Images/dortmund.png" />
-                        <a href="Andreas.html">Dortmund</a>
-                    </li>
-                    <li>
-                        <img src="Images/milan.png" />
-                        <a href="Chris.html">Milan</a>
-                    </li>
-                    <li active>
-                        <img src="Images/impressum_dark.png" />
-                        <a href="impressum.html">Impressum</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <footer>
+        &copy; 2023 Made by Chris, Andreas, Marcel, Mark
+    </footer>
 
-        <main>
-            Impressum is under construction
-        </main>
-
-        <footer>
-            &copy; 2023 Made by Chris, Andreas, Marcel, Mark
-        </footer>
-
-        <script src="Scripts/themeSwitcher.js"></script>
-    </body>
+    <script src="Scripts/themeSwitcher.js"></script>
+</body>
 
 </html>

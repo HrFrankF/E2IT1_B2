@@ -12,8 +12,6 @@ header {
     font-weight: bold;
     text-align: center;
     margin-top: 5px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 /* Stil für h1 innerhalb des Headers */
@@ -22,35 +20,77 @@ header h1 {
     text-align: center;
 }
 
-/* Stil für das Navigationslogo */
+/* Stil für die Navigation*/
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Stil für das Navigationslogo*/
 #navlogo {
-    position: absolute;
-    top: 15px;
-    left: 65px;
+    width: 100%;
+    max-width: 180px;
     margin: 5px;
     padding: 5px;
 }
 
-/* Stil für Links */
-#links {
+/* Stil für die Navigation*/
+#links-left,
+#links-right {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
     background-color: #00417000;
     color: #080808;
+}
+
+/* Stil für Links */
+#links-left a,
+#links-right a {
+    background-color: #00417000;
+    color: #ffffff;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
 }
 
-/* Stil für Links innerhalb von #links */
-#links a {
-    font-size: 24px;
-    color: white;
+/* Hover-Stil für Links */
+#links-left a:hover,
+#links-right a:hover {
+    color: #080808;
     text-decoration: none;
 }
 
-/* Hover-Stil für Links */
-#links a:hover {
-    color: #080808;
-    text-decoration: none;
+/* Responsive*/
+@media screen and (max-width: 768px) {
+    #navigation {
+        align-items: flex-start;
+    }
+
+    #navlogo {
+        width: 100%;
+        max-width: 140px;
+        margin: auto;
+    }
+
+    #links-left,
+    #links-right {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #links-left a,
+    #links-right a {
+        margin: 10px 0;
+    }
+
 }
 
 /* Stil für den gesamten Body */
@@ -60,9 +100,7 @@ body {
 
 /* Stil für about */
 #about {
-    margin-top: 20px;
     text-align: center;
-    padding-top: 20px;
 }
 
 /* Stil für den Footer */
@@ -91,10 +129,21 @@ footer {
     text-align: center;
 }
 
+/* Überschrift-Stil */
+.headingh1 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 25px;
+}
+
 /* Stil für eine zentrierte Tabelle */
 .tablecenter {
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
 }
 
 /* Stil für die Logos */
@@ -116,9 +165,7 @@ footer {
 .grid .box-grid {
     display: grid;
     max-width: 830px;
-    grid-template-columns: repeat(auto-fit, minmax(10px
-                /*, 1fr*/
-            ));
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
     gap: 18px;
     margin-left: auto;
     margin-right: auto;
@@ -157,6 +204,8 @@ hr {
 
 /* Stil für Button */
 .btn {
+    width: 100%;
+    max-width: 150px;
     margin-top: 10px;
     display: inline-block;
     background: #333;
@@ -164,23 +213,34 @@ hr {
     font-size: 17px;
     border-radius: 5px;
     padding: 8px 25px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.btn2 {
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin-bottom: 10px;
 }
 
 /* Button hover */
-.btn:hover {
+.btn:hover,
+.btn2:hover {
     letter-spacing: 1px;
 }
 
 /* Stil für das Mannschaftsbild */
 #Mannschaftsbild {
+    width: 100%;
     max-width: 830px;
     height: auto;
-    display: block;
     border-radius: 5px;
     margin-right: auto;
     margin-left: auto;
-    min-width: 830px;
 }
 
 /* Stil für Data */
