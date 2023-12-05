@@ -13,19 +13,27 @@ header{
     padding-top: 20px;
 }
 #navimage_x {
-    width: 60px;
-    height: 37px;
-    position: absolute;
-    top: 31px;
-    right: 12px;
-  }
-  #navimage_insta {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 35px;
-    right: 68px;
-  }
+  width: 60px;
+  height: 37px;
+  position: absolute;
+  top: 31px;
+  right: 12px;
+}
+#navimage_insta {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35px;
+  right: 68px;
+}
+#navimage_x:hover{
+  transform: scale(1.02);
+  transition: transform 0.25s;
+}
+#navimage_insta:hover{
+  transform: scale(1.06);
+  transition: transform 0.15s;
+}
 #navlogo{
     position: absolute;
     top: 10px;
@@ -78,6 +86,9 @@ main{
     border-radius: 1px;
     width: 90%;
     height: 5px;
+    .statistic-box-hr{
+      margin-bottom: 10px;
+    }
 }
 .statistic-table{
     display: inline;
@@ -119,4 +130,129 @@ main{
     font-size: 20px;
     text-align: center;
     padding: 20px;
+}
+/*--------------TABLET-SECTION-------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        font-size: 10px;
+      }
+  
+    #navimage_x,
+    #navimage_insta {
+      display: none;
+    }
+  
+    #navlogo {
+      position: absolute;
+      top: 12px;
+      left: 4px;
+      margin: 5px;
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+      #navigation h1 {
+        padding-top: 20px;
+        font-size: 30px;
+      }
+      #links {
+        font-size: 20px;
+      }
+      #links a {
+        font-size: 16px;
+      }
+      #links a:hover{
+        color: rgb(189, 189, 189);
+        text-decoration: none;
+    }
+      main{
+        font-size: 8px;
+    }
+    .statistic-box h4 {
+      font-size: 20px;
+    }
+    .statistic-box-hr{
+      margin-bottom: 10px;
+    }
+    #karte-R {
+      width: 9px;
+      height: 14px;
+      border-radius: 1px;
+      margin-right: 3px;
+      bottom: 4px;
+    }
+    #karte-G {
+      width: 9px;
+      height: 14px;
+      border-radius: 1px;
+      margin-right: 3px;
+      bottom: 4px;
+    }
+    footer {
+        font-size: 14px;
+        padding: 12px;
+      }
+}
+
+/*-----------------HANDY-SECTION-----------------------------*/
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 6px;
+      }
+    
+      #navimage_x,
+      #navimage_insta {
+        display: none;
+      }
+    
+      #navlogo {
+        position: absolute;
+        top: 12px;
+        left: 1px;
+        margin: 5px;
+        width: 100%;
+        max-width: 45px;
+        height: 45px;
+      }
+        #navigation h1 {
+          padding-top: 20px;
+          font-size: 16px;
+        }
+        #links a {
+          font-size: 8px;
+        }
+        #links a:hover{
+          color: rgb(189, 189, 189);
+          text-decoration: none;
+      }
+        main{
+          font-size: 5px;
+      }
+      .statistic-box h4 {
+        font-size: 12px;
+      }
+      .statistic-box-hr{
+        margin-bottom: 5px;
+      }
+      #karte-R {
+        width: 5px;
+        height: 10px;
+        border-radius: 1px;
+        margin-right: 3px;
+        bottom: 2px;
+        left: 2px;
+      }
+      #karte-G {
+        width: 5px;
+        height: 10px;
+        border-radius: 1px;
+        margin-right: 3px;
+        bottom: 2px;
+        left: 2px;
+      }
+      footer {
+        font-size: 11px;
+        padding: 10px;
+      }
 }

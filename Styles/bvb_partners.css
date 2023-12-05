@@ -13,19 +13,27 @@ header{
     padding-top: 20px;
 }
 #navimage_x {
-    width: 60px;
-    height: 37px;
-    position: absolute;
-    top: 31px;
-    right: 12px;
-  }
-  #navimage_insta {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 35px;
-    right: 68px;
-  }
+  width: 60px;
+  height: 37px;
+  position: absolute;
+  top: 31px;
+  right: 12px;
+}
+#navimage_insta {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35px;
+  right: 68px;
+}
+#navimage_x:hover{
+  transform: scale(1.02);
+  transition: transform 0.25s;
+}
+#navimage_insta:hover{
+  transform: scale(1.06);
+  transition: transform 0.15s;
+}
 #navlogo{
     position: absolute;
     top: 10px;
@@ -94,23 +102,26 @@ main{
 }
 
 /*Partner Hauptsponsoren*/
-#partners-links-1{
-    display: inline-table;
-    align-items: center;
+#partners-links-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-#partners-links-1 a{
-    margin-left: 80px;
-    filter: contrast(25%);
-    transition: filter 0.45s;
+#partners-links-1 a {
+  display: flex;
+  align-items: center;
+  margin: 22px;
+  filter: contrast(30%);
 }
 #partners-links-1 a:hover{
     filter: contrast(100%);
+    transition: filter 0.6s;
 }
 /*Premium Partner*/
-#partners-links-2{
-    margin-top: 20px;
-    display: inline-table;
-    align-items: center;
+#partners-links-2 {
+  margin-top: 20px;
+  display: inline-table;
 }
 #partners-links-2 a{
     margin-left: 25px;
@@ -135,4 +146,110 @@ footer{
     font-size: 20px;
     text-align: center;
     padding: 20px;
+}
+/*--------------TABLET-SECTION-------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        font-size: 10px;
+      }
+  
+    #navimage_x,
+    #navimage_insta {
+      display: none;
+    }
+  
+    #navlogo {
+      position: absolute;
+      top: 12px;
+      left: 4px;
+      margin: 5px;
+      width: 100%;
+      max-width: 130px;
+      height: 130px;
+    }
+      #navigation h1 {
+        padding-top: 20px;
+        font-size: 30px;
+      }
+      #links {
+        font-size: 20px;
+      }
+      #links a {
+        font-size: 16px;
+      }
+      #links a:hover{
+        color: rgb(189, 189, 189);
+        text-decoration: none;
+    }
+      main{
+        font-size: 19px;
+    }
+    #partners {
+      background-color: #303030b7;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      margin-left: 125px;
+      margin-right: 125px;
+      border-radius: 3px;
+    }
+    footer {
+        font-size: 14px;
+        padding: 12px;
+      }
+}
+
+/*-----------------HANDY-SECTION-----------------------------*/
+
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 6px;
+      }
+    
+      #navimage_x,
+      #navimage_insta {
+        display: none;
+      }
+    
+      #navlogo {
+        position: absolute;
+        top: 12px;
+        left: 1px;
+        margin: 5px;
+        width: 100%;
+        max-width: 45px;
+        height: 45px;
+      }
+        #navigation h1 {
+          padding-top: 20px;
+          font-size: 16px;
+        }
+        #links a {
+          font-size: 8px;
+        }
+        #links a:hover{
+          color: rgb(189, 189, 189);
+          text-decoration: none;
+      }
+        main{
+          font-size: 19px;
+      }
+      #title hr {
+        margin-left: 75px;
+        margin-right: 75px;
+      }
+      #partners {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 3px;
+      }
+      #partners-links-2 {
+        margin-top: 20px;
+        display: inline-table;
+      }
+      footer {
+        font-size: 11px;
+        padding: 10px;
+      }
 }
