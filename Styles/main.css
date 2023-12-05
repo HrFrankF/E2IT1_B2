@@ -80,6 +80,7 @@ footer {
   border-bottom-left-radius: var(--main-border-radius);
   border-bottom-right-radius: var(--main-border-radius);
   text-align: center;
+  color: white;
 }
 #footer_head {
   color: white;
