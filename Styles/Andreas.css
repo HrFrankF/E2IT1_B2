@@ -358,6 +358,23 @@ footer{
     #text_main {
       font-size: 13px;
     }
+    #trikot_container_bild {
+      height: 216px;
+    }
+    #trikot_container_bild_player img {
+      width: 290px;
+      right: -30px;
+      bottom: -26px;
+      height: 272px;
+    }
+    #trikot_textbox {
+      bottom: -171px;
+      left: 96px;
+    }
+    #trikot_textbox_Title {
+      padding: 7px;
+      font-size: 23px;
+    }
     footer {
       font-size: 14px;
       padding: 12px;
@@ -478,8 +495,25 @@ footer{
   #text_main {
       font-size: 8px;
     }
+    #trikot_container_bild {
+      height: 80px;
+    }
+    #trikot_container_bild_player img {
+      width: 97px;
+      right: -57px;
+      bottom: -7px;
+      height: 97px;
+    }
+    #trikot_textbox {
+      bottom: 66px;
+      left: 35px;
+    }
+    #trikot_textbox_Title {
+      padding: 4px;
+      font-size: 10px;
+    }
     footer {
-      font-size: 11px;
-      padding: 10px;
+      font-size: 9px;
+      padding: 8px;
     }
 }
