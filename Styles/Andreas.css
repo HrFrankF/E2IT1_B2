@@ -504,13 +504,6 @@ footer{
       bottom: -7px;
       height: 97px;
     }
-    #trikot_textbox {
-        position: relative;
-        bottom: 176px;
-        right: 330px;
-        background-color: rgb(255, 200, 0);
-        padding: 10px;
-  }
     footer {
       font-size: 9px;
       padding: 8px;
