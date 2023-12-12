@@ -507,11 +507,9 @@ footer{
     #trikot_textbox {
       position: absolute;
       top: 690px;
-  }
-    #trikot_textbox_Title {
       padding: 4px;
       font-size: 10px;
-    }
+  }
     footer {
       font-size: 9px;
       padding: 8px;
